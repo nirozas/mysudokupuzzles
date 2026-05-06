@@ -6,6 +6,7 @@ import {
   generateSamurai,
   isGridComplete,
   autoFillNotes,
+  SAMURAI_OVERLAPS,
 } from '../utils/sudokuGenerator';
 
 // ─── Theme Helper ─────────────────────────────────────────────────────────────
@@ -64,44 +65,56 @@ export const useGameStore = create<Store>()(
   activeLevelId: null,
   seenTutorials: {},
   progress: {},
+  isGenerating: false,
 
   // ── Actions ────────────────────────────────────────────────────────────────
 
   startGame: (mode, difficulty, size, volId = null, levelId = null) => {
-    let grid = null;
-    let samuraiGrids: ReturnType<typeof generateSamurai> = [];
+    set({ isGenerating: true });
 
-    if (mode === 'samurai') {
-      samuraiGrids = generateSamurai(difficulty);
-    } else {
-      const genMode = mode as 'classic' | 'killer' | 'irregular' | 'diagonal' | 'odd-even';
-      grid = generateGrid(size, difficulty, genMode);
-    }
+    // Use setTimeout to yield to the event loop, allowing UI to show loading state
+    setTimeout(() => {
+      let grid = null;
+      let samuraiGrids: ReturnType<typeof generateSamurai> = [];
 
-    const initial = grid
-      ? [snapshotHistory(grid.values, grid.pencilMarks)]
-      : [];
+      try {
+        if (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo') {
+          samuraiGrids = generateSamurai(difficulty, mode);
+        } else {
+          const genMode = mode as 'classic' | 'killer' | 'irregular' | 'diagonal' | 'odd-even';
+          grid = generateGrid(size, difficulty, genMode);
+        }
 
-    set({
-      mode,
-      difficulty,
-      size,
-      activeVolumeId: volId,
-      activeLevelId: levelId,
-      grid,
-      samuraiGrids,
-      activeGridIndex: 0,
-      selectedCell: null,
-      inputMode: 'pen',
-      lockedNumber: null,
-      elapsedSeconds: 0,
-      isPaused: false,
-      isComplete: false,
-      isStarted: true,
-      hintsRemaining: 3,
-      history: initial,
-      historyIndex: 0,
-    });
+        const initial = grid
+          ? [snapshotHistory(grid.values, grid.pencilMarks)]
+          : [];
+
+        set({
+          mode,
+          difficulty,
+          size,
+          activeVolumeId: volId,
+          activeLevelId: levelId,
+          grid,
+          samuraiGrids,
+          activeGridIndex: 0,
+          selectedCell: null,
+          inputMode: 'pen',
+          lockedNumber: null,
+          elapsedSeconds: 0,
+          isPaused: false,
+          isComplete: false,
+          isStarted: true,
+          hintsRemaining: 3,
+          history: initial,
+          historyIndex: 0,
+          isGenerating: false,
+        });
+      } catch (err) {
+        console.error("Failed to generate grid:", err);
+        set({ isGenerating: false });
+      }
+    }, 10);
   },
 
   selectCell: (pos) => {
@@ -154,6 +167,27 @@ export const useGameStore = create<Store>()(
     }
 
     const updatedGrid = { ...activeGrid, values: newValues, pencilMarks: newPencil };
+    if (mode === 'ice-breaker' && updatedGrid.iceStatus && updatedGrid.startIceStatus) {
+      const ice = updatedGrid.iceStatus.map(r => [...r]);
+      const startIce = updatedGrid.startIceStatus;
+      for (let r = 0; r < activeGrid.size; r++) {
+        for (let c = 0; c < activeGrid.size; c++) {
+          if (startIce[r][c] > 0) {
+            let correctNeighbors = 0;
+            for (const [dr, dc] of [[0,1],[1,0],[0,-1],[-1,0]]) {
+              const nr = r + dr, nc = c + dc;
+              if (nr >= 0 && nr < activeGrid.size && nc >= 0 && nc < activeGrid.size) {
+                if (newValues[nr][nc] === updatedGrid.solution[nr][nc]) {
+                  correctNeighbors++;
+                }
+              }
+            }
+            ice[r][c] = Math.max(0, startIce[r][c] - correctNeighbors);
+          }
+        }
+      }
+      updatedGrid.iceStatus = ice;
+    }
     const complete = isGridComplete(updatedGrid);
 
     // Push to history
@@ -165,9 +199,23 @@ export const useGameStore = create<Store>()(
       set((s) => ({ progress: { ...s.progress, [`${s.activeVolumeId}-${s.activeLevelId}`]: true } }));
     }
 
-    if (mode === 'samurai') {
+    if (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4') {
       const newSamurai = [...samuraiGrids];
       newSamurai[activeGridIndex] = updatedGrid;
+      
+      // Overlap Sync
+      const m = mode === 'combo' ? 'combo' : 'samurai';
+      const syncs = SAMURAI_OVERLAPS[m]?.[activeGridIndex]?.filter(o => row >= o.range[0] && row <= o.range[1] && col >= o.range[2] && col <= o.range[3]) || [];
+      for (const s of syncs) {
+        const other = { ...newSamurai[s.other] };
+        const or = s.otherRange[0] + (row - s.range[0]);
+        const oc = s.otherRange[2] + (col - s.range[2]);
+        const otherVals = other.values.map(r => [...r]);
+        otherVals[or][oc] = newValues[row][col];
+        other.values = otherVals;
+        newSamurai[s.other] = other;
+      }
+
       set({ samuraiGrids: newSamurai, isComplete: complete, history: newHistory, historyIndex: newHistory.length - 1 });
     } else {
       set({ grid: updatedGrid, isComplete: complete, history: newHistory, historyIndex: newHistory.length - 1 });
@@ -190,17 +238,52 @@ export const useGameStore = create<Store>()(
     newPencil[row][col].clear();
 
     const updatedGrid = { ...activeGrid, values: newValues, pencilMarks: newPencil };
+    if (mode === 'ice-breaker' && updatedGrid.iceStatus && updatedGrid.startIceStatus) {
+      const ice = updatedGrid.iceStatus.map(r => [...r]);
+      const startIce = updatedGrid.startIceStatus;
+      for (let r = 0; r < activeGrid.size; r++) {
+        for (let c = 0; c < activeGrid.size; c++) {
+          if (startIce[r][c] > 0) {
+            let correctNeighbors = 0;
+            for (const [dr, dc] of [[0,1],[1,0],[0,-1],[-1,0]]) {
+              const nr = r + dr, nc = c + dc;
+              if (nr >= 0 && nr < activeGrid.size && nc >= 0 && nc < activeGrid.size) {
+                if (newValues[nr][nc] === updatedGrid.solution[nr][nc]) {
+                  correctNeighbors++;
+                }
+              }
+            }
+            ice[r][c] = Math.max(0, startIce[r][c] - correctNeighbors);
+          }
+        }
+      }
+      updatedGrid.iceStatus = ice;
+    }
 
+    const complete = isGridComplete(updatedGrid);
     const { history, historyIndex } = get();
     const newHistory = history.slice(0, historyIndex + 1);
     newHistory.push(snapshotHistory(newValues, newPencil));
 
-    if (mode === 'samurai') {
+    if (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4') {
       const newSamurai = [...samuraiGrids];
       newSamurai[activeGridIndex] = updatedGrid;
-      set({ samuraiGrids: newSamurai, history: newHistory, historyIndex: newHistory.length - 1 });
+      
+      // Overlap Sync
+      const m = mode === 'combo' ? 'combo' : 'samurai';
+      const syncs = SAMURAI_OVERLAPS[m]?.[activeGridIndex]?.filter(o => row >= o.range[0] && row <= o.range[1] && col >= o.range[2] && col <= o.range[3]) || [];
+      for (const s of syncs) {
+        const other = { ...newSamurai[s.other] };
+        const or = s.otherRange[0] + (row - s.range[0]);
+        const oc = s.otherRange[2] + (col - s.range[2]);
+        const otherVals = other.values.map(r => [...r]);
+        otherVals[or][oc] = 0;
+        other.values = otherVals;
+        newSamurai[s.other] = other;
+      }
+      set({ samuraiGrids: newSamurai, history: newHistory, historyIndex: newHistory.length - 1, isComplete: complete });
     } else {
-      set({ grid: updatedGrid, history: newHistory, historyIndex: newHistory.length - 1 });
+      set({ grid: updatedGrid, history: newHistory, historyIndex: newHistory.length - 1, isComplete: complete });
     }
   },
 
@@ -303,6 +386,27 @@ export const useGameStore = create<Store>()(
     newPencil[row][col].clear();
 
     const updatedGrid = { ...activeGrid, values: newValues, pencilMarks: newPencil };
+    if (mode === 'ice-breaker' && updatedGrid.iceStatus && updatedGrid.startIceStatus) {
+      const ice = updatedGrid.iceStatus.map(r => [...r]);
+      const startIce = updatedGrid.startIceStatus;
+      for (let r = 0; r < activeGrid.size; r++) {
+        for (let c = 0; c < activeGrid.size; c++) {
+          if (startIce[r][c] > 0) {
+            let correctNeighbors = 0;
+            for (const [dr, dc] of [[0,1],[1,0],[0,-1],[-1,0]]) {
+              const nr = r + dr, nc = c + dc;
+              if (nr >= 0 && nr < activeGrid.size && nc >= 0 && nc < activeGrid.size) {
+                if (newValues[nr][nc] === updatedGrid.solution[nr][nc]) {
+                  correctNeighbors++;
+                }
+              }
+            }
+            ice[r][c] = Math.max(0, startIce[r][c] - correctNeighbors);
+          }
+        }
+      }
+      updatedGrid.iceStatus = ice;
+    }
     const complete = isGridComplete(updatedGrid);
 
     if (complete && get().activeVolumeId && get().activeLevelId !== null) {

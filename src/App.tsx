@@ -127,6 +127,24 @@ const KeyboardHint: React.FC = () => (
   </p>
 );
 
+const OddEvenLegend: React.FC = () => (
+  <motion.div 
+    className="flex items-center gap-6 px-4 py-2 rounded-xl bg-emerald-500/10 border border-emerald-500/20 shadow-lg shadow-emerald-500/5"
+    initial={{ opacity: 0, scale: 0.95 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 0.2 }}
+  >
+    <div className="flex items-center gap-2.5">
+      <div className="w-4 h-4 rounded-full bg-slate-400/30 border border-slate-400/40 shadow-sm shadow-black/20"></div>
+      <span className="text-xs text-[var(--text-primary)] opacity-90 font-bold tracking-wide">Circle = Odd (1, 3, 5, 7, 9)</span>
+    </div>
+    <div className="flex items-center gap-2.5">
+      <div className="w-4 h-4 rounded-[3px] bg-slate-400/20 border border-slate-400/30 shadow-sm shadow-black/20"></div>
+      <span className="text-xs text-[var(--text-primary)] opacity-90 font-bold tracking-wide">Square = Even (2, 4, 6, 8)</span>
+    </div>
+  </motion.div>
+);
+
 // ─── App ─────────────────────────────────────────────────────────────────────
 
 type Screen = 'menu' | 'game';
@@ -140,7 +158,7 @@ const App: React.FC = () => {
     isComplete, isPaused, togglePause,
     grid, mode, samuraiGrids,
     setTheme: storeSetTheme,
-    seenTutorials, markTutorialSeen
+    seenTutorials, markTutorialSeen, isGenerating
   } = useGameStore();
 
   const [showTutorial, setShowTutorial] = useState(false);
@@ -231,6 +249,7 @@ const App: React.FC = () => {
                 ) : activeGrid ? (
                   <>
                     <ModeInfoBadge mode={mode} size={activeGrid.size} />
+                    {mode === 'odd-even' && <OddEvenLegend />}
                     <motion.div
                       className="overflow-auto max-w-full flex justify-center"
                       initial={{ opacity: 0, y: 12 }}
@@ -274,6 +293,28 @@ const App: React.FC = () => {
         )}
         {showTutorial && screen === 'game' && (
           <TutorialOverlay key="tutorial" initialMode={mode} onClose={closeTutorial} />
+        )}
+        {isGenerating && (
+          <motion.div
+            key="generating"
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-md"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <div className="flex flex-col items-center gap-6 p-10 glass-card border border-white/20 shadow-2xl scale-110">
+              <div className="relative">
+                <div className="w-16 h-16 border-4 border-indigo-500/30 border-t-indigo-500 rounded-full animate-spin"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-8 h-8 bg-indigo-500/20 rounded-full animate-pulse"></div>
+                </div>
+              </div>
+              <div className="text-center">
+                <h2 className="text-2xl font-bold text-white mb-2 tracking-tight">Generating Puzzle</h2>
+                <p className="text-indigo-200/60 text-sm font-medium animate-pulse">Designing your {mode} challenge...</p>
+              </div>
+            </div>
+          </motion.div>
         )}
       </AnimatePresence>
     </div>

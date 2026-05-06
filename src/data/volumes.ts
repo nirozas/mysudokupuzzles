@@ -158,6 +158,27 @@ export function getVolumesForMode(mode: string): VolumeDef[] {
     ];
   }
 
+  // Custom Volumes for Combo Mode (Twin Sudoku)
+  if (mode === 'combo') {
+    return [
+      {
+        id: 'twin-easy',
+        title: 'Twin Sudoku - Easy',
+        levels: generateLevels(1, 10, 'combo', 9, 'medium', 'Twin')
+      },
+      {
+        id: 'twin-medium',
+        title: 'Twin Sudoku - Medium',
+        levels: generateLevels(11, 10, 'combo', 9, 'hard', 'Twin')
+      },
+      {
+        id: 'twin-hard',
+        title: 'Twin Sudoku - Hard',
+        levels: generateLevels(21, 10, 'combo', 9, 'expert', 'Twin')
+      }
+    ];
+  }
+  
   // Custom Volumes for Irregular Mode
   if (mode === 'irregular') {
     return [
@@ -185,6 +206,170 @@ export function getVolumesForMode(mode: string): VolumeDef[] {
         id: 'irregular-devil',
         title: 'Devil',
         levels: generateLevels(81, 20, 'irregular', 9, 'evil', 'Level')
+      }
+    ];
+  }
+
+  // Custom Volumes for Ice Breaker Mode
+  if (mode === 'ice-breaker') {
+    return [
+      {
+        id: 'ice-very-easy',
+        title: 'Very Easy',
+        levels: generateLevels(1, 20, 'ice-breaker', 9, 'easy', 'Level')
+      },
+      {
+        id: 'ice-easy',
+        title: 'Easy',
+        levels: generateLevels(21, 20, 'ice-breaker', 9, 'medium', 'Level')
+      },
+      {
+        id: 'ice-medium',
+        title: 'Medium',
+        levels: generateLevels(41, 20, 'ice-breaker', 9, 'hard', 'Level')
+      },
+      {
+        id: 'ice-hard',
+        title: 'Hard',
+        levels: generateLevels(61, 20, 'ice-breaker', 9, 'expert', 'Level')
+      },
+      {
+        id: 'ice-devil',
+        title: 'Devil',
+        levels: generateLevels(81, 20, 'ice-breaker', 9, 'evil', 'Level')
+      },
+      {
+        id: 'ice-glacier-1',
+        title: 'Glacier I',
+        levels: generateLevels(101, 20, 'ice-breaker', 9, 'hard', 'Glacier')
+      },
+      {
+        id: 'ice-glacier-2',
+        title: 'Glacier II',
+        levels: generateLevels(121, 20, 'ice-breaker', 9, 'expert', 'Glacier')
+      },
+      {
+        id: 'ice-glacier-3',
+        title: 'Glacier III',
+        levels: generateLevels(141, 20, 'ice-breaker', 9, 'evil', 'Glacier')
+      }
+    ];
+  }
+ 
+  // Custom Volumes for Diagonal Mode
+  if (mode === 'diagonal') {
+    return [
+      {
+        id: 'diagonal-very-easy',
+        title: 'Very Easy',
+        levels: generateLevels(1, 20, 'diagonal', 9, 'easy', 'Level')
+      },
+      {
+        id: 'diagonal-easy',
+        title: 'Easy',
+        levels: generateLevels(21, 20, 'diagonal', 9, 'medium', 'Level')
+      },
+      {
+        id: 'diagonal-medium',
+        title: 'Medium',
+        levels: generateLevels(41, 20, 'diagonal', 9, 'hard', 'Level')
+      },
+      {
+        id: 'diagonal-hard',
+        title: 'Hard',
+        levels: generateLevels(61, 20, 'diagonal', 9, 'expert', 'Level')
+      },
+      {
+        id: 'diagonal-devil',
+        title: 'Devil',
+        levels: generateLevels(81, 20, 'diagonal', 9, 'evil', 'Level')
+      }
+    ];
+  }
+ 
+  // Custom Volumes for Odd/Even Mode
+  if (mode === 'odd-even') {
+    return [
+      {
+        id: 'odd-even-very-easy',
+        title: 'Very Easy',
+        levels: generateLevels(1, 20, 'odd-even', 9, 'easy', 'Level')
+      },
+      {
+        id: 'odd-even-easy',
+        title: 'Easy',
+        levels: generateLevels(21, 20, 'odd-even', 9, 'medium', 'Level')
+      },
+      {
+        id: 'odd-even-medium',
+        title: 'Medium',
+        levels: generateLevels(41, 20, 'odd-even', 9, 'hard', 'Level')
+      },
+      {
+        id: 'odd-even-hard',
+        title: 'Hard',
+        levels: generateLevels(61, 20, 'odd-even', 9, 'expert', 'Level')
+      },
+      {
+        id: 'odd-even-devil',
+        title: 'Devil',
+        levels: generateLevels(81, 20, 'odd-even', 9, 'evil', 'Level')
+      }
+    ];
+  }
+ 
+  // Custom Volumes for Image Mode
+  if (mode === 'image') {
+    return [
+      {
+        id: 'image-very-easy',
+        title: 'Very Easy',
+        levels: generateLevels(1, 20, 'image', 6, 'easy', 'Level')
+      },
+      {
+        id: 'image-easy',
+        title: 'Easy',
+        levels: generateLevels(21, 20, 'image', 6, 'medium', 'Level')
+      },
+      {
+        id: 'image-medium',
+        title: 'Medium',
+        levels: generateLevels(41, 20, 'image', 6, 'hard', 'Level')
+      },
+      {
+        id: 'image-hard',
+        title: 'Hard',
+        levels: generateLevels(61, 20, 'image', 6, 'expert', 'Level')
+      },
+      {
+        id: 'image-devil',
+        title: 'Devil (6x6)',
+        levels: generateLevels(81, 20, 'image', 6, 'evil', 'Level')
+      },
+      {
+        id: 'image-very-easy-9x9',
+        title: 'Very Easy (9x9)',
+        levels: generateLevels(101, 20, 'image', 9, 'easy', 'Level')
+      },
+      {
+        id: 'image-easy-9x9',
+        title: 'Easy (9x9)',
+        levels: generateLevels(121, 20, 'image', 9, 'medium', 'Level')
+      },
+      {
+        id: 'image-medium-9x9',
+        title: 'Medium (9x9)',
+        levels: generateLevels(141, 20, 'image', 9, 'hard', 'Level')
+      },
+      {
+        id: 'image-hard-9x9',
+        title: 'Hard (9x9)',
+        levels: generateLevels(161, 20, 'image', 9, 'expert', 'Level')
+      },
+      {
+        id: 'image-devil-9x9',
+        title: 'Devil (9x9)',
+        levels: generateLevels(181, 20, 'image', 9, 'evil', 'Level')
       }
     ];
   }

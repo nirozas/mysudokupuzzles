@@ -26,14 +26,14 @@ const getIconForMode = (mode: string, size = 14) => {
 };
 
 const MODE_CARDS: { id: GameMode; title: string; color: string }[] = [
-  { id: 'classic', title: 'Classic Sudoku', color: 'from-indigo-500/20 to-blue-600/20 border-indigo-500' },
   { id: 'mini', title: 'Mini Sudoku', color: 'from-yellow-500/20 to-orange-600/20 border-yellow-500' },
+  { id: 'image', title: 'Image Sudoku', color: 'from-purple-500/20 to-violet-600/20 border-purple-500' },
+  { id: 'classic', title: 'Classic Sudoku', color: 'from-indigo-500/20 to-blue-600/20 border-indigo-500' },
   { id: 'monster', title: 'Monster Sudoku', color: 'from-emerald-500/20 to-teal-600/20 border-emerald-500' },
   { id: 'killer', title: 'Killer Sudoku', color: 'from-red-500/20 to-rose-600/20 border-red-500' },
   { id: 'irregular', title: 'Irregular Sudoku', color: 'from-pink-500/20 to-fuchsia-600/20 border-pink-500' },
   { id: 'diagonal', title: 'Diagonal Sudoku', color: 'from-cyan-500/20 to-blue-500/20 border-cyan-500' },
   { id: 'odd-even', title: 'Odd/Even Sudoku', color: 'from-teal-500/20 to-emerald-600/20 border-teal-500' },
-  { id: 'image', title: 'Image Sudoku', color: 'from-purple-500/20 to-violet-600/20 border-purple-500' },
   { id: 'ice-breaker', title: 'Ice-Breaker', color: 'from-sky-500/20 to-cyan-600/20 border-sky-500' },
   { id: 'combo', title: 'Combo 2-Grid', color: 'from-amber-500/20 to-orange-600/20 border-amber-500' },
   { id: 'samurai3', title: 'Samurai 3-Grid', color: 'from-orange-500/20 to-red-600/20 border-orange-500' },

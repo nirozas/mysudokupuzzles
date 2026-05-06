@@ -48,7 +48,9 @@ export interface GridState {
   irregularRegions?: number[][];   // region id per cell (0-8 for 9x9)
   killerCages?: KillerCage[];
   oddEvenPattern?: ('odd' | 'even' | 'any')[][];
-  frozenCells?: boolean[][];       // for ice-breaker mode
+  frozenCells?: boolean[][];       // legacy
+  iceStatus?: number[][];          // current ice layers (0 = thawed)
+  startIceStatus?: number[][];     // initial ice layers for cracking logic
 }
 
 // ─── History ──────────────────────────────────────────────────────────────────
@@ -88,6 +90,7 @@ export interface GameState {
   isPaused: boolean;
   isComplete: boolean;
   isStarted: boolean;
+  isGenerating: boolean;
   hintsRemaining: number;
 
   // Undo/Redo stacks (per-grid)

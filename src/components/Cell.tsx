@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion, useAnimation, AnimatePresence } from 'framer-motion';
 import { useEffect } from 'react';
 import { Star, Moon, PawPrint, Droplet, Square, Heart, Leaf, Sun, Clover, Snowflake } from 'lucide-react';
 
@@ -21,9 +21,12 @@ interface CellProps {
   cageInfo?: { isTopLeft: boolean; sum: number; color: string; isSelected?: boolean };
   cageBorders?: { top: boolean; bottom: boolean; left: boolean; right: boolean };
   oddEvenType?: 'odd' | 'even' | 'any';
-  isDiagonal?: boolean;
+  isDiag1?: boolean;
+  isDiag2?: boolean;
   isImageMode?: boolean;
-  isFrozen?: boolean;
+  iceLayers?: number;
+  startIceLayers?: number;
+  solutionValue?: number;
   irregularBorders?: { top: boolean; bottom: boolean; left: boolean; right: boolean };
   onClick: () => void;
 }
@@ -50,19 +53,43 @@ const Cell: React.FC<CellProps> = ({
   isSelected, isRelated, isHighlighted, isConflict,
   size, cellSize, regionColor,
   isBoxRight, isBoxBottom,
-  cageInfo, cageBorders, irregularBorders, oddEvenType, isDiagonal, isImageMode, isFrozen,
+  cageInfo, cageBorders, irregularBorders, oddEvenType, isDiag1, isDiag2, isImageMode, iceLayers, startIceLayers, solutionValue,
   onClick,
 }) => {
   const controls = useAnimation();
+  const prevIce = React.useRef(iceLayers);
+
+  useEffect(() => {
+    if (prevIce.current !== undefined && iceLayers !== undefined && iceLayers < prevIce.current && iceLayers > 0) {
+      // Crack animation
+      controls.start({
+        scale: [1, 0.96, 1],
+        rotate: [-2, 2, -1, 1, 0],
+        transition: { duration: 0.3, ease: 'easeInOut' }
+      });
+    }
+    prevIce.current = iceLayers;
+  }, [iceLayers, controls]);
 
   useEffect(() => {
     if (isConflict && value !== 0 && !isClue) {
-      controls.start({
-        x: [-4, 4, -3, 3, -2, 2, 0],
-        transition: { duration: 0.4, ease: 'easeInOut' },
-      });
+      // Parity Clash check: if it's a parity violation, do a different animation
+      const isParityConflict = oddEvenType === 'even' ? value % 2 !== 0 : oddEvenType === 'odd' ? value % 2 === 0 : false;
+      
+      if (isParityConflict) {
+        controls.start({
+          scale: [1, 1.15, 1],
+          backgroundColor: ['rgba(239, 68, 68, 0)', 'rgba(239, 68, 68, 0.4)', 'rgba(239, 68, 68, 0)'],
+          transition: { duration: 0.5, ease: 'easeOut' },
+        });
+      } else {
+        controls.start({
+          x: [-4, 4, -3, 3, -2, 2, 0],
+          transition: { duration: 0.4, ease: 'easeInOut' },
+        });
+      }
     }
-  }, [isConflict, value, isClue]);  // eslint-disable-line react-hooks/exhaustive-deps
+  }, [isConflict, value, isClue, oddEvenType]);  // eslint-disable-line react-hooks/exhaustive-deps
 
   const fontSize =
     size <= 4  ? (cellSize >= 70 ? '1.6rem' : '1.3rem') :
@@ -80,7 +107,7 @@ const Cell: React.FC<CellProps> = ({
     !isClue && value > 0 && !isConflict ? 'is-user'       : '',
     oddEvenType === 'odd'              ? 'is-odd-even-odd'  : '',
     oddEvenType === 'even'             ? 'is-odd-even-even' : '',
-    isDiagonal                         ? 'diagonal-cell-main' : '',
+    isDiag1 || isDiag2                 ? 'diagonal-cell'    : '',
     isBoxRight                         ? 'box-border-right'  : '',
     isBoxBottom                        ? 'box-border-bottom' : '',
   ].filter(Boolean).join(' ');
@@ -119,19 +146,57 @@ const Cell: React.FC<CellProps> = ({
       }}
       variants={cellVariants}
       animate={controls}
-      onClick={() => { if (!isFrozen) onClick(); }}
-      tabIndex={isClue || isFrozen ? -1 : 0}
+      onClick={() => { if (!iceLayers) onClick(); }}
+      tabIndex={isClue || iceLayers ? -1 : 0}
       role="gridcell"
       aria-label={`R${row + 1}C${col + 1}${value ? ` = ${value}` : ''}`}
-      onKeyDown={(e) => { if ((e.key === 'Enter' || e.key === ' ') && !isFrozen) onClick(); }}
+      onKeyDown={(e) => { if ((e.key === 'Enter' || e.key === ' ') && !iceLayers) onClick(); }}
     >
-      {/* Frozen Block */}
-      {isFrozen && (
-        <div className="absolute inset-0 z-20 flex items-center justify-center bg-cyan-200/50 backdrop-blur-[2px] border-[1.5px] border-cyan-400/80" style={{ borderRadius: '2px' }}>
-          <div className="w-full h-full bg-gradient-to-br from-white/40 to-transparent absolute inset-0"></div>
-          <Snowflake size={Math.max(12, cellSize/2.5)} className="text-white/80 drop-shadow-md relative z-10" />
-        </div>
-      )}
+      {/* Icy Slots Overlay (Frosted Glass) */}
+      <AnimatePresence>
+        {iceLayers && iceLayers > 0 && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ 
+              scale: 1.5, 
+              opacity: 0, 
+              rotate: 15,
+              filter: 'blur(10px)',
+              transition: { duration: 0.6, ease: 'easeIn' }
+            }}
+            className={`absolute inset-0 z-20 flex items-center justify-center backdrop-blur-md border-[1.5px] border-white/40 shadow-inner overflow-hidden transition-colors duration-700 ${
+              iceLayers === 3 ? 'bg-cyan-700/60' : 
+              iceLayers === 2 ? 'bg-cyan-400/40' : 
+              'bg-cyan-100/25'
+            }`} 
+            style={{ borderRadius: '2px' }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent" />
+            <Snowflake 
+              size={Math.max(12, cellSize/2.5)} 
+              className="text-white drop-shadow-[0_2px_4px_rgba(0,180,216,0.5)] relative z-10 animate-pulse" 
+            />
+            {/* Crack Effect Overlay - Scaled by how many layers were removed */}
+            {(startIceLayers !== undefined && startIceLayers - iceLayers >= 1) && (
+              <div className="absolute inset-0 z-11 pointer-events-none opacity-40">
+                <div className="w-full h-full border-t border-l border-white/60 -rotate-12 translate-x-1 translate-y-1" />
+                <div className="w-full h-full border-b border-r border-white/60 rotate-12 -translate-x-1 -translate-y-1" />
+              </div>
+            )}
+            {(startIceLayers !== undefined && startIceLayers - iceLayers >= 2) && (
+              <div className="absolute inset-0 z-11 pointer-events-none opacity-60">
+                <div className="w-full h-full border-t border-r border-white/80 rotate-45 translate-x-2 -translate-y-2" />
+                <div className="w-full h-full border-b border-l border-white/80 rotate-45 -translate-x-2 translate-y-2" />
+              </div>
+            )}
+            {/* Base texture for thick ice */}
+            {iceLayers >= 2 && (
+              <div className="absolute inset-0 z-5 pointer-events-none opacity-20 bg-[radial-gradient(circle,rgba(255,255,255,0.4)_1px,transparent_1px)] bg-[size:4px_4px]" />
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Irregular Region Borders (Image 2 style: Thick Black + Neon Glow) */}
       {irregularBorders && (
@@ -225,16 +290,23 @@ const Cell: React.FC<CellProps> = ({
         </span>
       )}
 
-      {/* Cell value */}
-      {value !== 0 ? (
+      {/* Cell value or Icy Hint */}
+      {(value !== 0 || (iceLayers && iceLayers > 0)) ? (
         <motion.span
-          key={`v-${row}-${col}-${value}`}
+          key={`v-${row}-${col}-${value}-${iceLayers}`}
           variants={numberVariants}
           initial="initial"
           animate="animate"
-          style={{ position: 'relative', zIndex: 2, lineHeight: 1 }}
+          style={{ 
+            position: 'relative', 
+            zIndex: 2, 
+            lineHeight: 1,
+            color: (iceLayers && iceLayers > 0) ? 'var(--text-secondary)' : undefined,
+            opacity: (iceLayers && iceLayers > 0) ? 0.6 : 1,
+            filter: (iceLayers && iceLayers > 0) ? 'grayscale(0.5)' : 'none',
+          }}
         >
-          {renderValue(value)}
+          {value !== 0 ? renderValue(value) : renderValue(solutionValue || 0)}
         </motion.span>
       ) : showPencil ? (
         <PencilGrid marks={pencilMarks} size={size} cellSize={cellSize} isImageMode={isImageMode} />

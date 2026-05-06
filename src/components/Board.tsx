@@ -2,7 +2,7 @@ import React, { useCallback, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGameStore } from '../store/gameStore';
 import type { GridState } from '../types';
-import { getConflicts } from '../utils/sudokuGenerator';
+import { getConflicts, SAMURAI_OVERLAPS } from '../utils/sudokuGenerator';
 import Cell from './Cell';
 
 interface BoardProps {
@@ -126,18 +126,43 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
             selectedCell?.col === c &&
             selectedCell?.gridIndex === gridIndex;
 
-          const isRelated = !isSelected && selectedCell?.gridIndex === gridIndex && (
-            selectedCell?.row === r ||
-            selectedCell?.col === c ||
-            (
-              Math.floor(r / br) === Math.floor((selectedCell?.row ?? -1) / br) &&
-              Math.floor(c / bc) === Math.floor((selectedCell?.col ?? -1) / bc)
-            )
+          // Overlap Sync Highlighting
+          let isOverlapSelected = false;
+          let isOverlapRelated = false;
+          if (selectedCell && (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4')) {
+            const m = mode === 'combo' ? 'combo' : 'samurai';
+            const link = SAMURAI_OVERLAPS[m]?.[selectedCell.gridIndex]?.find(o => o.other === gridIndex);
+            if (link) {
+              const sr = selectedCell.row;
+              const sc = selectedCell.col;
+              // Check if selected cell is in the overlap region
+              if (sr >= link.range[0] && sr <= link.range[1] && sc >= link.range[2] && sc <= link.range[3]) {
+                const mappedR = link.otherRange[0] + (sr - link.range[0]);
+                const mappedC = link.otherRange[2] + (sc - link.range[2]);
+                if (r === mappedR && c === mappedC) isOverlapSelected = true;
+                if (!isSelected && !isOverlapSelected && (r === mappedR || c === mappedC)) isOverlapRelated = true;
+              }
+            }
+          }
+
+          const isRelated = !isSelected && !isOverlapSelected && (
+            (selectedCell?.gridIndex === gridIndex && (
+              selectedCell?.row === r ||
+              selectedCell?.col === c ||
+              (mode === 'irregular' && irregularRegions 
+                ? irregularRegions[r][c] === irregularRegions[selectedCell.row][selectedCell.col]
+                : (
+                  Math.floor(r / br) === Math.floor((selectedCell?.row ?? -1) / br) &&
+                  Math.floor(c / bc) === Math.floor((selectedCell?.col ?? -1) / bc)
+                )
+              )
+            )) || isOverlapRelated
           );
 
           const isHighlighted =
             highlightSimilar &&
             !isSelected &&
+            !isOverlapSelected &&
             selectedVal > 0 &&
             val === selectedVal;
 
@@ -152,11 +177,11 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
           const isBoxRight = mode !== 'irregular' && (c + 1) % bc === 0 && c !== size - 1;
           const isBoxBottom = mode !== 'irregular' && (r + 1) % br === 0 && r !== size - 1;
 
-          const irregularBorders = mode === 'irregular' ? {
-            top: r === 0 || irregularRegions?.[r-1]?.[c] !== irregularRegions?.[r]?.[c],
-            bottom: r === size - 1 || irregularRegions?.[r+1]?.[c] !== irregularRegions?.[r]?.[c],
-            left: c === 0 || irregularRegions?.[r]?.[c-1] !== irregularRegions?.[r]?.[c],
-            right: c === size - 1 || irregularRegions?.[r]?.[c+1] !== irregularRegions?.[r]?.[c],
+          const irregularBorders = mode === 'irregular' && irregularRegions ? {
+            top: r === 0 || irregularRegions[r-1][c] !== irregularRegions[r][c],
+            bottom: r === size - 1 || irregularRegions[r+1][c] !== irregularRegions[r][c],
+            left: c === 0 || irregularRegions[r][c-1] !== irregularRegions[r][c],
+            right: c === size - 1 || irregularRegions[r][c+1] !== irregularRegions[r][c],
           } : undefined;
 
           const cageInfo = cageMap.get(key);
@@ -190,7 +215,7 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
               value={val}
               isClue={isClue[r][c]}
               pencilMarks={pencilMarks[r][c]}
-              isSelected={isSelected}
+              isSelected={isSelected || isOverlapSelected}
               isRelated={isRelated}
               isHighlighted={isHighlighted}
               isConflict={isConflict || isWrong}
@@ -203,9 +228,12 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
               cageBorders={cageBorders}
               irregularBorders={irregularBorders}
               oddEvenType={oddEvenType}
-              isDiagonal={onDiagonal}
+              isDiag1={mode === 'diagonal' && r === c}
+              isDiag2={mode === 'diagonal' && r + c === size - 1}
               isImageMode={mode === 'image'}
-              isFrozen={grid.frozenCells?.[r]?.[c]}
+              iceLayers={grid.iceStatus?.[r]?.[c] ?? 0}
+              startIceLayers={grid.startIceStatus?.[r]?.[c] ?? 0}
+              solutionValue={grid.solution?.[r]?.[c]}
               onClick={() => handleCellClick(r, c)}
             />
           );
