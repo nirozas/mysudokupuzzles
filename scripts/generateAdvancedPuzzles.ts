@@ -67,9 +67,6 @@ const PLAN = {
   killer: [
     { size: 9, difficulties: ['easy', 'medium', 'hard', 'expert', 'evil'] },
   ],
-  monster: [
-    { size: 16, difficulties: ['easy', 'medium', 'hard', 'expert', 'evil'] },
-  ],
 };
 
 function writeDataFile(modeName, data) {

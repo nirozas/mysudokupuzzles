@@ -16,7 +16,6 @@ const loaders: Record<string, () => Promise<{ default: any }>> = {
   image:     () => import('./image'),
   irregular: () => import('./irregular'),
   killer:    () => import('./killer'),
-  monster:   () => import('./monster'),
 };
 
 // Maps volumeId → difficulty key used in the data files
@@ -57,12 +56,6 @@ const VOLUME_DIFF_MAP: Record<string, string> = {
   'killer-medium':    'hard',
   'killer-hard':      'expert',
   'killer-devil':     'evil',
-  // Monster
-  'monster-very-easy': 'easy',
-  'monster-easy':      'medium',
-  'monster-medium':    'hard',
-  'monster-hard':      'expert',
-  'monster-devil':     'evil',
 };
 
 // Maps volumeId → grid size
@@ -103,12 +96,6 @@ const VOLUME_SIZE_MAP: Record<string, number> = {
   'killer-medium':    9,
   'killer-hard':      9,
   'killer-devil':     9,
-  // Monster 16x16
-  'monster-very-easy': 16,
-  'monster-easy':      16,
-  'monster-medium':    16,
-  'monster-hard':      16,
-  'monster-devil':     16,
 };
 
 function getModeKey(volId: string): string | null {
@@ -117,7 +104,6 @@ function getModeKey(volId: string): string | null {
   if (volId.startsWith('image'))     return 'image';
   if (volId.startsWith('irregular')) return 'irregular';
   if (volId.startsWith('killer'))    return 'killer';
-  if (volId.startsWith('monster'))   return 'monster';
   return null;
 }
 

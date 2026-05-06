@@ -283,10 +283,10 @@ function countSolutions(
 // Calibrated so Easy is accessible (many givens spread around) and
 // Evil is truly minimal (few givens, uniqueness enforced).
 const CLUE_TARGETS: Record<Difficulty, Record<number, number>> = {
-  easy:   { 4: 14, 6: 26, 9: 45, 16: 150 },
-  medium: { 4: 12, 6: 22, 9: 36, 16: 128 },
-  hard:   { 4: 9,  6: 17, 9: 30, 16: 108 },
-  expert: { 4: 7,  6: 13, 9: 25, 16: 92  },
+  easy:   { 4: 14, 6: 26, 9: 50, 16: 150 },
+  medium: { 4: 12, 6: 22, 9: 42, 16: 128 },
+  hard:   { 4: 9,  6: 17, 9: 34, 16: 108 },
+  expert: { 4: 7,  6: 13, 9: 27, 16: 92  },
   evil:   { 4: 5,  6: 9,  9: 22, 16: 76  },
 };
 
