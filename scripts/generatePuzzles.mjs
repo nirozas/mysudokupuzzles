@@ -215,10 +215,10 @@ function balancedRemovalOrder(size, rng) {
 // ─── Clue targets (givens remaining after removal) ────────────────────────────
 
 const CLUE_TARGETS = {
-  easy:   { 4: 8,  6: 18, 9: 50 },
-  medium: { 4: 6,  6: 14, 9: 42 },
-  hard:   { 4: 5,  6: 10, 9: 34 },
-  expert: { 4: 4,  6: 8,  9: 27 },
+  easy:   { 4: 8,  6: 18, 9: 45 },
+  medium: { 4: 6,  6: 14, 9: 36 },
+  hard:   { 4: 5,  6: 10, 9: 30 },
+  expert: { 4: 4,  6: 8,  9: 25 },
   evil:   { 4: 4,  6: 7,  9: 22 },
 };
 

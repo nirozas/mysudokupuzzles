@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: npm run generate
-// Generated: 2026-05-06T22:24:12.504Z
+// Generated: 2026-05-06T23:07:36.680Z
 // 30 puzzles per pool, all uniqueness-verified, no duplicates.
 import type { PuzzleSet } from './types';
 
@@ -10,190 +10,42 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            0,
             4,
-            0,
-            0
-          ],
-          [
-            2,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            4,
-            3
+            1
           ],
           [
             0,
             0,
             0,
             2
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            4
           ]
         ],
         "solution": [
           [
             3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            3,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
             2,
             4,
             1
           ],
           [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
             4,
             1,
             3,
             2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            true
           ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            4,
-            1
-          ]
-        ],
-        "solution": [
           [
             1,
             4,
@@ -204,665 +56,13 @@ const data: PuzzleSet = {
             2,
             3,
             1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            4,
-            3
-          ],
-          [
-            1,
-            0,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            3
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            4
-          ],
-          [
-            4,
-            1,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            4,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            2,
-            1,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
             4
           ]
         ],
         "isClue": [
           [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
             false,
             false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            4,
-            2,
-            0
-          ],
-          [
-            2,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            1,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            3,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
             true,
             true
           ],
@@ -891,52 +91,852 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            3,
+            0,
             0
           ],
           [
-            0,
-            0,
             1,
-            2
-          ],
-          [
+            4,
             2,
-            0,
-            0,
             0
           ],
           [
             4,
+            1,
             3,
-            2,
+            0
+          ],
+          [
+            3,
+            0,
+            4,
             0
           ]
         ],
         "solution": [
           [
-            1,
             2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            4
+          ],
+          [
+            0,
+            2,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
             3,
             4
           ],
           [
-            3,
-            4,
             1,
-            2
-          ],
-          [
             2,
-            1,
             4,
             3
           ],
           [
             4,
             3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            4,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
             2,
             1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            2,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            2,
+            4,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            3,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            1,
+            0,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            4,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2
           ]
         ],
         "isClue": [
@@ -947,7 +947,327 @@ const data: PuzzleSet = {
             false
           ],
           [
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
             false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            1,
+            3
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            3
+          ],
+          [
+            4,
+            3,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            3,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
             false,
             true,
             true
@@ -969,57 +1289,309 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            3,
             0,
-            4,
-            1
-          ],
-          [
-            4,
             0,
-            3,
+            0,
             0
           ],
           [
+            1,
             2,
             0,
+            3
+          ],
+          [
+            2,
             1,
+            3,
             4
           ],
           [
             0,
+            4,
             0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
             2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
             0
           ]
         ],
         "solution": [
           [
             3,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
             2,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
             4,
             1
           ],
           [
-            4,
+            0,
+            2,
             1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
             3,
             2
           ],
           [
             2,
             3,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
             1,
             4
           ],
           [
-            1,
             4,
+            1,
             2,
             3
           ]
         ],
         "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            3,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
           [
             true,
             false,
@@ -1031,10 +1603,318 @@ const data: PuzzleSet = {
             false,
             true,
             false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            1,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
           ],
           [
             true,
             false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            4,
+            2,
+            0
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
             true,
             true
           ],
@@ -1058,45 +1938,45 @@ const data: PuzzleSet = {
             0,
             0,
             1,
-            3
+            4
           ],
           [
             0,
+            2,
             4,
-            3,
             1
           ],
           [
             0,
-            3,
             4,
+            2,
             0
           ]
         ],
         "solution": [
           [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
             3,
             1,
-            2,
             4
           ],
           [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
             3,
+            2,
+            4,
             1
           ],
           [
             1,
-            3,
             4,
-            2
+            2,
+            3
           ]
         ],
         "isClue": [
@@ -1129,73 +2009,73 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
             0,
             0,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            4,
-            0,
-            3,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
             2,
             4
           ],
           [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
             2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
             4,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
             1,
             3
           ],
           [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
             2,
+            4,
             3,
             1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
           ]
         ],
         "isClue": [
           [
-            true,
             false,
             false,
-            false
-          ],
-          [
             true,
-            true,
-            false,
-            false
+            true
           ],
           [
             false,
             false,
+            false,
+            true
+          ],
+          [
             true,
+            false,
+            false,
             false
           ],
           [
@@ -1209,22 +2089,102 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
             0,
             4,
-            3
+            3,
+            0
           ],
           [
             3,
+            2,
+            0,
+            0
+          ],
+          [
             0,
             0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
             1
           ],
           [
-            0,
-            0,
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            2,
             3,
             4
+          ],
+          [
+            0,
+            4,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            0,
+            3
           ],
           [
             0,
@@ -1237,45 +2197,45 @@ const data: PuzzleSet = {
           [
             1,
             2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
             3,
             4
           ],
           [
-            4,
             3,
+            4,
             1,
             2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
           ]
         ],
         "isClue": [
           [
             true,
-            false,
+            true,
             true,
             true
           ],
           [
-            true,
             false,
+            true,
             false,
             true
           ],
           [
-            false,
-            false,
             true,
+            true,
+            false,
             true
           ],
           [
@@ -1289,828 +2249,28 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            4,
-            3
-          ],
-          [
-            3,
-            0,
             1,
-            0
-          ],
-          [
-            1,
-            2,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            2,
-            3
-          ],
-          [
-            4,
-            1,
             3,
             2
-          ],
-          [
-            0,
-            3,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            1,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            2,
-            3
           ],
           [
             0,
             0,
             0,
             1
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            3,
-            2
           ],
           [
-            2,
             3,
-            1,
+            0,
+            0,
             4
           ],
           [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            3,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            1,
-            4,
-            0
-          ],
-          [
-            0,
             4,
             1,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            4,
-            1
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
             0,
             3
-          ],
-          [
-            3,
-            0,
-            4,
-            2
-          ],
-          [
-            1,
-            3,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            1,
-            0
-          ],
-          [
-            1,
-            0,
-            2,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            4,
-            3,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            2,
-            4,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            4,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            2,
-            0
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            2,
-            3,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            4
-          ],
-          [
-            0,
-            0,
-            2,
-            0
           ]
         ],
         "solution": [
@@ -2141,99 +2301,7 @@ const data: PuzzleSet = {
         ],
         "isClue": [
           [
-            false,
             true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            4,
-            3
-          ],
-          [
-            0,
-            0,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
             false,
             true,
             true
@@ -2243,83 +2311,15 @@ const data: PuzzleSet = {
             false,
             false,
             true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
           ],
           [
-            0,
-            1,
-            3,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            0,
-            3,
-            0,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
             true,
-            true,
+            false,
+            false,
             true
           ],
           [
             true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
             true,
             false,
             true
@@ -2331,34 +2331,34 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
+            1,
             0
           ],
           [
-            3,
             0,
             1,
-            4
+            2,
+            3
           ],
           [
             1,
+            4,
+            3,
+            2
+          ],
+          [
             0,
+            3,
             0,
             0
           ]
         ],
         "solution": [
           [
-            2,
             3,
-            4,
-            1
+            2,
+            1,
+            4
           ],
           [
             4,
@@ -2367,16 +2367,16 @@ const data: PuzzleSet = {
             3
           ],
           [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
             1,
             4,
             3,
             2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
           ]
         ],
         "isClue": [
@@ -2384,23 +2384,23 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
             false
           ],
           [
-            true,
             false,
+            true,
             true,
             true
           ],
           [
             true,
+            true,
+            true,
+            true
+          ],
+          [
             false,
+            true,
             false,
             false
           ]
@@ -2413,212 +2413,52 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            2,
-            0
-          ],
-          [
-            0,
-            4,
-            3,
-            0
-          ],
-          [
-            4,
-            2,
             0,
             0
           ],
           [
-            1,
             0,
             0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
             2,
-            4
-          ],
-          [
-            2,
-            4,
-            3,
             1
           ],
           [
-            4,
-            2,
             1,
-            3
+            0,
+            4,
+            0
           ],
           [
-            1,
-            3,
             4,
+            0,
+            0,
             2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            2,
-            0
           ]
         ],
         "solution": [
           [
             2,
+            1,
+            3,
+            4
+          ],
+          [
             3,
             4,
+            2,
             1
           ],
           [
             1,
+            2,
+            4,
+            3
+          ],
+          [
             4,
             3,
+            1,
             2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            3
-          ],
-          [
-            3,
-            0,
-            2,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            3,
-            1
           ]
         ],
         "isClue": [
@@ -2642,168 +2482,8 @@ const data: PuzzleSet = {
           ],
           [
             true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
             false,
             false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
             true
           ]
         ]
@@ -2813,50 +2493,50 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            0,
+            4,
             3
           ],
           [
-            4,
             0,
             0,
-            1
-          ],
-          [
-            3,
-            4,
             0,
             0
           ],
           [
+            4,
             0,
+            0,
+            2
+          ],
+          [
             2,
             0,
-            0
+            3,
+            4
           ]
         ],
         "solution": [
           [
-            2,
             1,
+            2,
             4,
             3
           ],
           [
-            4,
             3,
+            4,
             2,
             1
           ],
           [
-            3,
             4,
+            3,
             1,
             2
           ],
           [
-            1,
             2,
+            1,
             3,
             4
           ]
@@ -2865,257 +2545,17 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
             true,
             true
           ],
           [
-            true,
             false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            1,
-            4,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            3,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
             false,
             false,
             false
           ],
           [
             true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
             false,
             false,
             true
@@ -3137,10 +2577,10 @@ const data: PuzzleSet = {
             3
           ],
           [
-            3,
-            1,
             0,
-            2
+            0,
+            4,
+            0
           ],
           [
             4,
@@ -3150,8 +2590,8 @@ const data: PuzzleSet = {
           ],
           [
             1,
-            3,
             0,
+            2,
             0
           ]
         ],
@@ -3189,10 +2629,10 @@ const data: PuzzleSet = {
             true
           ],
           [
-            true,
-            true,
             false,
-            true
+            false,
+            true,
+            false
           ],
           [
             true,
@@ -3202,8 +2642,8 @@ const data: PuzzleSet = {
           ],
           [
             true,
-            true,
             false,
+            true,
             false
           ]
         ]
@@ -3212,25 +2652,25 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            2,
-            1,
-            4
-          ],
-          [
             0,
-            1,
-            2,
-            0
+            0,
+            2
           ],
           [
             0,
             0,
             4,
-            1
+            0
           ],
           [
+            4,
             0,
             0,
+            0
+          ],
+          [
+            1,
+            2,
             0,
             0
           ]
@@ -3238,194 +2678,34 @@ const data: PuzzleSet = {
         "solution": [
           [
             3,
-            2,
-            1,
-            4
-          ],
-          [
             4,
             1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            4,
             2
           ],
           [
             2,
-            4,
             1,
+            4,
             3
           ],
           [
-            1,
+            4,
             3,
             2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
             4
           ]
         ],
         "isClue": [
           [
-            true,
             false,
-            true,
+            false,
+            false,
             true
           ],
           [
@@ -3433,166 +2713,6 @@ const data: PuzzleSet = {
             false,
             true,
             false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            3,
-            4,
-            2
-          ],
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            3
-          ],
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
           ],
           [
             true,
@@ -3613,26 +2733,26 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            4,
-            2
+            0,
+            0
           ],
           [
-            0,
-            0,
+            4,
+            2,
             0,
             0
           ],
           [
             2,
-            0,
+            4,
             1,
             0
           ],
           [
             1,
             0,
-            0,
-            4
+            2,
+            0
           ]
         ],
         "solution": [
@@ -3665,13 +2785,19 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            true,
-            true
+            false,
+            false
           ],
           [
+            true,
+            true,
             false,
-            false,
-            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
             false
           ],
           [
@@ -3679,12 +2805,6 @@ const data: PuzzleSet = {
             false,
             true,
             false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
           ]
         ]
       },
@@ -3693,52 +2813,52 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
             1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
             0,
             0
           ],
           [
+            1,
             3,
-            4,
             0,
             0
           ]
         ],
         "solution": [
           [
-            1,
             2,
-            3,
-            4
-          ],
-          [
             4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
             1,
-            4,
             3
           ],
           [
             3,
-            4,
             1,
+            4,
             2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
           ]
         ],
         "isClue": [
@@ -3772,9 +2892,15 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
+            1,
             0,
             0
+          ],
+          [
+            3,
+            2,
+            0,
+            1
           ],
           [
             0,
@@ -3783,40 +2909,34 @@ const data: PuzzleSet = {
             4
           ],
           [
-            2,
             0,
             0,
-            1
-          ],
-          [
-            4,
             0,
-            2,
-            0
+            3
           ]
         ],
         "solution": [
           [
-            1,
             4,
+            1,
             3,
             2
           ],
           [
             3,
             2,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
             4,
             1
           ],
           [
-            4,
+            2,
+            3,
             1,
+            4
+          ],
+          [
+            1,
+            4,
             2,
             3
           ]
@@ -3824,99 +2944,13 @@ const data: PuzzleSet = {
         "isClue": [
           [
             false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            3,
-            4,
-            2
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
             true,
             false,
             false
           ],
           [
-            false,
-            false,
+            true,
+            true,
             false,
             true
           ],
@@ -3924,6 +2958,12 @@ const data: PuzzleSet = {
             false,
             false,
             true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
             true
           ]
         ]
@@ -3934,51 +2974,51 @@ const data: PuzzleSet = {
             0,
             3,
             0,
-            2
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0
           ],
           [
             0,
-            2,
+            0,
             4,
             0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            4
           ]
         ],
         "solution": [
           [
-            4,
-            3,
             1,
-            2
+            3,
+            2,
+            4
           ],
           [
-            1,
-            2,
             4,
-            3
-          ],
-          [
+            2,
             3,
-            4,
-            2,
             1
           ],
           [
             2,
+            4,
             1,
+            3
+          ],
+          [
             3,
-            4
+            1,
+            4,
+            2
           ]
         ],
         "isClue": [
@@ -3986,99 +3026,19 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
             false
           ],
           [
-            false,
+            true,
             false,
             false,
             false
           ],
           [
+            true,
             false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            4,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            3
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
             true,
             false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
           ],
           [
             false,
@@ -4091,31 +3051,37 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
             0,
             0,
             3,
             1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            4,
+            0
           ]
         ],
         "solution": [
+          [
+            4,
+            2,
+            3,
+            1
+          ],
           [
             1,
             3,
@@ -4133,25 +3099,13 @@ const data: PuzzleSet = {
             1,
             4,
             2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
           ]
         ],
         "isClue": [
           [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
             false,
             false,
+            true,
             true
           ],
           [
@@ -4162,31 +3116,117 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
+            true,
             true,
             true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
           ]
         ]
       },
       {
         "values": [
           [
+            1,
+            2,
             3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
             2,
             1,
+            0,
             0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            4
           ],
           [
             1,
             0,
-            3,
+            0,
             0
           ],
           [
             0,
             0,
-            4,
-            1
+            2,
+            3
           ],
           [
             0,
@@ -4209,29 +3249,29 @@ const data: PuzzleSet = {
             2
           ],
           [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
             4,
             1,
             2,
             3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
           ]
         ],
         "isClue": [
           [
+            false,
             true,
-            true,
-            true,
-            false
+            false,
+            true
           ],
           [
             true,
             false,
-            true,
+            false,
             false
           ],
           [
@@ -4253,131 +3293,51 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            3,
+            2,
             1
           ],
           [
             0,
             0,
             0,
+            4
+          ],
+          [
+            2,
+            0,
+            0,
             0
           ],
           [
-            1,
             0,
             4,
-            0
-          ],
-          [
-            0,
-            2,
             0,
             0
           ]
         ],
         "solution": [
           [
-            2,
             4,
             3,
+            2,
             1
           ],
           [
+            1,
+            2,
             3,
-            1,
-            2,
-            4
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            2,
             4
           ],
           [
             2,
-            4,
             1,
+            4,
             3
           ],
           [
+            3,
             4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
             1,
-            4,
             2
           ]
         ],
@@ -4393,326 +3353,6 @@ const data: PuzzleSet = {
             false,
             false,
             true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            1,
-            0
-          ],
-          [
-            1,
-            0,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            3,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            3
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
           ],
           [
             true,
@@ -4731,21 +3371,9 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            4,
+            0,
             0,
             3,
-            0
-          ],
-          [
-            3,
-            0,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
             0
           ],
           [
@@ -4753,9 +3381,113 @@ const data: PuzzleSet = {
             0,
             2,
             4
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            4,
+            0
           ]
         ],
         "solution": [
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ],
           [
             4,
             2,
@@ -4767,18 +3499,6 @@ const data: PuzzleSet = {
             1,
             4,
             2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
           ]
         ],
         "isClue": [
@@ -4789,8 +3509,1048 @@ const data: PuzzleSet = {
             false
           ],
           [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
             true,
             false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            4,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            3,
+            2,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
             true,
             true
           ],
@@ -4805,6 +4565,246 @@ const data: PuzzleSet = {
             false,
             true,
             true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
           ]
         ]
       }
@@ -4813,28 +4813,28 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            2,
             0,
+            0,
+            0
+          ],
+          [
             0,
             3,
+            0,
             0
           ],
           [
             0,
             0,
             2,
-            1
-          ],
-          [
-            1,
-            0,
-            0,
             0
           ],
           [
+            0,
+            0,
             4,
-            3,
-            0,
-            0
+            3
           ]
         ],
         "solution": [
@@ -4844,6 +4844,400 @@ const data: PuzzleSet = {
             3,
             4
           ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            4
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ],
+          [
+            4,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            4
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            4
+          ]
+        ],
+        "solution": [
           [
             3,
             4,
@@ -4861,6 +5255,1292 @@ const data: PuzzleSet = {
             3,
             1,
             2
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            4,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
           ]
         ],
         "isClue": [
@@ -4900,47 +6580,47 @@ const data: PuzzleSet = {
           ],
           [
             0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            3,
             4,
+            0,
             0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            2
           ]
         ],
         "solution": [
           [
             1,
+            2,
             4,
-            3,
-            2
+            3
           ],
           [
             3,
+            4,
+            2,
+            1
+          ],
+          [
             2,
             1,
+            3,
             4
           ],
           [
             4,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
             3,
-            4,
-            1
+            1,
+            2
           ]
         ],
         "isClue": [
@@ -4958,229 +6638,69 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            4,
-            0,
-            1,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            0,
-            1
-          ],
-          [
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
             false,
             false,
             true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
           ],
           [
             false,
             false,
             true,
             true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
           ]
         ]
       },
       {
         "values": [
           [
-            1,
+            2,
             0,
             0,
             0
           ],
           [
             4,
-            2,
+            1,
             0,
             0
           ],
           [
             0,
             0,
-            1,
-            3
+            3,
+            2
           ],
           [
             0,
             0,
-            0,
-            2
+            1,
+            0
           ]
         ],
         "solution": [
           [
-            1,
-            3,
             2,
-            4
-          ],
-          [
+            3,
             4,
-            2,
-            3,
             1
           ],
           [
-            2,
             4,
             1,
+            2,
             3
           ],
           [
-            3,
             1,
             4,
+            3,
             2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
           ]
         ],
         "isClue": [
@@ -5205,86 +6725,6 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
             true,
             false
           ]
@@ -5296,505 +6736,25 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            3
-          ],
-          [
-            0,
-            0,
-            1,
-            2
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            2,
-            0
-          ],
-          [
-            1,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            3,
-            0,
             2
           ],
           [
             0,
             0,
-            0,
-            1
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            4,
-            2,
             1,
             3
           ],
           [
-            3,
-            1,
             2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            0,
-            2
-          ],
-          [
-            1,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            2,
-            0,
-            0
-          ],
-          [
-            4,
             0,
             0,
             0
           ],
           [
             0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
             1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
             0,
             0
-          ],
-          [
-            0,
-            2,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
           ]
         ],
         "solution": [
@@ -5825,6 +6785,18 @@ const data: PuzzleSet = {
         ],
         "isClue": [
           [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
             true,
             false,
             false,
@@ -5834,179 +6806,7 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
             false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
           ]
         ]
       },
@@ -6016,50 +6816,50 @@ const data: PuzzleSet = {
             0,
             0,
             0,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
             0
           ],
           [
             0,
-            0,
-            1,
-            2
-          ],
-          [
-            0,
-            1,
-            0,
-            4
-          ],
-          [
             3,
-            4,
             0,
             0
           ]
         ],
         "solution": [
           [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
             3,
-            1,
-            2
-          ],
-          [
             2,
             1,
-            3,
             4
           ],
           [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
             3,
             4,
-            2,
             1
           ]
         ],
@@ -6068,7 +6868,7 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false
+            true
           ],
           [
             false,
@@ -6077,154 +6877,6 @@ const data: PuzzleSet = {
             true
           ],
           [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            2,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
             true,
             false,
             false,
@@ -6233,20 +6885,8 @@ const data: PuzzleSet = {
           [
             false,
             true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
           ]
         ]
       },
@@ -6261,7 +6901,7 @@ const data: PuzzleSet = {
           [
             0,
             2,
-            1,
+            4,
             0
           ],
           [
@@ -6271,7 +6911,7 @@ const data: PuzzleSet = {
             0
           ],
           [
-            1,
+            4,
             3,
             0,
             0
@@ -6280,26 +6920,26 @@ const data: PuzzleSet = {
         "solution": [
           [
             3,
-            1,
-            2,
-            4
-          ],
-          [
             4,
             2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
             1
           ],
           [
             1,
-            3,
+            2,
             4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
             2
           ]
         ],
@@ -6333,340 +6973,20 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            2,
             0,
-            1,
             0,
             3
-          ],
-          [
-            0,
-            2,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0
           ],
           [
             0,
             3,
             0,
             1
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
           ],
           [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
             1,
             2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            3
-          ],
-          [
-            1,
-            3,
             0,
             0
           ],
@@ -6679,40 +6999,40 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            3,
-            1,
             2,
-            4
-          ],
-          [
+            1,
             4,
-            2,
-            1,
             3
           ],
           [
-            1,
-            3,
             4,
-            2
+            3,
+            2,
+            1
           ],
           [
+            1,
             2,
-            4,
             3,
-            1
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
           ]
         ],
         "isClue": [
           [
-            false,
             true,
+            false,
             false,
             true
           ],
           [
-            true,
             false,
+            true,
             false,
             true
           ],
@@ -6736,24 +7056,24 @@ const data: PuzzleSet = {
             2,
             0,
             0,
-            0
+            4
           ],
           [
             0,
             1,
             0,
-            0
+            2
           ],
           [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            3,
-            0,
+            1,
             4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
             0
           ]
         ],
@@ -6788,339 +7108,19 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            2,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
             true
           ],
           [
             false,
             true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            1,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
             false,
             true
           ],
           [
-            false,
-            false,
             true,
-            true
+            true,
+            false,
+            false
           ],
           [
             false,
@@ -7135,25 +7135,25 @@ const data: PuzzleSet = {
           [
             0,
             2,
-            0,
-            0
-          ],
-          [
             4,
-            0,
-            0,
             0
           ],
           [
-            0,
+            3,
             0,
             2,
             0
           ],
           [
             0,
-            1,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
             3,
+            0,
             0
           ]
         ],
@@ -7163,12 +7163,6 @@ const data: PuzzleSet = {
             2,
             4,
             3
-          ],
-          [
-            4,
-            3,
-            1,
-            2
           ],
           [
             3,
@@ -7181,31 +7175,37 @@ const data: PuzzleSet = {
             1,
             3,
             4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
           ]
         ],
         "isClue": [
           [
             false,
             true,
-            false,
+            true,
             false
           ],
           [
             true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
             false,
             true,
             false
           ],
           [
             false,
+            false,
+            false,
+            false
+          ],
+          [
             true,
             true,
+            false,
             false
           ]
         ]
@@ -7215,146 +7215,60 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
             0,
             2,
             0,
             0
           ],
           [
-            1,
-            4,
             0,
-            0
+            0,
+            2,
+            3
           ],
           [
             0,
             0,
             0,
-            2
-          ],
-          [
-            0,
-            0,
-            1,
-            0
+            1
           ]
         ],
         "solution": [
           [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
             1,
             4,
-            2,
-            3
-          ],
-          [
-            4,
-            1,
             3,
             2
           ],
           [
-            2,
             3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
             2,
-            0,
-            3
-          ],
-          [
             1,
-            0,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
             4
           ],
           [
             4,
-            2,
             1,
+            2,
             3
           ],
           [
-            1,
+            2,
             3,
             4,
-            2
+            1
           ]
         ],
         "isClue": [
           [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
             true,
-            true,
+            false,
             false,
             false
           ],
@@ -7362,10 +7276,16 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
             true
           ],
           [
-            true,
+            false,
             false,
             false,
             true
@@ -7375,6 +7295,12 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
             0,
             0,
             0,
@@ -7382,393 +7308,67 @@ const data: PuzzleSet = {
           ],
           [
             0,
-            0,
-            1,
-            3
-          ],
-          [
-            2,
-            0,
+            3,
             0,
             1
           ],
           [
-            3,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            3,
-            0
-          ],
-          [
             1,
             0,
             0,
             4
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            1,
-            0
           ]
         ],
         "solution": [
           [
             3,
-            1,
             4,
+            1,
             2
           ],
           [
-            4,
             2,
-            3,
-            1
-          ],
-          [
             1,
-            3,
-            2,
-            4
-          ],
-          [
-            2,
             4,
-            1,
             3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            3,
-            0
-          ],
-          [
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            3,
-            4
           ],
           [
             4,
             3,
-            1,
-            2
-          ],
-          [
-            3,
-            4,
             2,
             1
           ],
           [
             1,
             2,
-            4,
-            3
+            3,
+            4
           ]
         ],
         "isClue": [
           [
-            false,
-            false,
             true,
+            true,
+            false,
             false
           ],
           [
             false,
             false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
             false,
             true
           ],
           [
             true,
-            true,
             false,
-            false
-          ],
-          [
             false,
-            true,
-            false,
-            false
+            true
           ]
         ]
       },
@@ -7781,7 +7381,7 @@ const data: PuzzleSet = {
             0
           ],
           [
-            1,
+            3,
             0,
             0,
             0
@@ -7790,12 +7390,12 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            1
+            3
           ],
           [
-            3,
             0,
             0,
+            4,
             2
           ]
         ],
@@ -7803,24 +7403,24 @@ const data: PuzzleSet = {
           [
             2,
             4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
             3,
             1
           ],
           [
             3,
             1,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
             4,
             2
           ]
@@ -7845,9 +7445,9 @@ const data: PuzzleSet = {
             true
           ],
           [
+            false,
+            false,
             true,
-            false,
-            false,
             true
           ]
         ]
@@ -7856,105 +7456,25 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            1,
-            0,
-            2
-          ],
-          [
-            0,
-            4,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
             3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
             2,
             0
           ],
           [
             0,
-            0,
+            2,
             0,
             1
           ],
           [
             0,
-            4,
             0,
+            1,
             3
           ],
           [
             0,
-            1,
+            0,
             0,
             0
           ]
@@ -7988,15 +7508,9 @@ const data: PuzzleSet = {
         "isClue": [
           [
             false,
-            false,
+            true,
             true,
             false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
           ],
           [
             false,
@@ -8006,166 +7520,12 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
             false,
             true,
             true
           ],
           [
             false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
             false,
             false,
             false
@@ -8175,54 +7535,54 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
+            3,
             0,
             0,
             4
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1
           ]
         ],
         "solution": [
           [
-            2,
             3,
-            4,
-            1
-          ],
-          [
             1,
-            4,
-            3,
-            2
+            2,
+            4
           ],
           [
             4,
-            1,
             2,
+            1,
             3
           ],
           [
-            3,
-            2,
             1,
-            4
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
           ]
         ],
         "isClue": [
@@ -8230,24 +7590,24 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
+            true
           ],
           [
             false,
-            false,
             true,
+            false,
             false
           ],
           [
             false,
             false,
             false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
             true
           ]
         ]
@@ -8257,17 +7617,17 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            0,
+            2,
             4
           ],
           [
-            3,
+            0,
             0,
             0,
             1
           ],
           [
-            4,
+            1,
             0,
             0,
             0
@@ -8281,108 +7641,28 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            2,
-            1,
             3,
+            1,
+            2,
             4
           ],
           [
-            3,
-            4,
             2,
+            4,
+            3,
             1
           ],
           [
-            4,
-            3,
             1,
+            3,
+            4,
             2
           ],
           [
-            1,
-            2,
             4,
+            2,
+            1,
             3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
           ]
         ],
         "isClue": [
@@ -8421,22 +7701,22 @@ const data: PuzzleSet = {
             0
           ],
           [
-            1,
             0,
-            3,
-            0
-          ],
-          [
-            4,
-            3,
+            2,
             0,
             0
           ],
           [
             0,
             0,
-            0,
+            2,
             0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
           ]
         ],
         "solution": [
@@ -8473,84 +7753,10 @@ const data: PuzzleSet = {
             false
           ],
           [
-            true,
             false,
-            true,
-            false
-          ],
-          [
-            true,
             true,
             false,
             false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
           ],
           [
             false,
@@ -8559,93 +7765,7 @@ const data: PuzzleSet = {
             false
           ],
           [
-            true,
             false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            4,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
             false,
             false,
             true
@@ -8655,661 +7775,21 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
-            3,
             0,
+            0,
+            1,
             0
           ],
           [
             0,
             0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            4,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            2,
-            3,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            3
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
             0,
             3
           ],
           [
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
             2,
             4,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            2,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            1,
-            3
-          ],
-          [
-            4,
-            0,
-            0,
             0
           ],
           [
@@ -9321,27 +7801,27 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            1,
-            3,
             2,
+            3,
+            1,
             4
           ],
           [
-            2,
-            4,
             1,
+            4,
+            2,
             3
           ],
           [
-            4,
-            2,
             3,
+            2,
+            4,
             1
           ],
           [
-            3,
-            1,
             4,
+            1,
+            3,
             2
           ]
         ],
@@ -9349,19 +7829,19 @@ const data: PuzzleSet = {
           [
             false,
             false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
             false,
             true
           ],
           [
             false,
-            false,
             true,
-            true
-          ],
-          [
             true,
-            false,
-            false,
             false
           ],
           [
@@ -9375,25 +7855,25 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
             1,
             0,
+            0,
             0
           ],
           [
-            0,
             4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
             0,
             0,
             2
@@ -9427,7 +7907,407 @@ const data: PuzzleSet = {
         ],
         "isClue": [
           [
+            false,
+            false,
             true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            4,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
             true,
             false,
             false
@@ -9436,7 +8316,7 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            false
+            true
           ],
           [
             false,
@@ -9455,21 +8335,181 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
             3,
             0,
+            2,
             0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
           ],
           [
             4,
             0,
             0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
             0
           ],
           [
             0,
             0,
-            0,
+            2,
             3
           ],
           [
@@ -9481,28 +8521,108 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            1,
             3,
             2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
             4
           ],
           [
             4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            4,
             1,
+            2,
             3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
           ]
         ],
         "isClue": [
@@ -9535,28 +8655,268 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
             3,
             2,
             0,
             0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            4
+          ],
+          [
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            2
           ]
         ],
         "solution": [
@@ -9573,16 +8933,256 @@ const data: PuzzleSet = {
             3
           ],
           [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
             4,
             1,
             3,
             2
           ],
           [
-            3,
-            2,
+            1,
             4,
-            1
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            1,
+            4
           ]
         ],
         "isClue": [
@@ -9590,7 +9190,7 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            false
+            true
           ],
           [
             false,
@@ -9606,7 +9206,407 @@ const data: PuzzleSet = {
           ],
           [
             true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
             true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
             false,
             false
           ]
@@ -9617,308 +9617,68 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            4,
-            0
-          ],
-          [
             4,
             0,
-            3,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
             0
           ]
         ],
         "solution": [
           [
-            1,
+            4,
             3,
             2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
             4
           ],
           [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
             3,
-            1,
             4,
+            1,
             2
           ],
           [
-            4,
             2,
-            3,
-            1
+            1,
+            4,
+            3
           ]
         ],
         "isClue": [
           [
             true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
             false,
             true,
             false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            4
-          ],
-          [
-            4,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
           ],
           [
             true,
             false,
             false,
             true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            4,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
           ],
           [
             false,
@@ -9937,85 +9697,11 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
-            1,
-            3
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
+            4,
             2,
             0,
             0
           ],
-          [
-            3,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
           [
             0,
             0,
@@ -10023,99 +9709,13 @@ const data: PuzzleSet = {
             0
           ],
           [
-            0,
+            1,
             0,
             2,
-            4
-          ],
-          [
-            4,
-            0,
-            3,
             0
           ],
           [
             0,
-            1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            4
-          ],
-          [
-            4,
             0,
             0,
             3
@@ -10123,268 +9723,28 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            1,
             4,
-            3,
-            2
-          ],
-          [
             2,
             3,
-            4,
             1
           ],
           [
             3,
-            2,
             1,
+            4,
+            2
+          ],
+          [
+            1,
+            3,
+            2,
             4
           ],
           [
+            2,
             4,
             1,
-            2,
             3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            3
-          ],
-          [
-            3,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
           ]
         ],
         "isClue": [
@@ -10418,107 +9778,27 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
             3,
+            0,
             0
-          ]
-        ],
-        "solution": [
+          ],
           [
-            4,
-            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
             1,
             2
           ],
           [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            3,
             0,
+            0,
+            3,
             0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            4
-          ],
-          [
-            3,
-            0,
-            0,
-            2
           ]
         ],
         "solution": [
@@ -10533,566 +9813,6 @@ const data: PuzzleSet = {
             1,
             4,
             3
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            4
-          ],
-          [
-            0,
-            4,
-            3,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            3,
-            2,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            3
-          ],
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            2,
-            1
           ],
           [
             3,
@@ -11112,7 +9832,7 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            true
+            false
           ],
           [
             true,
@@ -11129,86 +9849,6 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            4,
-            0,
-            2
-          ],
-          [
-            0,
-            1,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
             true,
             false
           ]
@@ -11218,36 +9858,30 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            2,
+            0,
+            0
+          ],
+          [
             4,
             0,
+            0,
             0
           ],
           [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
             1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
             3,
-            4
+            0
           ]
         ],
         "solution": [
-          [
-            3,
-            4,
-            2,
-            1
-          ],
           [
             1,
             2,
@@ -11259,6 +9893,12 @@ const data: PuzzleSet = {
             3,
             1,
             2
+          ],
+          [
+            3,
+            4,
+            2,
+            1
           ],
           [
             2,
@@ -11288,63 +9928,63 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
             true,
-            true
+            true,
+            false
           ]
         ]
       },
       {
         "values": [
           [
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
             3,
             0,
-            1
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
           ]
         ],
         "solution": [
           [
-            2,
-            1,
-            4,
-            3
-          ],
-          [
             3,
             4,
-            1,
-            2
+            2,
+            1
           ],
           [
-            1,
             2,
+            1,
             3,
             4
           ],
           [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
             4,
             3,
-            2,
-            1
+            1,
+            2
           ]
         ],
         "isClue": [
@@ -11362,15 +10002,175 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            true,
+            true,
+            false
+          ],
+          [
             false,
             false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
             true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
           ],
           [
             false,
             true,
             false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            0,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
             true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
           ]
         ]
       },
@@ -11380,51 +10180,51 @@ const data: PuzzleSet = {
             2,
             0,
             0,
-            4
+            3
           ],
           [
             4,
             0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
             2,
-            3
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0
           ]
         ],
         "solution": [
           [
             2,
-            3,
             1,
-            4
+            4,
+            3
           ],
           [
             4,
-            1,
-            3,
-            2
-          ],
-          [
             3,
             2,
-            4,
             1
           ],
           [
             1,
-            4,
             2,
-            3
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
           ]
         ],
         "isClue": [
@@ -11443,86 +10243,6 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
             true,
             true
           ],
@@ -11537,186 +10257,26 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0
-          ],
-          [
             0,
             0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
             3,
-            1
+            0
           ],
           [
-            3,
-            1,
+            0,
+            0,
             2,
             4
           ],
           [
-            1,
             3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            3
-          ],
-          [
-            0,
             0,
             0,
             0
           ],
           [
+            0,
             4,
-            0,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
             0,
             0
           ]
@@ -11735,176 +10295,16 @@ const data: PuzzleSet = {
             4
           ],
           [
-            2,
-            4,
-            1,
-            3
-          ],
-          [
             3,
             1,
             4,
             2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false
           ],
           [
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
+            2,
+            4,
             1,
-            3,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
             3
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            2
-          ],
-          [
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            2,
-            4,
-            1
           ]
         ],
         "isClue": [
@@ -11937,27 +10337,507 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            3,
-            2,
             0,
-            0
+            0,
+            1,
+            3
           ],
           [
             0,
             0,
             0,
-            0
-          ],
-          [
-            4,
-            0,
-            2,
             0
           ],
           [
             0,
             3,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            2,
             4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            3
+          ],
+          [
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
             0
           ]
         ],
@@ -11989,6 +10869,646 @@ const data: PuzzleSet = {
         ],
         "isClue": [
           [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
             true,
             true,
             false,
@@ -12003,12 +11523,492 @@ const data: PuzzleSet = {
           [
             true,
             false,
+            false,
+            true
+          ],
+          [
+            false,
             true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            2,
+            1,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
             false
           ],
           [
             false,
             true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
             true,
             false
           ]
@@ -12021,179 +12021,35 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
+            4,
+            1,
+            2,
             3,
-            0,
             6,
             0
           ],
           [
-            6,
-            0,
-            1,
-            0,
             3,
-            4
-          ],
-          [
             0,
             0,
-            6,
-            5,
-            1,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            6,
-            2,
-            1,
             4,
-            0
-          ],
-          [
-            4,
-            0,
-            5,
-            6,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4,
-            6,
-            5
-          ],
-          [
-            6,
-            5,
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            6,
-            5,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            5,
-            6,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            2,
-            1,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            5,
-            0,
             0,
             0
           ],
           [
             0,
+            5,
+            0,
             0,
             2,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            6,
             5,
-            4,
             3
           ],
           [
@@ -12202,833 +12058,65 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            2
+            0
           ],
           [
             0,
+            4,
             0,
-            6,
-            3,
             5,
-            4
-          ],
-          [
             3,
-            0,
-            0,
-            2,
-            0,
             6
           ]
         ],
         "solution": [
           [
-            6,
-            2,
-            1,
-            4,
-            3,
-            5
-          ],
-          [
-            4,
-            3,
-            5,
-            6,
-            2,
-            1
-          ],
-          [
-            1,
-            6,
-            2,
-            5,
-            4,
-            3
-          ],
-          [
-            5,
-            4,
-            3,
-            1,
-            6,
-            2
-          ],
-          [
-            2,
-            1,
-            6,
-            3,
-            5,
-            4
-          ],
-          [
-            3,
-            5,
-            4,
-            2,
-            1,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
             4,
             1,
-            0,
-            0,
-            6
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
             2,
-            0,
-            6,
-            0,
-            0,
-            4
-          ],
-          [
-            4,
-            1,
-            5,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            1
-          ],
-          [
-            1,
-            0,
-            0,
-            2,
-            6,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            4,
-            1,
-            3,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            4,
-            5
-          ],
-          [
-            2,
-            3,
-            6,
-            5,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            5,
-            6,
-            3,
-            2
-          ],
-          [
-            3,
-            6,
-            2,
-            4,
-            5,
-            1
-          ],
-          [
-            1,
-            5,
-            4,
-            2,
-            6,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            1,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            3,
-            5,
-            4,
-            1,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            2,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            6,
-            3,
-            1,
-            2,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            1,
-            6,
-            5,
-            3
-          ],
-          [
-            6,
-            3,
-            5,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
             3,
             6,
             5
           ],
           [
             3,
-            5,
-            6,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            5,
-            3,
-            6
-          ],
-          [
-            5,
-            6,
-            3,
-            1,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            5,
-            0,
-            4,
-            6,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            5,
-            0,
-            4
-          ],
-          [
-            5,
-            1,
-            0,
-            3,
-            2,
-            6
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            2,
-            6,
-            0,
-            1,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            5,
-            3,
-            4,
-            6,
-            2
-          ],
-          [
-            3,
-            4,
-            6,
-            2,
-            1,
-            5
-          ],
-          [
-            6,
-            2,
-            1,
-            5,
-            3,
-            4
-          ],
-          [
-            5,
-            1,
-            4,
-            3,
-            2,
-            6
-          ],
-          [
-            4,
-            3,
-            2,
             6,
             5,
-            1
-          ],
-          [
-            2,
-            6,
-            5,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            6,
-            2,
-            0,
-            0
-          ],
-          [
-            2,
-            6,
-            4,
-            5,
-            3,
-            0
-          ],
-          [
-            5,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            4,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            6,
-            0,
-            5,
-            4,
-            1,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            6,
-            2,
-            5,
-            4
-          ],
-          [
-            2,
-            6,
-            4,
-            5,
-            3,
-            1
-          ],
-          [
-            5,
-            4,
-            1,
-            3,
-            2,
-            6
-          ],
-          [
-            1,
-            3,
-            2,
-            6,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            3,
-            1,
-            6,
-            2
-          ],
-          [
-            6,
-            2,
-            5,
-            4,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            6,
-            2,
-            1,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            4,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            5,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            6,
-            0,
-            1,
-            2,
-            5,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            6,
-            2,
-            1,
-            3,
-            5
-          ],
-          [
-            1,
-            2,
-            5,
-            3,
-            4,
-            6
-          ],
-          [
-            3,
-            5,
-            6,
             4,
             1,
             2
           ],
           [
-            2,
-            1,
-            3,
-            5,
             6,
+            5,
+            3,
+            1,
+            2,
             4
           ],
           [
-            5,
-            3,
+            1,
+            2,
             4,
             6,
+            5,
+            3
+          ],
+          [
+            5,
+            3,
+            6,
             2,
+            4,
             1
           ],
           [
-            6,
+            2,
             4,
             1,
-            2,
             5,
-            3
+            3,
+            6
           ]
         ],
         "isClue": [
@@ -13041,303 +12129,7 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
-            false,
-            false,
             true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            5,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            5
-          ],
-          [
-            1,
-            5,
-            0,
-            2,
-            0,
-            4
-          ],
-          [
-            4,
-            6,
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            1,
-            0,
-            3,
-            4,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            4,
-            1,
-            5,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            6,
-            4,
-            1,
-            5
-          ],
-          [
-            1,
-            5,
-            3,
-            2,
-            6,
-            4
-          ],
-          [
-            4,
-            6,
-            5,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            6,
-            5,
-            1
-          ],
-          [
-            5,
-            1,
-            2,
-            3,
-            4,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            1,
-            2,
-            4
-          ],
-          [
-            0,
-            5,
-            0,
-            2,
-            4,
-            1
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            4,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            5,
-            3,
-            0,
-            4,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            3,
-            6,
-            5,
-            1,
-            2,
-            4
-          ],
-          [
-            6,
-            5,
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            2,
-            4,
-            5,
-            3,
-            6
-          ],
-          [
-            2,
-            4,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            5,
-            3,
-            6,
-            4,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
             false,
             false,
             true,
@@ -13347,470 +12139,6 @@ const data: PuzzleSet = {
           [
             false,
             true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            0,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            0,
-            5,
-            1,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            6,
-            2,
-            0,
-            5,
-            0
-          ],
-          [
-            6,
-            2,
-            3,
-            0,
-            4,
-            5
-          ],
-          [
-            5,
-            0,
-            0,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            5,
-            6,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            6,
-            5,
-            1,
-            4
-          ],
-          [
-            1,
-            5,
-            4,
-            2,
-            6,
-            3
-          ],
-          [
-            3,
-            6,
-            2,
-            4,
-            5,
-            1
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            4,
-            5
-          ],
-          [
-            5,
-            4,
-            1,
-            3,
-            2,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            6,
-            0,
-            5,
-            4,
-            1
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            6,
-            2,
-            0,
-            3,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            3,
-            5
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            6,
-            3,
-            5,
-            4,
-            1
-          ],
-          [
-            3,
-            5,
-            1,
-            4,
-            6,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            5,
-            3,
-            4,
-            1,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            5,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            6,
-            2,
-            3,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            1,
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            4,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            5,
-            6,
-            4
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            2,
-            3
-          ],
-          [
-            0,
-            2,
-            0,
-            4,
-            5,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            2,
-            6,
-            4,
-            5
-          ],
-          [
-            6,
-            4,
-            5,
-            3,
-            1,
-            2
-          ],
-          [
-            5,
-            6,
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            2,
-            3,
-            1,
-            5,
-            6,
-            4
-          ],
-          [
-            4,
-            5,
-            6,
-            1,
-            2,
-            3
-          ],
-          [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false,
             true,
@@ -13826,11 +12154,11 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
             false,
             false,
-            true,
-            true
+            false,
+            false,
+            false
           ],
           [
             false,
@@ -13845,101 +12173,101 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
-            3,
-            1,
             5,
+            1,
+            3,
             0,
+            2,
+            4
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
             0
           ],
           [
+            3,
             5,
-            4,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
             1,
-            2,
-            3,
-            6,
             0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            2,
-            4,
-            6,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            1,
-            5,
             4,
             6
           ],
           [
+            6,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
             5,
-            4,
+            0,
+            6,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            3,
             6,
             2,
+            4
+          ],
+          [
+            4,
+            2,
+            6,
+            3,
+            1,
+            5
+          ],
+          [
+            3,
+            5,
+            1,
+            2,
+            4,
+            6
+          ],
+          [
+            6,
+            4,
+            2,
+            1,
+            5,
+            3
+          ],
+          [
+            2,
+            6,
+            4,
+            5,
             3,
             1
           ],
           [
             1,
-            2,
             3,
-            6,
-            5,
-            4
-          ],
-          [
-            6,
             5,
             4,
-            1,
-            2,
-            3
-          ],
-          [
-            3,
-            1,
-            2,
-            4,
             6,
-            5
-          ],
-          [
-            4,
-            6,
-            5,
-            3,
-            1,
             2
           ]
         ],
@@ -13948,159 +12276,23 @@ const data: PuzzleSet = {
             true,
             true,
             true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
             false,
             true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            false,
-            false
+            true
           ],
           [
             false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
             true,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
             false,
             false,
             true,
             false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            4,
-            2,
-            5
           ],
-          [
-            4,
-            0,
-            0,
-            1,
-            0,
-            3
-          ],
-          [
-            6,
-            0,
-            0,
-            2,
-            5,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            6,
-            5,
-            4,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            6,
-            3,
-            4,
-            2,
-            5
-          ],
-          [
-            4,
-            2,
-            5,
-            1,
-            6,
-            3
-          ],
-          [
-            6,
-            3,
-            1,
-            2,
-            5,
-            4
-          ],
-          [
-            2,
-            5,
-            4,
-            6,
-            3,
-            1
-          ],
-          [
-            5,
-            4,
-            2,
-            3,
-            1,
-            6
-          ],
-          [
-            3,
-            1,
-            6,
-            5,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
           [
             true,
-            false,
-            false,
             true,
+            true,
+            false,
             true,
             true
           ],
@@ -14108,16 +12300,8 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
             false,
             false,
-            true,
-            true,
             true
           ],
           [
@@ -14129,18 +12313,10 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
-            false,
             true,
             true,
-            false,
-            false
-          ],
-          [
             true,
             false,
-            true,
-            true,
             true,
             true
           ]
@@ -14149,35 +12325,43 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            3,
             1,
-            2,
-            4,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
             3,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
+            5,
             0,
             4,
-            3,
             6
           ],
           [
+            4,
             0,
-            6,
             0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
             0,
             5,
+            0
+          ],
+          [
+            5,
+            0,
+            3,
+            4,
+            6,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            6,
+            2,
             4
           ],
           [
@@ -14185,373 +12369,77 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            1,
-            0
-          ],
-          [
-            2,
-            1,
             0,
-            5,
-            6,
-            0
+            1
           ]
         ],
         "solution": [
           [
+            1,
+            3,
+            5,
+            2,
+            4,
+            6
+          ],
+          [
+            4,
+            2,
             6,
             3,
             1,
-            2,
-            4,
             5
           ],
           [
-            5,
-            4,
             6,
-            3,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            5,
             4,
-            3,
-            6
-          ],
-          [
-            3,
-            6,
             2,
             1,
             5,
-            4
-          ],
-          [
-            4,
-            5,
-            3,
-            6,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            5,
-            6,
             3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true,
-            true,
-            false
           ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
           [
             5,
-            6,
-            0,
-            2,
-            0,
-            1
-          ],
-          [
-            0,
             1,
-            0,
-            6,
+            3,
             4,
+            6,
             2
           ],
           [
-            0,
-            0,
-            0,
-            1,
-            0,
-            6
-          ],
-          [
-            1,
             3,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
+            5,
+            1,
             6,
-            5,
-            0,
-            4,
-            1,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            6,
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            5,
-            6,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1,
-            5,
-            6
-          ],
-          [
-            1,
-            3,
-            6,
-            5,
             2,
             4
           ],
           [
             2,
+            6,
             4,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            6,
             5,
-            2,
-            4,
-            1,
-            3
+            3,
+            1
           ]
         ],
         "isClue": [
           [
             true,
             true,
-            false,
             true,
             false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
             true,
             true
           ],
           [
-            false,
-            false,
-            false,
             true,
             false,
-            true
-          ],
-          [
-            true,
-            true,
             false,
             false,
             false,
             false
           ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            1,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            5,
-            1,
-            6
-          ],
-          [
-            1,
-            0,
-            5,
-            0,
-            4,
-            2
-          ],
-          [
-            2,
-            0,
-            4,
-            6,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            1,
-            6,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            5,
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            3,
-            4,
-            2,
-            5,
-            1,
-            6
-          ],
-          [
-            1,
-            6,
-            5,
-            3,
-            4,
-            2
-          ],
-          [
-            2,
-            3,
-            4,
-            6,
-            5,
-            1
-          ],
-          [
-            4,
-            2,
-            3,
-            1,
-            6,
-            5
-          ],
-          [
-            5,
-            1,
-            6,
-            2,
-            3,
-            4
-          ]
-        ],
-        "isClue": [
           [
             false,
             false,
@@ -14561,150 +12449,6 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            0,
-            6,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            0,
-            5,
-            0,
-            6,
-            4
-          ],
-          [
-            6,
-            0,
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            5,
-            4,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            4,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            2,
-            6,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            5,
-            2,
-            6,
-            4
-          ],
-          [
-            6,
-            4,
-            1,
-            3,
-            5,
-            2
-          ],
-          [
-            2,
-            5,
-            4,
-            6,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            2,
-            5,
-            4,
-            6
-          ],
-          [
-            4,
-            6,
-            3,
-            1,
-            2,
-            5
-          ]
-        ],
-        "isClue": [
-          [
             true,
             false,
             true,
@@ -14713,185 +12457,9 @@ const data: PuzzleSet = {
             true
           ],
           [
-            true,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false,
             true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            6,
-            3,
-            1,
-            4,
-            0,
-            5
-          ],
-          [
-            0,
-            5,
-            6,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            6,
-            0,
-            1,
-            5,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            2,
-            5,
-            6,
-            3
-          ],
-          [
-            6,
-            3,
-            1,
-            4,
-            2,
-            5
-          ],
-          [
-            2,
-            5,
-            6,
-            3,
-            1,
-            4
-          ],
-          [
-            5,
-            2,
-            3,
-            6,
-            4,
-            1
-          ],
-          [
-            3,
-            6,
-            4,
-            1,
-            5,
-            2
-          ],
-          [
-            4,
-            1,
-            5,
-            2,
-            3,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
             true,
             true,
             true
@@ -14909,50 +12477,50 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
-            3,
-            5,
             0,
-            4,
-            6
+            0,
+            0,
+            0,
+            0,
+            0
           ],
           [
+            0,
+            0,
             6,
             4,
             0,
+            3
+          ],
+          [
             0,
+            6,
+            3,
             0,
+            2,
             5
           ],
           [
+            0,
+            4,
+            1,
+            3,
             5,
+            2
+          ],
+          [
             0,
+            2,
+            4,
             0,
-            0,
-            0,
+            3,
             1
           ],
           [
             0,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
             1,
             2,
-            5,
+            0,
             0,
             4
           ]
@@ -14967,36 +12535,36 @@ const data: PuzzleSet = {
             6
           ],
           [
+            2,
+            5,
             6,
             4,
             1,
+            3
+          ],
+          [
+            4,
+            6,
             3,
+            1,
             2,
             5
           ],
           [
-            5,
-            2,
             6,
             4,
-            3,
-            1
-          ],
-          [
-            4,
-            6,
-            3,
             1,
+            3,
             5,
             2
           ],
           [
-            2,
             5,
+            2,
             4,
             6,
-            1,
-            3
+            3,
+            1
           ],
           [
             3,
@@ -15009,6 +12577,622 @@ const data: PuzzleSet = {
         ],
         "isClue": [
           [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            4,
+            6,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            3,
+            4,
+            6
+          ],
+          [
+            0,
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            2,
+            6,
+            0,
+            0
+          ],
+          [
+            3,
+            6,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            2,
+            1,
+            4,
+            6,
+            3
+          ],
+          [
+            6,
+            4,
+            3,
+            2,
+            5,
+            1
+          ],
+          [
+            2,
+            1,
+            5,
+            3,
+            4,
+            6
+          ],
+          [
+            4,
+            3,
+            6,
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            5,
+            2,
+            6,
+            3,
+            4
+          ],
+          [
+            3,
+            6,
+            4,
+            5,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            5,
+            3,
+            6,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            4
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            5,
+            2,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            3,
+            1,
+            5,
+            4,
+            2
+          ],
+          [
+            5,
+            2,
+            4,
+            6,
+            1,
+            3
+          ],
+          [
+            2,
+            4,
+            5,
+            3,
+            6,
+            1
+          ],
+          [
+            3,
+            1,
+            6,
+            2,
+            5,
+            4
+          ],
+          [
+            1,
+            6,
+            3,
+            4,
+            2,
+            5
+          ],
+          [
+            4,
+            5,
+            2,
+            1,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            5,
+            6,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            6,
+            5,
+            2,
+            1,
+            3,
+            0
+          ],
+          [
+            5,
+            0,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            2,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            5,
+            6,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            4,
+            3,
+            6,
+            5
+          ],
+          [
+            6,
+            5,
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            5,
+            6,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            3,
+            6,
+            5,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            0,
+            6,
+            2
+          ],
+          [
+            6,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            5,
+            1,
+            0,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            2,
+            6,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            5,
+            6,
+            2
+          ],
+          [
+            6,
+            2,
+            4,
+            3,
+            5,
+            1
+          ],
+          [
+            2,
+            6,
+            3,
+            4,
+            1,
+            5
+          ],
+          [
+            1,
+            5,
+            6,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            5,
+            1,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
             true,
             true,
             true,
@@ -15025,17 +13209,9 @@ const data: PuzzleSet = {
             true
           ],
           [
+            false,
             true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
+            true,
             true,
             false,
             false
@@ -15062,253 +13238,101 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
             4,
+            2,
+            1,
             0,
+            5
+          ],
+          [
+            6,
             5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
             0
           ],
           [
             5,
-            3,
             6,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            6,
-            5,
             3,
             0,
-            4,
+            0,
             1
           ],
           [
-            3,
-            6,
-            5,
             0,
+            3,
             1,
-            2
+            2,
+            0,
+            6
           ],
           [
-            1,
             0,
             0,
+            6,
             0,
             0,
-            0
+            3
           ]
         ],
         "solution": [
           [
+            3,
+            4,
             2,
             1,
+            6,
+            5
+          ],
+          [
+            6,
+            5,
             4,
             3,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            3,
+            4
+          ],
+          [
+            5,
+            6,
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            2,
             5,
             6
           ],
           [
-            5,
-            3,
-            6,
-            1,
             2,
-            4
-          ],
-          [
+            1,
+            6,
+            5,
             4,
-            2,
-            1,
-            5,
-            6,
             3
-          ],
-          [
-            6,
-            5,
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            3,
-            6,
-            5,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            4,
-            2,
-            6,
-            3,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            5,
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            4,
-            5
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            6,
-            5,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            4,
-            0,
-            2,
-            3,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            5,
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            6,
-            4,
-            5
-          ],
-          [
-            1,
-            3,
-            2,
-            4,
-            5,
-            6
-          ],
-          [
-            4,
-            6,
-            5,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            1,
-            3,
-            5,
-            6,
-            4
-          ],
-          [
-            5,
-            4,
-            6,
-            2,
-            3,
-            1
           ]
         ],
         "isClue": [
@@ -15317,16 +13341,16 @@ const data: PuzzleSet = {
             true,
             true,
             true,
-            true,
+            false,
             true
           ],
           [
-            false,
-            false,
+            true,
             true,
             false,
-            true,
-            true
+            false,
+            false,
+            false
           ],
           [
             false,
@@ -15346,321 +13370,17 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             false,
             true
           ],
           [
             false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            5
-          ],
-          [
-            6,
-            0,
-            0,
-            3,
-            2,
-            1
-          ],
-          [
-            4,
-            6,
-            5,
-            0,
-            3,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            0,
-            6,
-            0,
-            1,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            0,
-            5,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            3,
-            4,
-            6,
-            5
-          ],
-          [
-            6,
-            5,
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            4,
-            6,
-            5,
-            1,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            1,
-            5,
-            4,
-            6
-          ],
-          [
-            5,
-            4,
-            6,
-            2,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            2,
-            6,
-            5,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
             false,
             true,
             false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            2,
-            0,
-            5,
-            6,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            2,
-            0,
-            4
-          ],
-          [
-            2,
-            3,
-            0,
-            4,
-            1,
-            6
-          ],
-          [
-            4,
-            0,
-            0,
-            6,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            4,
-            5,
-            6,
-            1
-          ],
-          [
-            5,
-            4,
-            6,
-            1,
-            2,
-            3
-          ],
-          [
-            1,
-            6,
-            2,
-            3,
-            4,
-            5
-          ],
-          [
-            6,
-            1,
-            3,
-            2,
-            5,
-            4
-          ],
-          [
-            2,
-            3,
-            5,
-            4,
-            1,
-            6
-          ],
-          [
-            4,
-            5,
-            1,
-            6,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
             false,
             true
           ]
@@ -15670,138 +13390,130 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            6,
-            2,
-            0,
             1,
-            4
-          ],
-          [
             0,
-            0,
-            0,
-            0,
+            4,
             0,
             0
           ],
           [
             0,
-            0,
-            6,
             5,
+            4,
+            6,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            4,
+            3,
+            5,
+            0,
             2,
             0
           ],
           [
-            6,
-            5,
-            3,
-            2,
-            4,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           [
-            0,
+            5,
+            4,
             3,
-            4,
             0,
-            5,
-            0
-          ],
-          [
-            0,
-            4,
-            5,
             6,
-            3,
             0
           ]
         ],
         "solution": [
           [
-            5,
+            2,
+            1,
             6,
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            3,
-            2,
-            1,
             4,
-            6,
-            5
-          ],
-          [
-            4,
-            1,
-            6,
             5,
-            2,
             3
           ],
           [
-            6,
-            5,
             3,
-            2,
+            5,
             4,
-            1
+            6,
+            1,
+            2
           ],
           [
+            6,
             2,
-            3,
-            4,
             1,
             5,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            5,
+            1,
+            2,
             6
           ],
           [
             1,
-            4,
-            5,
             6,
+            2,
             3,
-            2
+            4,
+            5
+          ],
+          [
+            5,
+            4,
+            3,
+            2,
+            6,
+            1
           ]
         ],
         "isClue": [
           [
             false,
             true,
+            false,
             true,
             false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
             true,
             true
           ],
           [
             false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
             true,
             true,
+            false,
             true,
             false
           ],
           [
             true,
-            true,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
             true,
             true,
             false,
@@ -15810,9 +13522,17 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
             true,
             true,
             true,
+            false,
             true,
             false
           ]
@@ -15822,138 +13542,122 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            6,
             0,
-            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
             5,
-            3
-          ],
-          [
-            0,
-            4,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            2,
+            1,
             6,
             0,
-            0
+            0,
+            4
           ],
           [
-            0,
-            0,
-            6,
             2,
+            0,
+            0,
+            0,
             0,
             1
           ],
           [
-            0,
-            0,
-            0,
+            1,
+            6,
+            5,
             0,
             0,
             2
           ],
           [
+            6,
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
             0,
             2,
             0,
             1,
-            3,
-            5
+            6
           ]
         ],
         "solution": [
           [
+            4,
             2,
-            6,
-            1,
-            4,
-            5,
-            3
-          ],
-          [
-            1,
-            4,
-            5,
             3,
-            2,
-            6
+            1,
+            6,
+            5
           ],
           [
             5,
-            3,
-            2,
-            6,
             1,
+            6,
+            2,
+            3,
             4
           ],
           [
-            3,
-            5,
-            6,
             2,
+            3,
             4,
+            6,
+            5,
             1
           ],
           [
-            4,
             1,
-            3,
-            5,
             6,
+            5,
+            3,
+            4,
             2
           ],
           [
             6,
-            2,
-            4,
+            5,
             1,
+            4,
+            2,
+            3
+          ],
+          [
             3,
-            5
+            4,
+            2,
+            5,
+            1,
+            6
           ]
         ],
         "isClue": [
           [
             false,
-            true,
             false,
-            true,
-            true,
-            true
-          ],
-          [
             false,
-            true,
             false,
-            true,
             false,
             false
           ],
           [
-            false,
             true,
             true,
             true,
             false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
             false,
             true
           ],
           [
-            false,
+            true,
             false,
             false,
             false,
@@ -15961,10 +13665,26 @@ const data: PuzzleSet = {
             true
           ],
           [
+            true,
+            true,
+            true,
             false,
+            false,
+            true
+          ],
+          [
             true,
             false,
             true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
             true,
             true
           ]
@@ -15973,50 +13693,50 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
+            0,
+            6,
             4,
-            5,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            2,
+            6
+          ],
+          [
             1,
             3,
-            0
+            6,
+            0,
+            0,
+            4
           ],
           [
             3,
-            0,
-            0,
-            4,
-            5,
-            0
-          ],
-          [
-            5,
-            0,
-            3,
-            0,
-            2,
-            0
-          ],
-          [
-            4,
-            2,
             1,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
             2,
+            6,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            3,
             0,
             0
           ]
@@ -16024,85 +13744,85 @@ const data: PuzzleSet = {
         "solution": [
           [
             2,
+            6,
             4,
             5,
             1,
-            3,
-            6
-          ],
-          [
-            3,
-            6,
-            2,
-            4,
-            5,
-            1
-          ],
-          [
-            5,
-            1,
-            3,
-            6,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            5,
-            6,
             3
           ],
           [
-            1,
             5,
-            6,
-            3,
             4,
-            2
+            3,
+            1,
+            2,
+            6
+          ],
+          [
+            1,
+            3,
+            6,
+            2,
+            5,
+            4
+          ],
+          [
+            3,
+            1,
+            2,
+            6,
+            4,
+            5
           ],
           [
             6,
-            3,
-            4,
             2,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            4,
+            5,
             1,
-            5
+            3,
+            6,
+            2
           ]
         ],
         "isClue": [
           [
+            false,
             true,
             true,
-            true,
-            true,
-            true,
-            false
+            false,
+            false,
+            true
           ],
           [
-            true,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
             false,
             true,
             false,
+            false,
             true,
-            false
+            true
           ],
           [
             true,
             true,
             true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
             true,
             false,
-            false
+            true
           ],
           [
             false,
@@ -16125,44 +13845,1564 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            2,
-            6,
-            0,
             1,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            5,
+            4,
+            0,
+            3,
             0
           ],
           [
             0,
-            1,
-            2,
             0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            4,
+            0,
+            5,
+            1,
             6,
             3
           ],
           [
+            5,
+            4,
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            3,
+            5,
+            4,
+            2
+          ],
+          [
+            2,
+            5,
+            4,
+            6,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            6,
+            2,
+            5,
+            4
+          ],
+          [
+            4,
+            2,
+            5,
+            1,
+            6,
+            3
+          ],
+          [
+            5,
+            4,
+            2,
+            3,
+            1,
+            6
+          ],
+          [
+            6,
+            3,
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            6,
+            4,
+            0,
+            2,
+            5
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
             0,
             6,
+            0
+          ],
+          [
+            6,
+            4,
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            6,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            4,
+            1,
+            2,
+            5
+          ],
+          [
+            2,
             1,
             5,
+            6,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            2,
+            4,
+            6,
+            3
+          ],
+          [
+            6,
+            4,
+            3,
+            5,
+            1,
+            2
+          ],
+          [
+            4,
+            3,
+            6,
+            2,
+            5,
+            1
+          ],
+          [
+            5,
+            2,
+            1,
+            3,
+            4,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            5,
+            3,
+            0,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
+            0,
+            0,
             0,
             0
           ],
           [
             0,
-            5,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
             4,
+            1,
+            5,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0,
+            4,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            5,
+            3,
+            2,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
+            5,
+            1,
+            3,
+            2
+          ],
+          [
             2,
             3,
+            6,
+            4,
+            5,
+            1
+          ],
+          [
+            6,
+            4,
+            1,
+            5,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4,
+            6,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            2,
+            3,
+            5,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            6,
+            2,
+            0,
+            5
+          ],
+          [
+            0,
+            5,
+            0,
+            4,
+            0,
+            2
+          ],
+          [
+            0,
+            6,
+            5,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            2,
+            3,
+            5,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            6,
+            2,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            1,
+            4,
+            6,
+            2
+          ],
+          [
+            2,
+            6,
+            5,
+            3,
+            4,
+            1
+          ],
+          [
+            5,
+            3,
+            4,
+            1,
+            2,
+            6
+          ],
+          [
+            4,
+            1,
+            2,
+            6,
+            5,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            5,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            6,
+            4,
+            3,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            3,
+            5,
+            4
+          ],
+          [
+            5,
+            0,
+            0,
+            1,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          [
+            3,
+            5,
+            4,
+            6,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            6,
+            4,
+            3,
+            5
+          ],
+          [
+            2,
+            6,
+            1,
+            3,
+            5,
+            4
+          ],
+          [
+            5,
+            4,
+            3,
+            1,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            5,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            4,
+            5,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            2,
+            6,
+            0,
+            1,
+            0,
+            5
+          ],
+          [
+            1,
+            4,
+            0,
+            2,
+            6,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            6,
+            5,
+            1,
+            4
+          ],
+          [
+            5,
+            1,
+            4,
+            3,
+            2,
+            6
+          ],
+          [
+            6,
+            3,
+            2,
+            4,
+            5,
+            1
+          ],
+          [
+            4,
+            5,
+            1,
+            6,
+            3,
+            2
+          ],
+          [
+            2,
+            6,
+            3,
+            1,
+            4,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            6,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            6,
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            1,
+            3,
+            0,
+            2,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            5,
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2,
+            6,
+            5
+          ],
+          [
+            5,
+            2,
+            6,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            6,
+            5,
+            2
+          ],
+          [
+            2,
+            6,
+            5,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            5,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            5,
+            1,
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          [
+            0,
+            6,
+            3,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            4,
+            6,
+            0,
+            3,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            5,
+            1,
+            6,
+            2,
+            3
+          ],
+          [
+            6,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            3,
+            2,
+            5,
+            4,
+            1,
+            6
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          [
+            5,
+            4,
+            6,
+            1,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            3,
+            6,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            0,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            4,
+            0,
+            1,
+            2,
+            5
+          ],
+          [
+            0,
+            5,
+            0,
+            6,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            6,
+            5,
+            1,
+            2
+          ],
+          [
+            5,
+            2,
+            1,
+            4,
+            6,
+            3
+          ],
+          [
+            2,
+            1,
+            5,
+            3,
+            4,
+            6
+          ],
+          [
+            3,
+            6,
+            4,
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            4,
+            3,
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            5,
+            2,
+            6,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            6,
+            2,
+            0,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
             6
           ],
           [
             0,
             0,
             0,
+            5,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
             0,
             4,
+            5,
+            6,
+            0,
+            0
+          ],
+          [
+            6,
+            5,
+            1,
+            2,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            6,
+            2,
+            1,
+            4,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            3,
+            6,
+            5,
+            1,
             2
+          ],
+          [
+            2,
+            1,
+            4,
+            3,
+            6,
+            5
+          ],
+          [
+            3,
+            4,
+            5,
+            6,
+            2,
+            1
+          ],
+          [
+            6,
+            5,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            2,
+            4,
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            4,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            1,
+            5,
+            6
+          ],
+          [
+            0,
+            0,
+            2,
+            5,
+            6,
+            1
           ],
           [
             0,
@@ -16175,82 +15415,82 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            4,
-            2,
-            6,
             3,
+            2,
+            4,
+            6,
             1,
             5
           ],
           [
             5,
+            6,
             1,
             2,
             4,
-            6,
             3
           ],
           [
-            3,
             6,
             1,
             5,
-            2,
-            4
-          ],
-          [
-            1,
-            5,
             4,
-            2,
             3,
-            6
-          ],
-          [
-            6,
-            3,
-            5,
-            1,
-            4,
             2
           ],
           [
             2,
             4,
             3,
-            6,
+            1,
             5,
+            6
+          ],
+          [
+            4,
+            3,
+            2,
+            5,
+            6,
             1
+          ],
+          [
+            1,
+            5,
+            6,
+            3,
+            2,
+            4
           ]
         ],
         "isClue": [
           [
-            false,
             true,
             true,
-            false,
+            true,
+            true,
             true,
             false
           ],
           [
             false,
             true,
-            true,
+            false,
             false,
             true,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
             false
           ],
           [
             false,
+            false,
             true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
             true,
             true,
             true,
@@ -16259,8 +15499,8 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            false,
+            true,
+            true,
             true,
             true
           ],
@@ -16278,123 +15518,107 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
             5,
             3,
-            1,
-            0,
+            4,
             6
           ],
           [
-            2,
+            0,
+            0,
             6,
             0,
-            5,
-            0,
+            2,
             0
           ],
           [
             0,
             1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
+            2,
             4,
-            1,
+            6,
             3
           ],
           [
             0,
+            4,
             0,
             0,
-            2,
             0,
-            4
+            5
           ],
           [
             0,
-            4,
+            5,
             1,
-            3,
             6,
-            2
+            3,
+            4
           ]
         ],
         "solution": [
           [
-            4,
-            5,
             3,
+            6,
+            4,
+            1,
+            5,
+            2
+          ],
+          [
             1,
             2,
+            5,
+            3,
+            4,
             6
           ],
           [
-            2,
-            6,
             4,
-            5,
             3,
+            6,
+            5,
+            2,
             1
           ],
           [
-            3,
-            1,
-            2,
-            6,
-            4,
-            5
-          ],
-          [
-            6,
-            2,
             5,
-            4,
             1,
+            2,
+            4,
+            6,
             3
           ],
           [
-            1,
-            3,
             6,
+            4,
+            3,
             2,
-            5,
-            4
+            1,
+            5
           ],
           [
+            2,
             5,
-            4,
             1,
-            3,
             6,
-            2
+            3,
+            4
           ]
         ],
         "isClue": [
           [
             false,
-            true,
-            true,
-            true,
             false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
             false,
             false,
             false,
@@ -16402,8 +15626,8 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
-            false,
+            true,
+            true,
             true,
             true,
             true
@@ -16411,8 +15635,24 @@ const data: PuzzleSet = {
           [
             false,
             false,
+            true,
             false,
             true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
             false,
             true
           ],
@@ -16429,28 +15669,12 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            5,
-            0,
+            3,
             2,
-            0,
-            4,
-            1
-          ],
-          [
-            4,
+            5,
             0,
             1,
-            3,
-            5,
-            2
-          ],
-          [
-            0,
-            0,
-            6,
-            5,
-            2,
-            3
+            0
           ],
           [
             0,
@@ -16461,23 +15685,71 @@ const data: PuzzleSet = {
             0
           ],
           [
-            0,
-            0,
-            4,
             2,
+            5,
             3,
-            5
+            0,
+            6,
+            0
           ],
           [
             0,
+            6,
+            0,
             0,
             5,
+            0
+          ],
+          [
+            5,
+            3,
             0,
+            6,
+            4,
+            1
+          ],
+          [
+            6,
+            4,
             0,
-            4
+            5,
+            3,
+            0
           ]
         ],
         "solution": [
+          [
+            3,
+            2,
+            5,
+            4,
+            1,
+            6
+          ],
+          [
+            4,
+            1,
+            6,
+            3,
+            2,
+            5
+          ],
+          [
+            2,
+            5,
+            3,
+            1,
+            6,
+            4
+          ],
+          [
+            1,
+            6,
+            4,
+            2,
+            5,
+            3
+          ],
           [
             5,
             3,
@@ -16487,70 +15759,22 @@ const data: PuzzleSet = {
             1
           ],
           [
-            4,
             6,
+            4,
             1,
-            3,
             5,
+            3,
             2
-          ],
-          [
-            1,
-            4,
-            6,
-            5,
-            2,
-            3
-          ],
-          [
-            2,
-            5,
-            3,
-            4,
-            1,
-            6
-          ],
-          [
-            6,
-            1,
-            4,
-            2,
-            3,
-            5
-          ],
-          [
-            3,
-            2,
-            5,
-            1,
-            6,
-            4
           ]
         ],
         "isClue": [
           [
             true,
-            false,
             true,
-            false,
-            true,
-            true
-          ],
-          [
             true,
             false,
             true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
+            false
           ],
           [
             false,
@@ -16561,8 +15785,456 @@ const data: PuzzleSet = {
             false
           ],
           [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
             false,
             false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            3,
+            4,
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            2,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            3,
+            5,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            6,
+            5,
+            2,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            6,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            5,
+            6,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0,
+            2,
+            3,
+            5
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            6,
+            4,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            6,
+            4,
+            0,
+            5,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            5,
+            2,
+            6,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            6,
+            2,
+            3,
+            5
+          ],
+          [
+            2,
+            3,
+            5,
+            1,
+            6,
+            4
+          ],
+          [
+            6,
+            4,
+            1,
+            5,
+            2,
+            3
+          ],
+          [
+            5,
+            2,
+            3,
+            4,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            4,
+            3,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            3,
+            2,
+            0,
+            5,
+            4
+          ],
+          [
+            0,
+            2,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            4,
+            5
+          ],
+          [
+            2,
+            6,
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            2,
+            6,
+            5,
+            4
+          ],
+          [
+            6,
+            2,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            4,
+            5,
+            3,
+            1,
+            2,
+            6
+          ],
+          [
+            3,
+            1,
+            6,
+            2,
+            4,
+            5
+          ],
+          [
+            2,
+            6,
+            4,
+            5,
+            1,
+            3
+          ],
+          [
+            5,
+            4,
+            1,
+            3,
+            6,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
             true,
             true,
             true,
@@ -16573,8 +16245,336 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            3,
+            6,
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            3,
+            6,
+            0,
+            5
+          ],
+          [
+            6,
+            3,
+            1,
+            5,
+            0,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            6,
+            3,
+            5,
+            1
+          ],
+          [
+            1,
+            5,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            5,
+            1,
+            4,
+            2
+          ],
+          [
+            5,
+            1,
+            2,
+            4,
+            3,
+            6
+          ],
+          [
+            4,
+            2,
+            3,
+            6,
+            1,
+            5
+          ],
+          [
+            6,
+            3,
+            1,
+            5,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
             false,
             true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            3,
+            2,
+            4,
+            0,
+            5,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            2,
+            0,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            1,
+            0,
+            6,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            5,
+            6,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1,
+            5,
+            6
+          ],
+          [
+            5,
+            6,
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            5,
+            2,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            2,
+            3,
+            1,
+            4,
+            6,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
           ]
         ]
       }
@@ -16583,1866 +16583,42 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            4,
+            0,
+            2,
             0,
             5,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            2,
-            1,
-            0,
-            4
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           [
             0,
-            0,
-            5,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            1
-          ],
-          [
             6,
-            0,
-            1,
-            0,
-            4,
-            5
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            5,
-            3,
-            6,
-            1,
-            2
-          ],
-          [
-            3,
-            6,
-            2,
-            1,
-            5,
-            4
-          ],
-          [
-            2,
-            1,
-            4,
-            5,
-            6,
-            3
-          ],
-          [
-            1,
-            2,
-            5,
-            4,
-            3,
-            6
-          ],
-          [
-            5,
-            4,
-            6,
-            3,
-            2,
-            1
-          ],
-          [
-            6,
-            3,
-            1,
-            2,
-            4,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
             0,
             0,
             4,
-            5,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            3,
-            0
-          ],
-          [
-            6,
-            0,
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            5,
-            0,
             0
           ],
           [
             1,
-            5,
-            0,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            6,
-            2,
-            4,
-            5,
-            1
-          ],
-          [
-            5,
-            4,
-            1,
-            6,
-            3,
-            2
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            4,
-            5
-          ],
-          [
-            4,
-            1,
-            5,
-            2,
-            6,
-            3
-          ],
-          [
-            2,
-            3,
-            6,
-            5,
-            1,
-            4
-          ],
-          [
-            1,
-            5,
-            4,
-            3,
-            2,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            6,
-            2,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
-            5
-          ],
-          [
-            0,
-            3,
-            2,
-            6,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            5,
-            6,
-            2,
-            1,
-            4
-          ],
-          [
-            2,
-            6,
-            1,
-            4,
-            5,
-            3
-          ],
-          [
-            4,
-            1,
-            5,
-            3,
-            6,
-            2
-          ],
-          [
-            1,
-            4,
-            3,
-            5,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            4,
-            1,
-            3,
-            5
-          ],
-          [
-            5,
-            3,
-            2,
-            6,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            6,
-            3,
-            0,
-            0
-          ],
-          [
-            1,
-            5,
-            3,
-            0,
-            0,
-            0
-          ],
-          [
             0,
             0,
             0,
             2,
-            6,
             4
           ],
           [
             0,
             0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            4,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            6,
-            3,
-            5,
-            1
-          ],
-          [
-            1,
-            5,
-            3,
-            6,
-            4,
-            2
-          ],
-          [
-            5,
-            3,
-            1,
-            2,
-            6,
-            4
-          ],
-          [
-            4,
-            6,
-            2,
-            1,
-            3,
-            5
-          ],
-          [
-            6,
-            2,
-            4,
-            5,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            5,
-            4,
-            2,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            6,
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
             3,
             0,
-            0,
-            0
-          ],
-          [
-            4,
-            5,
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            1,
-            3,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            4,
-            6,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            5,
-            4,
-            6,
-            2
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            5,
-            4
-          ],
-          [
-            4,
-            5,
-            2,
-            6,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            4,
-            5,
-            2,
-            6
-          ],
-          [
-            2,
-            6,
-            1,
-            3,
-            4,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            1,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            2,
-            6,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            4,
-            3,
-            1,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            5,
-            4,
-            1,
-            3
-          ],
-          [
-            3,
-            1,
-            6,
-            2,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            1,
-            3,
-            6,
-            2
-          ],
-          [
-            2,
-            6,
-            4,
-            5,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            2,
-            6,
-            5,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            6,
             1,
             5
           ],
           [
-            0,
-            0,
-            0,
-            0,
-            3,
-            6
-          ],
-          [
-            4,
-            2,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            5,
-            2,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            6,
-            5,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            3,
-            1,
-            5,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            3,
-            6,
-            1,
-            5
-          ],
-          [
-            5,
-            1,
-            4,
-            2,
-            3,
-            6
-          ],
-          [
-            4,
-            2,
-            6,
-            3,
-            5,
-            1
-          ],
-          [
-            1,
-            5,
-            2,
-            4,
-            6,
-            3
-          ],
-          [
-            3,
-            6,
-            5,
-            1,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            0,
-            5,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            6,
-            3,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            5,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            1,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            2,
-            5,
-            1,
-            3,
-            4
-          ],
-          [
-            1,
-            3,
-            4,
-            6,
-            2,
-            5
-          ],
-          [
-            2,
-            5,
-            6,
-            3,
-            4,
-            1
-          ],
-          [
-            3,
-            4,
-            1,
-            2,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            4,
-            1,
-            3,
-            5,
-            6,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            1,
-            4,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            4,
-            6,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            5,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            6,
-            0,
-            5,
-            3,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            5,
-            6,
-            4,
-            1
-          ],
-          [
-            6,
-            1,
-            4,
-            2,
-            5,
-            3
-          ],
-          [
-            1,
-            4,
-            6,
             3,
             2,
-            5
-          ],
-          [
-            3,
-            5,
-            2,
-            1,
-            6,
-            4
-          ],
-          [
-            5,
-            2,
-            3,
-            4,
-            1,
-            6
-          ],
-          [
-            4,
-            6,
-            1,
-            5,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            5,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            0,
             4,
             0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            2,
-            5,
-            1
-          ],
-          [
-            6,
-            3,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            2,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            2,
-            1,
-            3,
-            6,
-            4
-          ],
-          [
-            3,
-            4,
-            6,
-            5,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            5,
-            4,
-            3,
-            6
-          ],
-          [
-            4,
-            6,
-            3,
-            2,
-            5,
-            1
-          ],
-          [
-            6,
-            3,
-            4,
-            1,
-            2,
-            5
-          ],
-          [
-            1,
-            5,
-            2,
-            6,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            4,
-            3,
-            6,
-            1,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            5,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            5,
-            4,
-            2,
-            6,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
-            6,
-            1,
-            5
-          ],
-          [
-            6,
-            3,
-            5,
-            1,
-            2,
-            4
-          ],
-          [
-            3,
-            6,
-            1,
-            5,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            6,
-            3,
-            5,
-            1
-          ],
-          [
-            5,
-            1,
-            2,
-            4,
-            3,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            4,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            5,
-            6,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            4,
-            5,
-            2,
-            1,
-            6
-          ],
-          [
-            6,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            5,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            6,
-            4,
-            3,
-            2,
-            5
-          ],
-          [
-            2,
-            5,
-            6,
-            1,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            5,
-            2,
-            1,
-            6
-          ],
-          [
-            6,
-            1,
-            3,
-            4,
-            5,
-            2
-          ],
-          [
-            5,
-            2,
-            1,
-            6,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            2,
-            5,
-            6,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            5,
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            6,
-            0,
-            2
-          ],
-          [
-            2,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            2,
-            6,
-            5
-          ],
-          [
-            4,
-            3,
-            1,
-            5,
             0,
             0
           ],
@@ -18457,56 +16633,64 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            6,
-            5,
+            4,
+            3,
             2,
             1,
+            5,
+            6
+          ],
+          [
+            5,
+            6,
+            1,
+            2,
             4,
             3
           ],
           [
             1,
-            4,
-            3,
-            6,
             5,
-            2
-          ],
-          [
+            6,
+            3,
             2,
-            6,
-            5,
-            3,
-            1,
             4
           ],
           [
-            3,
-            1,
-            4,
             2,
+            4,
+            3,
             6,
+            1,
             5
           ],
           [
-            4,
             3,
-            1,
-            5,
             2,
-            6
+            4,
+            5,
+            6,
+            1
           ],
           [
-            5,
-            2,
             6,
+            1,
+            5,
             4,
             3,
-            1
+            2
           ]
         ],
         "isClue": [
           [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
             false,
             true,
             false,
@@ -18518,23 +16702,15 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            true,
             false,
+            true,
             true
           ],
           [
-            true,
             false,
             false,
             true,
             false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
             true,
             true
           ],
@@ -18542,7 +16718,7 @@ const data: PuzzleSet = {
             true,
             true,
             true,
-            true,
+            false,
             false,
             false
           ],
@@ -18559,327 +16735,39 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
             5,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            3,
-            2,
-            0
-          ],
-          [
-            5,
-            2,
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            6,
-            1,
-            2,
-            5,
-            3
-          ],
-          [
-            3,
-            5,
-            2,
-            1,
-            6,
-            4
-          ],
-          [
-            2,
-            3,
-            5,
-            6,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            6,
-            5,
-            3,
-            2
-          ],
-          [
-            6,
-            1,
-            4,
-            3,
-            2,
-            5
-          ],
-          [
-            5,
-            2,
-            3,
-            4,
-            1,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
             1,
             0,
             0,
             0,
-            0,
-            0
-          ],
-          [
-            4,
-            5,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            5,
-            3,
-            0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            1,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            6,
-            3,
-            4,
-            2,
-            5
-          ],
-          [
-            4,
-            5,
-            2,
-            1,
-            3,
             6
           ],
           [
             2,
-            4,
-            5,
-            3,
-            6,
-            1
-          ],
-          [
-            3,
-            1,
-            6,
-            2,
-            5,
-            4
-          ],
-          [
-            5,
-            2,
-            4,
-            6,
-            1,
-            3
-          ],
-          [
-            6,
-            3,
-            1,
-            5,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
             0,
-            2,
+            6,
             0,
             0,
             4
           ],
           [
             0,
-            6,
+            0,
             0,
             1,
             0,
-            5
+            0
           ],
           [
+            0,
+            4,
+            5,
             3,
+            0,
+            0
+          ],
+          [
+            6,
             0,
             0,
             0,
@@ -18887,27 +16775,11 @@ const data: PuzzleSet = {
             0
           ],
           [
-            2,
+            0,
             5,
             1,
             0,
             0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            4,
             0
           ]
         ],
@@ -18915,703 +16787,95 @@ const data: PuzzleSet = {
           [
             5,
             1,
-            2,
-            6,
-            3,
-            4
-          ],
-          [
-            4,
-            6,
-            3,
-            1,
-            2,
-            5
-          ],
-          [
-            3,
-            4,
-            6,
-            5,
-            1,
-            2
-          ],
-          [
-            2,
-            5,
-            1,
-            4,
-            6,
-            3
-          ],
-          [
-            6,
-            3,
             4,
             2,
-            5,
-            1
-          ],
-          [
-            1,
-            2,
-            5,
             3,
-            4,
             6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            true
           ],
           [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            6,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            3,
-            5
-          ],
-          [
-            3,
-            0,
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            4,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            5,
             2,
             3,
             6,
+            5,
             1,
             4
           ],
           [
-            4,
-            6,
-            1,
-            2,
             3,
+            6,
+            2,
+            1,
+            4,
             5
           ],
           [
-            3,
-            5,
-            2,
-            4,
-            6,
-            1
-          ],
-          [
             1,
             4,
-            6,
             5,
-            2,
-            3
-          ],
-          [
-            6,
-            1,
-            4,
             3,
-            5,
+            6,
             2
           ],
           [
-            2,
-            3,
-            5,
-            1,
-            4,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
             6,
-            0,
-            0,
-            0
-          ],
-          [
             2,
-            1,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            2,
-            0,
             3,
-            0
-          ],
-          [
-            0,
-            6,
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            5,
-            6,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            1,
             4,
             5,
-            6,
-            3
-          ],
-          [
-            1,
-            4,
-            2,
-            6,
-            3,
-            5
-          ],
-          [
-            5,
-            6,
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            6,
-            3,
-            5,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            2,
-            1,
-            3,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            5,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
-            5
-          ],
-          [
-            2,
-            0,
-            4,
-            5,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            3,
-            1,
-            2,
-            5,
-            4
-          ],
-          [
-            1,
-            2,
-            5,
-            4,
-            6,
-            3
-          ],
-          [
-            5,
-            4,
-            6,
-            3,
-            1,
-            2
-          ],
-          [
-            4,
-            5,
-            3,
-            6,
-            2,
-            1
-          ],
-          [
-            3,
-            6,
-            2,
-            1,
-            4,
-            5
-          ],
-          [
-            2,
-            1,
-            4,
-            5,
-            3,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            1,
-            6,
-            4,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            1,
-            6,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            2,
-            5
-          ],
-          [
-            5,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            1,
-            6,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            2,
-            5,
-            4,
-            1,
-            6
-          ],
-          [
-            1,
-            6,
-            4,
-            5,
-            3,
-            2
-          ],
-          [
-            2,
-            5,
-            3,
-            1,
-            6,
-            4
-          ],
-          [
-            6,
-            4,
-            1,
-            3,
-            2,
-            5
-          ],
-          [
-            5,
-            3,
-            2,
-            6,
-            4,
             1
           ],
           [
             4,
+            5,
             1,
             6,
             2,
-            5,
             3
           ]
         ],
         "isClue": [
           [
-            false,
-            false,
-            false,
-            false,
             true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
             true,
             false,
             false,
             false,
-            true,
             true
           ],
           [
             true,
             false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
             false,
             false,
             false,
             false
           ],
           [
-            true,
+            false,
             true,
             true,
             false,
@@ -19625,194 +16889,42 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            1,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            0,
             5,
-            4,
-            1,
-            3
-          ],
-          [
             0,
             0,
-            6,
-            0,
-            5,
             4
           ],
           [
             0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
             0,
             6,
-            0,
-            0,
-            3,
-            1
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
+            2,
             0,
             0
-          ]
-        ],
-        "solution": [
+          ],
           [
+            0,
             5,
-            4,
+            2,
+            0,
             1,
-            3,
+            0
+          ],
+          [
+            4,
             6,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            3,
             2
-          ],
-          [
-            6,
-            2,
-            5,
-            4,
-            1,
-            3
-          ],
-          [
-            1,
-            3,
-            6,
-            2,
-            5,
-            4
-          ],
-          [
-            3,
-            1,
-            2,
-            6,
-            4,
-            5
-          ],
-          [
-            2,
-            6,
-            4,
-            5,
-            3,
-            1
-          ],
-          [
-            4,
-            5,
-            3,
-            1,
-            2,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            3,
-            0,
-            2
-          ],
-          [
-            3,
-            0,
-            0,
-            6,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            4,
-            6
           ],
           [
             0,
@@ -19826,84 +16938,84 @@ const data: PuzzleSet = {
         "solution": [
           [
             2,
-            5,
             3,
+            5,
+            1,
+            6,
+            4
+          ],
+          [
+            1,
             4,
             6,
-            1
+            2,
+            5,
+            3
+          ],
+          [
+            3,
+            5,
+            2,
+            4,
+            1,
+            6
           ],
           [
             4,
-            1,
             6,
-            2,
+            1,
             3,
+            2,
             5
           ],
           [
             6,
-            4,
             1,
-            3,
+            4,
             5,
+            3,
             2
           ],
           [
-            3,
-            2,
             5,
-            6,
-            1,
-            4
-          ],
-          [
-            5,
-            3,
             2,
-            1,
-            4,
-            6
-          ],
-          [
-            1,
+            3,
             6,
             4,
-            5,
-            2,
-            3
+            1
           ]
         ],
         "isClue": [
           [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
             false,
             false,
             true,
+            false,
             false,
             true
           ],
           [
-            true,
             false,
             false,
             true,
             true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
             false
           ],
           [
@@ -19928,109 +17040,109 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            5,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            1,
-            5,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            2,
-            4,
-            0
-          ],
-          [
-            0,
-            5,
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
             6,
+            2,
+            3,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
             4,
             0,
+            5,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
             0
           ]
         ],
         "solution": [
           [
-            2,
             4,
-            5,
-            1,
+            6,
+            2,
             3,
-            6
+            1,
+            5
           ],
           [
-            3,
-            6,
-            1,
             5,
+            3,
+            1,
+            6,
             2,
             4
           ],
           [
-            6,
             1,
+            5,
             3,
-            2,
             4,
-            5
+            6,
+            2
           ],
           [
-            4,
-            5,
             2,
-            3,
+            4,
             6,
+            5,
+            3,
             1
           ],
           [
-            5,
+            6,
             2,
             4,
-            6,
             1,
+            5,
             3
           ],
           [
-            1,
             3,
-            6,
-            4,
+            1,
             5,
-            2
+            2,
+            4,
+            6
           ]
         ],
         "isClue": [
           [
             false,
-            false,
             true,
-            false,
+            true,
+            true,
             false,
             true
           ],
@@ -20039,160 +17151,24 @@ const data: PuzzleSet = {
             false,
             true,
             true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
             false,
             false
           ],
           [
             false,
-            false,
+            true,
             false,
             false,
             false,
             false
           ],
           [
-            true,
-            true,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            0,
-            6,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            3,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            5
-          ],
-          [
-            3,
-            1,
-            0,
-            0,
-            6,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            6,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            2,
-            6,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            5,
-            2,
-            4,
-            6
-          ],
-          [
-            6,
-            4,
-            1,
-            3,
-            2,
-            5
-          ],
-          [
-            3,
-            1,
-            2,
-            5,
-            6,
-            4
-          ],
-          [
-            2,
-            5,
-            4,
-            6,
-            1,
-            3
-          ],
-          [
-            4,
-            6,
-            3,
-            1,
-            5,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
             false,
             true,
             false,
-            false,
+            true,
+            true,
             true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
           ],
           [
             false,
@@ -20203,27 +17179,11 @@ const data: PuzzleSet = {
             true
           ],
           [
+            false,
+            false,
+            false,
+            false,
             true,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
             false
           ]
         ]
@@ -20234,46 +17194,350 @@ const data: PuzzleSet = {
             0,
             0,
             0,
+            1,
+            6,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
             0,
             5,
+            0,
+            2,
+            1
+          ],
+          [
+            6,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            2,
+            1,
             6
           ],
           [
             0,
             0,
+            1,
             0,
             4,
-            0,
             0
-          ],
+          ]
+        ],
+        "solution": [
           [
-            0,
-            6,
-            0,
-            3,
             4,
-            0
+            5,
+            3,
+            1,
+            6,
+            2
           ],
           [
-            0,
-            3,
-            0,
+            1,
+            2,
             6,
-            0,
+            4,
+            3,
             5
           ],
           [
+            3,
+            4,
+            5,
             6,
+            2,
+            1
+          ],
+          [
+            6,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            5,
+            3,
+            4,
+            2,
+            1,
+            6
+          ],
+          [
+            2,
+            6,
+            1,
+            5,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
             5,
             0,
+            6,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            5,
             0,
             0,
             0
           ],
           [
-            3,
-            1,
+            0,
+            0,
+            0,
+            0,
             4,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            2,
+            1,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            6,
+            4,
+            2,
+            3
+          ],
+          [
+            6,
+            4,
+            2,
+            3,
+            5,
+            1
+          ],
+          [
+            2,
+            3,
+            5,
+            1,
+            6,
+            4
+          ],
+          [
+            3,
+            2,
+            1,
+            5,
+            4,
+            6
+          ],
+          [
+            4,
+            6,
+            3,
+            2,
+            1,
+            5
+          ],
+          [
+            1,
+            5,
+            4,
+            6,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            6,
+            3,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            2,
             0,
             0,
             0
@@ -20282,60 +17546,68 @@ const data: PuzzleSet = {
         "solution": [
           [
             1,
+            2,
             4,
-            3,
-            2,
-            5,
-            6
-          ],
-          [
-            5,
-            2,
             6,
-            4,
-            1,
+            5,
             3
           ],
           [
-            2,
-            6,
             5,
-            3,
-            4,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
             6,
-            2,
-            5
-          ],
-          [
-            6,
-            5,
+            3,
             2,
             1,
-            3,
             4
           ],
           [
+            6,
             3,
-            1,
+            5,
             4,
+            2,
+            1
+          ],
+          [
+            2,
+            4,
+            1,
+            3,
+            6,
+            5
+          ],
+          [
+            3,
             5,
             6,
+            1,
+            4,
             2
+          ],
+          [
+            4,
+            1,
+            2,
+            5,
+            3,
+            6
           ]
         ],
         "isClue": [
           [
+            true,
+            true,
             false,
             false,
             false,
+            true
+          ],
+          [
             false,
             true,
+            true,
+            false,
+            false,
             true
           ],
           [
@@ -20344,28 +17616,20 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
             true
           ],
           [
-            true,
-            true,
             false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
             false,
             false,
             false
@@ -20384,14 +17648,1246 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            5,
+            4,
+            6,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
             0,
             6,
+            0,
             3,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            6,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            5,
+            4,
+            6,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            5,
+            1,
+            4,
+            6
+          ],
+          [
+            6,
+            4,
+            2,
+            3,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            6,
+            3,
+            2,
+            1,
+            5
+          ],
+          [
+            2,
+            3,
+            1,
+            5,
+            6,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            1,
+            3,
+            6,
             4,
             0
           ],
           [
             0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            5,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            3,
+            6,
+            4,
+            5
+          ],
+          [
+            5,
+            4,
+            2,
+            1,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            5,
+            4,
+            1,
+            2
+          ],
+          [
+            6,
+            3,
+            4,
+            5,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            6,
+            3,
+            5,
+            4
+          ],
+          [
+            4,
+            5,
+            1,
+            2,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            2,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            1,
+            4,
+            6,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            5,
+            4,
+            6
+          ],
+          [
+            4,
+            6,
+            5,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            6,
+            5,
+            4
+          ],
+          [
+            5,
+            4,
+            6,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4,
+            6,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            2,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            6,
+            1,
+            5
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            6,
+            3,
+            5,
+            1
+          ],
+          [
+            6,
+            3,
+            5,
+            1,
+            4,
+            2
+          ],
+          [
+            5,
+            1,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            1,
+            5,
+            2,
+            4
+          ],
+          [
+            1,
+            5,
+            2,
+            4,
+            3,
+            6
+          ],
+          [
+            2,
+            4,
+            3,
+            6,
+            1,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            6,
+            2,
+            0,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            4,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            3,
+            5,
+            6,
+            2
+          ],
+          [
+            6,
+            2,
+            1,
+            4,
+            5,
+            3
+          ],
+          [
+            5,
+            3,
+            2,
+            6,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            5,
+            3,
+            2,
+            6
+          ],
+          [
+            2,
+            6,
+            4,
+            1,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            6,
+            2,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            6
+          ],
+          [
+            0,
+            2,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            4,
+            2,
+            6,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            6,
+            3,
+            1,
+            5
+          ],
+          [
+            6,
+            3,
+            5,
+            1,
+            4,
+            2
+          ],
+          [
+            5,
+            1,
+            2,
+            4,
+            3,
+            6
+          ],
+          [
+            4,
+            2,
+            3,
+            6,
+            5,
+            1
+          ],
+          [
+            1,
+            5,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            1,
+            5,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            3,
+            0,
+            4,
+            0,
+            5
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            1,
+            4,
+            6,
+            5
+          ],
+          [
+            5,
+            6,
+            3,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            6,
+            5,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            4,
+            5,
+            6,
+            2,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            5,
+            6,
+            1,
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            6,
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            1,
+            2,
+            4,
+            6,
+            5
+          ],
+          [
+            4,
+            2,
+            6,
+            5,
+            1,
+            3
+          ],
+          [
+            6,
+            5,
+            3,
+            1,
+            4,
+            2
+          ],
+          [
+            1,
+            3,
+            4,
+            2,
+            5,
+            6
+          ],
+          [
+            2,
+            4,
+            5,
+            6,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            3,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            5,
+            6,
+            0,
+            0,
+            1
+          ],
+          [
+            3,
             0,
             1,
             0,
@@ -20399,28 +18895,12 @@ const data: PuzzleSet = {
             6
           ],
           [
-            1,
-            0,
-            4,
             6,
-            0,
-            5
-          ],
-          [
-            6,
-            0,
+            2,
             5,
             0,
-            3,
+            0,
             0
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            1,
-            3
           ],
           [
             0,
@@ -20432,6 +18912,22 @@ const data: PuzzleSet = {
           ]
         ],
         "solution": [
+          [
+            4,
+            1,
+            3,
+            5,
+            6,
+            2
+          ],
+          [
+            5,
+            6,
+            2,
+            4,
+            1,
+            3
+          ],
           [
             2,
             5,
@@ -20449,14 +18945,6 @@ const data: PuzzleSet = {
             6
           ],
           [
-            1,
-            3,
-            4,
-            6,
-            2,
-            5
-          ],
-          [
             6,
             2,
             5,
@@ -20465,20 +18953,12 @@ const data: PuzzleSet = {
             4
           ],
           [
-            5,
-            6,
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            4,
             1,
             3,
-            5,
+            4,
             6,
-            2
+            2,
+            5
           ]
         ],
         "isClue": [
@@ -20487,7 +18967,7 @@ const data: PuzzleSet = {
             false,
             true,
             true,
-            true,
+            false,
             false
           ],
           [
@@ -20495,6 +18975,14 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
             false,
             true
           ],
@@ -20502,25 +18990,17 @@ const data: PuzzleSet = {
             true,
             false,
             true,
-            true,
+            false,
             false,
             true
           ],
           [
             true,
-            false,
+            true,
             true,
             false,
-            true,
+            false,
             false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
           ],
           [
             false,
@@ -20536,143 +19016,119 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            5,
-            0,
-            2,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
             6,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
             3,
             5,
+            0,
             0
           ],
           [
-            6,
-            2,
+            1,
+            0,
             0,
             0,
             0,
             0
           ],
           [
+            0,
             3,
-            4,
             0,
             0,
-            6,
-            2
+            0,
+            0
           ],
           [
             0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            6,
+            0,
             5,
+            3,
+            1,
+            0
+          ],
+          [
             0,
             0,
             0,
+            6,
+            5,
             0
           ]
         ],
         "solution": [
           [
-            4,
-            3,
-            5,
-            1,
-            2,
-            6
-          ],
-          [
-            5,
-            1,
             2,
             6,
-            4,
-            3
-          ],
-          [
-            2,
-            6,
-            4,
             3,
             5,
+            4,
             1
           ],
           [
+            1,
+            4,
             6,
             2,
             3,
-            4,
-            1,
             5
           ],
           [
+            5,
             3,
             4,
             1,
-            5,
             6,
             2
           ],
           [
-            1,
+            3,
             5,
+            1,
+            4,
+            2,
+            6
+          ],
+          [
             6,
             2,
+            5,
             3,
+            1,
             4
+          ],
+          [
+            4,
+            1,
+            2,
+            6,
+            5,
+            3
           ]
         ],
         "isClue": [
           [
             false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
             true,
             true,
-            false
-          ],
-          [
             true,
-            true,
-            false,
-            false,
             false,
             false
           ],
           [
             true,
-            true,
             false,
             false,
-            true,
-            true
+            false,
+            false,
+            false
           ],
           [
             false,
@@ -20681,130 +19137,18 @@ const data: PuzzleSet = {
             false,
             false,
             false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            0,
-            1,
-            0,
-            0,
-            0
           ],
           [
-            0,
-            3,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            3,
-            4,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            1,
-            2,
-            4,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            4,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            5,
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            4,
-            3,
-            5,
-            6,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            4,
-            5,
-            6
-          ],
-          [
-            3,
-            4,
-            6,
-            5,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            4,
-            3,
-            6,
-            5
-          ],
-          [
-            5,
-            6,
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
+            false,
+            false,
             true,
             false,
             true,
-            false,
-            false,
             false
           ],
           [
-            false,
-            true,
             true,
             false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
             true,
             true,
             true,
@@ -20814,25 +19158,9 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
+            true,
             true,
             false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
           ]
         ]
       },
@@ -20842,99 +19170,99 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            2,
+            0,
             0,
             0
           ],
           [
-            1,
-            3,
+            0,
             5,
             0,
-            0,
-            0
+            3,
+            1,
+            2
           ],
           [
-            0,
-            0,
             1,
             0,
             0,
-            0
-          ],
-          [
-            2,
+            0,
             4,
-            0,
-            0,
-            0,
-            5
+            0
           ],
           [
             0,
-            5,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            3,
-            1,
-            0,
+            4,
+            6,
             0,
             2,
-            4
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            4,
+            6,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            3,
+            1
           ]
         ],
         "solution": [
           [
-            5,
-            6,
-            4,
-            2,
+            3,
             1,
-            3
+            2,
+            6,
+            5,
+            4
           ],
           [
-            1,
-            3,
-            5,
             6,
+            5,
             4,
+            3,
+            1,
             2
           ],
           [
-            4,
-            2,
             1,
+            2,
             3,
             5,
+            4,
             6
           ],
           [
-            2,
+            5,
             4,
+            6,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
             3,
             1,
+            4,
             6,
             5
           ],
           [
+            4,
             6,
             5,
             2,
-            4,
             3,
             1
-          ],
-          [
-            3,
-            1,
-            6,
-            5,
-            2,
-            4
           ]
         ],
         "isClue": [
@@ -20942,44 +19270,44 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
             false,
             false,
             false
           ],
           [
             false,
-            false,
             true,
             false,
-            false,
-            false
-          ],
-          [
             true,
             true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
             true
           ],
           [
             true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
             true,
             false,
             false,
@@ -20991,35 +19319,35 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
             4,
-            0,
             5,
+            3,
+            0,
+            0,
             0
           ],
           [
-            2,
-            6,
             0,
-            0,
-            0,
-            3
-          ],
-          [
             1,
             0,
             0,
             0,
-            0,
-            6
+            0
           ],
           [
+            0,
             6,
+            1,
             0,
             0,
-            4,
+            5
+          ],
+          [
             3,
+            4,
+            0,
+            0,
+            0,
             1
           ],
           [
@@ -21027,66 +19355,826 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            0,
+            3,
             0
           ],
           [
             5,
             0,
+            4,
             0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            5,
             3,
+            6,
             1,
+            2
+          ],
+          [
+            6,
+            1,
+            2,
+            4,
+            5,
+            3
+          ],
+          [
+            2,
+            6,
+            1,
+            3,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            1,
+            2,
+            6,
+            5,
+            3,
             4
+          ],
+          [
+            5,
+            3,
+            4,
+            1,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            5,
+            0,
+            6
+          ],
+          [
+            0,
+            5,
+            4,
+            2,
+            0,
+            3
+          ],
+          [
+            5,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            5,
+            3,
+            0,
+            0
           ]
         ],
         "solution": [
           [
             3,
-            1,
-            4,
-            6,
-            5,
-            2
-          ],
-          [
             2,
-            6,
-            5,
             1,
-            4,
-            3
-          ],
-          [
-            1,
-            4,
-            3,
             5,
-            2,
+            4,
             6
           ],
           [
             6,
             5,
-            2,
             4,
-            3,
-            1
+            2,
+            1,
+            3
           ],
           [
+            5,
             4,
-            3,
+            6,
             1,
+            3,
+            2
+          ],
+          [
             2,
+            1,
+            3,
+            4,
             6,
             5
           ],
           [
+            1,
+            3,
+            2,
+            6,
+            5,
+            4
+          ],
+          [
+            4,
+            6,
+            5,
+            3,
+            2,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            3,
+            6,
+            2
+          ],
+          [
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            3,
+            6
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            4,
+            5,
+            0,
+            6,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            5,
+            3,
+            6,
+            2
+          ],
+          [
+            3,
+            6,
+            2,
+            1,
+            4,
+            5
+          ],
+          [
+            2,
+            3,
+            6,
+            5,
+            1,
+            4
+          ],
+          [
+            5,
+            1,
+            4,
+            2,
+            3,
+            6
+          ],
+          [
+            6,
+            2,
+            3,
+            4,
+            5,
+            1
+          ],
+          [
+            4,
+            5,
+            1,
+            6,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            6,
+            3,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            6,
+            3,
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            3,
+            4,
+            5,
+            2
+          ],
+          [
+            4,
+            2,
+            5,
+            1,
+            3,
+            6
+          ],
+          [
+            3,
+            1,
+            6,
             5,
             2,
+            4
+          ],
+          [
+            5,
+            4,
+            2,
+            3,
+            6,
+            1
+          ],
+          [
+            2,
+            5,
+            4,
+            6,
+            1,
+            3
+          ],
+          [
             6,
             3,
             1,
+            2,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            5,
+            4,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            6,
+            1
+          ],
+          [
+            6,
+            0,
+            0,
+            5,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          [
+            5,
+            4,
+            3,
+            2,
+            1,
+            6
+          ],
+          [
+            3,
+            2,
+            1,
+            6,
+            5,
             4
+          ],
+          [
+            4,
+            5,
+            2,
+            3,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            4,
+            5,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6,
+            1,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            5,
+            1,
+            4,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4,
+            0,
+            0,
+            6
+          ],
+          [
+            4,
+            0,
+            6,
+            0,
+            5,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            5,
+            1,
+            4,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            6,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            2,
+            4,
+            6,
+            3
+          ],
+          [
+            6,
+            3,
+            1,
+            5,
+            2,
+            4
+          ],
+          [
+            1,
+            5,
+            4,
+            2,
+            3,
+            6
+          ],
+          [
+            4,
+            2,
+            6,
+            3,
+            5,
+            1
           ]
         ],
         "isClue": [
@@ -21094,6 +20182,158 @@ const data: PuzzleSet = {
             false,
             false,
             true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            3,
+            5,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            0,
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            5,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            4,
+            6,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            2,
+            1,
+            4,
+            6
+          ],
+          [
+            4,
+            6,
+            3,
+            5,
+            2,
+            1
+          ],
+          [
+            5,
+            3,
+            1,
+            2,
+            6,
+            4
+          ],
+          [
+            1,
+            2,
+            6,
+            4,
+            5,
+            3
+          ],
+          [
+            6,
+            4,
+            5,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
             false,
             true,
             false
@@ -21107,8 +20347,296 @@ const data: PuzzleSet = {
             true
           ],
           [
+            false,
             true,
             false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            2,
+            6,
+            5,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            2,
+            6,
+            5
+          ],
+          [
+            6,
+            5,
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            5,
+            6,
+            1,
+            4,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            5,
+            6,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3,
+            5,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            5,
+            0,
+            3,
+            0,
+            0,
+            2
+          ],
+          [
+            4,
+            3,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            1,
+            2,
+            4,
+            5,
+            3
+          ],
+          [
+            5,
+            4,
+            3,
+            1,
+            6,
+            2
+          ],
+          [
+            4,
+            3,
+            5,
+            2,
+            1,
+            6
+          ],
+          [
+            1,
+            2,
+            6,
+            3,
+            4,
+            5
+          ],
+          [
+            3,
+            5,
+            4,
+            6,
+            2,
+            1
+          ],
+          [
+            2,
+            6,
+            1,
+            5,
+            3,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
             false,
             false,
             false,
@@ -21117,11 +20645,299 @@ const data: PuzzleSet = {
           [
             true,
             false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
             false,
             true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
             true,
             true
           ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            2,
+            4,
+            1,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            6,
+            3
+          ],
+          [
+            0,
+            6,
+            0,
+            4,
+            1,
+            0
+          ],
+          [
+            6,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            5,
+            6,
+            2,
+            4,
+            1
+          ],
+          [
+            2,
+            4,
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            4,
+            1,
+            2,
+            5,
+            6,
+            3
+          ],
+          [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            6,
+            3,
+            5,
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            4,
+            6,
+            3,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            3,
+            2
+          ],
+          [
+            4,
+            6,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            3,
+            2,
+            6,
+            1,
+            4
+          ],
+          [
+            6,
+            1,
+            4,
+            5,
+            3,
+            2
+          ],
+          [
+            4,
+            6,
+            1,
+            2,
+            5,
+            3
+          ],
+          [
+            2,
+            5,
+            3,
+            4,
+            6,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            3,
+            2,
+            5
+          ],
+          [
+            3,
+            2,
+            5,
+            1,
+            4,
+            6
+          ]
+        ],
+        "isClue": [
           [
             false,
             false,
@@ -21131,11 +20947,195 @@ const data: PuzzleSet = {
             false
           ],
           [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
             true,
             false,
             false,
             true,
+            false
+          ],
+          [
+            false,
+            false,
             true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            6,
+            4
+          ],
+          [
+            0,
+            2,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            5,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            6,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            6,
+            2,
+            1,
+            5,
+            3
+          ],
+          [
+            3,
+            5,
+            1,
+            2,
+            6,
+            4
+          ],
+          [
+            6,
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            3,
+            4,
+            2,
+            6
+          ],
+          [
+            2,
+            4,
+            6,
+            5,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            5,
+            6,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
             true
           ]
         ]
@@ -21145,124 +21145,116 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
-            0,
-            4,
             5,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            1
-          ],
-          [
             3,
             0,
             0,
             0,
-            0,
             0
           ],
           [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            3,
-            5,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            1,
             2,
             4,
+            0,
+            0,
             5,
             3
           ],
           [
-            5,
-            3,
             6,
-            1,
-            2,
-            4
+            0,
+            0,
+            0,
+            0,
+            0
           ],
           [
-            2,
+            0,
+            0,
+            0,
             4,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            5
+          ]
+        ],
+        "solution": [
+          [
             5,
             3,
+            4,
+            2,
             6,
             1
           ],
           [
-            3,
-            5,
+            2,
+            4,
             1,
             6,
+            5,
+            3
+          ],
+          [
+            6,
+            1,
+            3,
+            5,
+            2,
+            4
+          ],
+          [
+            3,
+            5,
+            2,
+            4,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            5,
+            3,
             4,
             2
           ],
           [
-            1,
-            6,
             4,
             2,
+            6,
+            1,
             3,
             5
-          ],
-          [
-            4,
-            2,
-            3,
-            5,
-            1,
-            6
           ]
         ],
         "isClue": [
           [
-            false,
-            false,
-            false,
             true,
             true,
+            false,
+            false,
+            false,
             false
           ],
           [
-            false,
-            false,
             true,
-            false,
             true,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false,
             true,
@@ -21278,19 +21270,27 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            false,
+            false,
             true,
             false,
+            true
+          ],
+          [
             false,
             false,
+            false,
+            true,
+            true,
             false
           ],
           [
-            true,
+            false,
             false,
             true,
-            true,
             false,
-            false
+            false,
+            true
           ]
         ]
       },
@@ -21301,32 +21301,16 @@ const data: PuzzleSet = {
             0,
             0,
             4,
-            5,
+            0,
             0
           ],
           [
             0,
             0,
-            3,
-            0,
-            2,
-            0
-          ],
-          [
             0,
             0,
-            5,
-            0,
-            0,
-            1
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            1,
-            3
+            6,
+            2
           ],
           [
             0,
@@ -21337,62 +21321,78 @@ const data: PuzzleSet = {
             0
           ],
           [
+            0,
+            5,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            6,
+            2,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            5,
             3,
             0,
             0,
-            0,
-            0,
+            1,
             0
           ]
         ],
         "solution": [
           [
-            1,
-            3,
             2,
+            1,
+            6,
             4,
             5,
-            6
+            3
           ],
           [
+            3,
+            4,
+            5,
+            1,
             6,
+            2
+          ],
+          [
+            1,
+            6,
+            2,
             5,
             3,
-            1,
-            2,
             4
           ],
           [
             4,
-            2,
             5,
-            6,
             3,
+            6,
+            2,
             1
           ],
           [
+            6,
             2,
-            4,
-            6,
-            5,
-            1,
-            3
-          ],
-          [
-            5,
-            6,
             1,
             3,
             4,
-            2
-          ],
-          [
-            3,
-            1,
-            4,
-            2,
-            6,
             5
+          ],
+          [
+            5,
+            3,
+            4,
+            2,
+            1,
+            6
           ]
         ],
         "isClue": [
@@ -21401,27 +21401,11 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            true,
+            false,
             false
           ],
           [
             false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
             false,
             false,
             false,
@@ -21437,313 +21421,25 @@ const data: PuzzleSet = {
             false
           ],
           [
+            false,
             true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            2,
-            1,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            3,
-            5,
-            6,
-            4,
-            1,
-            2
-          ],
-          [
-            6,
-            3,
-            5,
-            1,
-            2,
-            4
-          ],
-          [
-            1,
-            4,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            2,
-            1,
-            4,
-            5,
-            3,
-            6
-          ],
-          [
-            5,
-            6,
-            3,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
             false,
             false,
             true,
             true
           ],
           [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
             true,
             true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            5,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            6,
-            0,
-            4
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            4,
-            0,
-            5,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            6,
-            5,
-            2,
-            3
-          ],
-          [
-            3,
-            5,
-            2,
-            4,
-            6,
-            1
-          ],
-          [
-            4,
-            6,
-            1,
-            2,
-            3,
-            5
-          ],
-          [
-            5,
-            2,
-            3,
-            6,
-            1,
-            4
-          ],
-          [
-            2,
-            3,
-            5,
-            1,
-            4,
-            6
-          ],
-          [
-            6,
-            1,
-            4,
-            3,
-            5,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false,
             false,
             true
           ],
           [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
             true,
             true,
             false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
             false,
             true,
             false
@@ -21755,182 +21451,38 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            1,
+            0,
             3,
             0,
             0
           ],
           [
-            0,
-            0,
-            6,
-            0,
+            4,
             5,
+            0,
+            1,
+            0,
             0
           ],
           [
             0,
             1,
-            5,
             0,
-            0,
-            4
-          ],
-          [
+            4,
             3,
-            6,
-            0,
-            0,
-            0,
             0
           ],
           [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
             5,
-            1,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            5,
+            0,
+            0,
             2,
             1,
-            3,
-            4,
-            6
-          ],
-          [
-            4,
-            3,
-            6,
-            2,
-            5,
-            1
-          ],
-          [
-            2,
-            1,
-            5,
-            6,
-            3,
-            4
-          ],
-          [
-            3,
-            6,
-            4,
-            1,
-            2,
-            5
-          ],
-          [
-            1,
-            5,
-            2,
-            4,
-            6,
-            3
-          ],
-          [
-            6,
-            4,
-            3,
-            5,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            6,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            4,
-            0
-          ],
-          [
-            0,
-            5,
-            0,
-            1,
-            6,
             0
           ],
           [
             3,
-            6,
+            4,
             0,
             0,
             0,
@@ -21939,220 +21491,60 @@ const data: PuzzleSet = {
           [
             0,
             0,
+            6,
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            4,
             0,
             0
           ]
         ],
         "solution": [
           [
-            4,
+            2,
+            6,
             1,
-            6,
             3,
-            2,
-            5
-          ],
-          [
-            6,
-            3,
-            2,
             5,
-            4,
-            1
-          ],
-          [
-            2,
-            5,
-            4,
-            1,
-            6,
-            3
-          ],
-          [
-            3,
-            6,
-            5,
-            2,
-            1,
             4
           ],
           [
-            1,
             4,
-            3,
-            6,
             5,
+            3,
+            1,
+            6,
             2
           ],
           [
-            5,
-            2,
-            1,
-            4,
-            3,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            2,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
             6,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            5,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            5,
             1,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            6,
-            3,
             2,
-            1,
+            4,
+            3,
             5
           ],
           [
-            1,
             5,
+            3,
             4,
-            6,
-            3,
-            2
-          ],
-          [
-            3,
             2,
             1,
-            5,
-            4,
             6
           ],
           [
-            6,
-            4,
-            2,
             3,
+            4,
             5,
+            6,
+            2,
             1
           ],
           [
-            5,
             1,
+            2,
             6,
+            5,
             4,
-            2,
             3
-          ],
-          [
-            2,
-            3,
-            5,
-            1,
-            6,
-            4
           ]
         ],
         "isClue": [
@@ -22161,156 +21553,12 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
             false,
             false
           ],
           [
             true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
             true,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            4,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            4,
-            1,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            5
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            5,
-            6,
-            2,
-            3
-          ],
-          [
-            6,
-            5,
-            2,
-            3,
-            4,
-            1
-          ],
-          [
-            3,
-            2,
-            4,
-            1,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            6,
-            5,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            4,
-            6,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
             false,
             true,
             false,
@@ -22319,24 +21567,16 @@ const data: PuzzleSet = {
           [
             false,
             true,
+            false,
             true,
-            false,
-            false,
+            true,
             false
           ],
           [
-            false,
-            true,
-            true,
             true,
             false,
-            false
-          ],
-          [
             false,
-            false,
-            false,
-            false,
+            true,
             true,
             false
           ],
@@ -22345,16 +21585,16 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            true,
+            false,
             false
           ],
           [
             false,
             false,
+            true,
             false,
             false,
-            false,
-            true
+            false
           ]
         ]
       },
@@ -22364,99 +21604,99 @@ const data: PuzzleSet = {
             3,
             0,
             0,
+            4,
+            1,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
             1,
             0,
-            0
+            4
           ],
           [
             0,
-            5,
-            4,
+            0,
+            0,
+            0,
             3,
-            0,
             0
-          ],
-          [
-            0,
-            2,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            4,
-            3,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            3
           ]
         ],
         "solution": [
           [
             3,
-            4,
-            2,
-            1,
-            6,
-            5
-          ],
-          [
-            6,
-            5,
-            4,
-            3,
-            1,
-            2
-          ],
-          [
-            1,
             2,
             5,
-            6,
-            3,
-            4
-          ],
-          [
-            5,
-            6,
-            3,
             4,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
             1,
-            2,
-            5,
             6
           ],
           [
+            6,
+            1,
+            4,
+            5,
+            2,
+            3
+          ],
+          [
+            2,
+            5,
+            3,
+            6,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            3,
+            5,
+            2
+          ],
+          [
+            5,
+            3,
             2,
             1,
             6,
-            5,
+            4
+          ],
+          [
             4,
-            3
+            6,
+            1,
+            2,
+            3,
+            5
           ]
         ],
         "isClue": [
@@ -22465,35 +21705,27 @@ const data: PuzzleSet = {
             false,
             false,
             true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
             false,
             false
           ],
           [
             false,
             true,
-            true,
+            false,
             true,
             false,
             false
           ],
           [
             false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
             true,
             false,
             false,
@@ -22504,430 +21736,6 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            5,
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            5
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            2,
-            1,
-            5,
-            3,
-            6
-          ],
-          [
-            6,
-            5,
-            3,
-            2,
-            1,
-            4
-          ],
-          [
-            3,
-            6,
-            5,
-            4,
-            2,
-            1
-          ],
-          [
-            1,
-            4,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            5,
-            3,
-            6,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            3,
-            6,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            4,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            1,
-            3,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            3,
-            5,
-            0,
-            4
-          ],
-          [
-            0,
-            1,
-            0,
-            2,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            5,
-            6,
-            3,
-            2
-          ],
-          [
-            6,
-            3,
-            2,
-            1,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            1,
-            3,
-            2,
-            6
-          ],
-          [
-            3,
-            2,
-            6,
-            4,
-            5,
-            1
-          ],
-          [
-            2,
-            6,
-            3,
-            5,
-            1,
-            4
-          ],
-          [
-            5,
-            1,
-            4,
-            2,
-            6,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            4,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            2,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            1,
-            5
-          ],
-          [
-            0,
-            0,
-            5,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            4,
-            2,
-            1,
-            5,
-            3
-          ],
-          [
-            5,
-            3,
-            1,
-            2,
-            6,
-            4
-          ],
-          [
-            1,
-            5,
-            3,
-            4,
-            2,
-            6
-          ],
-          [
-            2,
-            6,
-            4,
-            3,
-            1,
-            5
-          ],
-          [
-            3,
-            1,
-            5,
-            6,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            6,
-            5,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
             true,
             false,
             true
@@ -22936,30 +21744,6 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
             false,
             true,
             false
@@ -22970,649 +21754,41 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            1,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            4,
-            1,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            5,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
             0,
             0,
             5,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            1,
-            5,
-            6,
-            4,
-            3
-          ],
-          [
-            5,
-            6,
-            3,
-            4,
-            1,
+            0,
             2
           ],
           [
-            3,
-            4,
-            2,
+            0,
+            0,
+            0,
+            0,
             1,
-            6,
-            5
-          ],
-          [
-            1,
-            2,
-            6,
-            5,
-            3,
-            4
-          ],
-          [
-            6,
-            5,
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
-            2,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            2,
-            0,
-            0,
-            0,
             0
           ],
           [
             0,
             0,
-            0,
-            0,
-            1,
-            5
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            2,
-            0,
             6,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            5,
-            2,
-            3,
-            6
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            5,
-            4
-          ],
-          [
-            3,
-            6,
-            2,
-            4,
-            1,
-            5
-          ],
-          [
-            5,
-            4,
-            1,
-            6,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            6,
-            5,
-            4,
-            1
-          ],
-          [
-            1,
-            5,
-            4,
-            3,
-            6,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
             0,
             0,
             5
           ],
           [
-            1,
-            0,
-            0,
-            5,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            2,
-            6,
-            4,
-            3,
-            1
-          ],
-          [
-            4,
-            6,
-            3,
-            1,
-            2,
-            5
-          ],
-          [
-            1,
-            3,
-            2,
-            5,
-            6,
-            4
-          ],
-          [
-            3,
-            1,
-            5,
-            2,
-            4,
-            6
-          ],
-          [
-            6,
-            4,
-            1,
-            3,
-            5,
-            2
-          ],
-          [
-            2,
-            5,
-            4,
-            6,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
             3,
             0,
+            0,
+            1,
             6,
             0
           ],
           [
-            0,
-            0,
-            0,
-            4,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            3,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            5,
-            0,
-            0,
-            4,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            1,
-            3,
-            2,
-            6,
-            4
-          ],
-          [
-            2,
-            3,
-            6,
-            4,
-            1,
-            5
-          ],
-          [
-            4,
             6,
             1,
-            5,
-            3,
-            2
-          ],
-          [
-            3,
-            2,
-            4,
-            6,
-            5,
-            1
-          ],
-          [
-            6,
-            4,
-            5,
-            1,
-            2,
-            3
-          ],
-          [
-            1,
-            5,
-            2,
-            3,
-            4,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
             0,
             0,
-            0,
-            0,
-            5
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            1,
-            5,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
             0,
             0
           ],
@@ -23627,14 +21803,6 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            2,
-            3,
-            6,
-            4,
-            1,
-            5
-          ],
-          [
             4,
             6,
             1,
@@ -23644,48 +21812,56 @@ const data: PuzzleSet = {
           ],
           [
             5,
+            2,
+            3,
+            4,
             1,
+            6
+          ],
+          [
+            1,
+            4,
+            6,
             3,
             2,
+            5
+          ],
+          [
+            3,
+            5,
+            2,
+            1,
             6,
             4
           ],
           [
-            1,
-            5,
-            2,
-            3,
-            4,
-            6
-          ],
-          [
-            3,
-            2,
-            4,
             6,
-            5,
-            1
-          ],
-          [
-            6,
-            4,
-            5,
             1,
+            4,
             2,
+            5,
             3
+          ],
+          [
+            2,
+            3,
+            5,
+            6,
+            4,
+            1
           ]
         ],
         "isClue": [
           [
+            false,
+            false,
+            false,
             true,
-            false,
-            false,
-            false,
             false,
             true
           ],
           [
-            true,
+            false,
             false,
             false,
             false,
@@ -23694,25 +21870,25 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
             false,
+            true,
             false,
             false,
             true
           ],
           [
             true,
-            true,
-            true,
             false,
             false,
+            true,
+            true,
             false
           ],
           [
-            false,
-            false,
-            false,
             true,
+            true,
+            false,
+            false,
             false,
             false
           ],
@@ -23731,18 +21907,34 @@ const data: PuzzleSet = {
           [
             0,
             0,
+            3,
+            4,
+            0,
+            5
+          ],
+          [
             1,
             0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            4,
+            0,
             5,
+            0,
+            0,
             0
           ],
           [
             0,
-            0,
-            0,
-            0,
             2,
-            4
+            0,
+            0,
+            0,
+            0
           ],
           [
             0,
@@ -23753,78 +21945,62 @@ const data: PuzzleSet = {
             0
           ],
           [
-            3,
             0,
             0,
             0,
             0,
-            0
-          ],
-          [
             0,
-            2,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            5,
-            3,
-            0,
-            0
+            4
           ]
         ],
         "solution": [
           [
             2,
-            4,
-            1,
             6,
-            5,
-            3
-          ],
-          [
-            6,
-            1,
-            3,
-            5,
-            2,
-            4
-          ],
-          [
-            5,
             3,
             4,
-            2,
-            6,
-            1
-          ],
-          [
-            3,
-            5,
-            2,
-            4,
             1,
-            6
-          ],
-          [
-            4,
-            2,
-            6,
-            1,
-            3,
             5
           ],
           [
             1,
+            5,
+            4,
+            3,
+            2,
+            6
+          ],
+          [
+            4,
+            1,
+            5,
+            6,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
             6,
             5,
-            3,
             4,
-            2
+            1
+          ],
+          [
+            5,
+            4,
+            1,
+            2,
+            6,
+            3
+          ],
+          [
+            6,
+            3,
+            2,
+            1,
+            5,
+            4
           ]
         ],
         "isClue": [
@@ -23832,181 +22008,13 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            false,
             true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            5,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            5,
-            6,
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            5,
-            6,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            3,
-            1,
-            5,
-            6,
-            2
-          ],
-          [
-            1,
-            4,
-            3,
-            2,
-            5,
-            6
-          ],
-          [
-            6,
-            2,
-            5,
-            4,
-            3,
-            1
-          ],
-          [
-            5,
-            6,
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            1,
-            4,
-            6,
-            2,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
             false,
             true
           ],
           [
-            false,
             true,
+            false,
             false,
             false,
             false,
@@ -24014,9 +22022,25 @@ const data: PuzzleSet = {
           ],
           [
             true,
+            false,
             true,
             false,
             false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
             true,
             false
           ],
@@ -24025,8 +22049,8 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            true,
-            false
+            false,
+            true
           ]
         ]
       },
@@ -24035,117 +22059,277 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
             5,
             0,
-            6
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            3,
             0
           ],
           [
-            0,
             4,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
             1,
             0,
             0,
             0,
-            0,
             0
           ],
           [
             0,
             0,
             0,
+            6,
             0,
-            5,
-            4
+            5
           ],
           [
-            0,
-            0,
-            0,
             2,
             0,
+            0,
+            1,
+            6,
             0
+          ],
+          [
+            6,
+            0,
+            5,
+            0,
+            0,
+            4
           ]
         ],
         "solution": [
           [
+            5,
             2,
             1,
-            3,
-            5,
             4,
+            3,
             6
           ],
           [
-            6,
-            5,
-            4,
-            1,
             3,
-            2
-          ],
-          [
-            5,
-            4,
             6,
-            3,
             2,
+            5,
+            4,
             1
           ],
           [
-            1,
-            3,
-            2,
             4,
+            1,
             6,
+            3,
+            5,
+            2
+          ],
+          [
+            1,
+            4,
+            3,
+            6,
+            2,
             5
           ],
           [
-            3,
             2,
+            5,
+            4,
             1,
             6,
-            5,
-            4
+            3
           ],
           [
-            4,
             6,
+            3,
             5,
             2,
             1,
-            3
+            4
           ]
         ],
         "isClue": [
           [
             false,
             false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
             true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
             true,
             false,
             true
           ],
           [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            6,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            2,
+            5,
+            4,
+            1
+          ],
+          [
+            4,
+            5,
+            1,
+            6,
+            3,
+            2
+          ],
+          [
+            1,
+            4,
+            5,
+            3,
+            2,
+            6
+          ],
+          [
+            2,
+            3,
+            6,
+            4,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            6,
+            2,
+            3,
+            1,
+            5,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
             false,
             false,
             true,
             false,
-            true,
             false
           ],
           [
@@ -24154,15 +22338,7 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
+            true
           ],
           [
             false,
@@ -24187,37 +22363,37 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            0,
-            6,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
+            4,
+            1,
             2,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
             5
           ],
           [
-            1,
-            2,
             0,
             0,
             0,
-            6
+            0,
+            3,
+            0
           ],
           [
-            6,
+            0,
+            0,
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            5,
             0,
             3,
             0,
@@ -24226,8 +22402,8 @@ const data: PuzzleSet = {
           ],
           [
             0,
+            3,
             1,
-            0,
             0,
             0,
             0
@@ -24235,59 +22411,59 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            2,
-            5,
-            1,
-            6,
-            3,
-            4
-          ],
-          [
             3,
             6,
             4,
-            5,
-            2,
-            1
-          ],
-          [
-            4,
-            3,
-            6,
-            2,
             1,
+            2,
             5
           ],
           [
             1,
-            2,
-            5,
-            3,
             4,
+            5,
+            2,
+            3,
             6
           ],
           [
+            2,
+            5,
             6,
-            4,
             3,
             1,
+            4
+          ],
+          [
+            4,
+            1,
+            2,
             5,
-            2
+            6,
+            3
           ],
           [
             5,
-            1,
             2,
-            4,
+            3,
             6,
-            3
+            4,
+            1
+          ],
+          [
+            6,
+            3,
+            1,
+            4,
+            5,
+            2
           ]
         ],
         "isClue": [
           [
             false,
             false,
-            false,
+            true,
             true,
             true,
             true
@@ -24303,18 +22479,18 @@ const data: PuzzleSet = {
           [
             false,
             false,
+            false,
+            false,
             true,
-            false,
-            false,
             true
           ],
           [
             true,
+            false,
+            false,
             true,
             false,
-            false,
-            false,
-            true
+            false
           ],
           [
             true,
@@ -24327,7 +22503,7 @@ const data: PuzzleSet = {
           [
             false,
             true,
-            false,
+            true,
             false,
             false,
             false
@@ -24340,22 +22516,22 @@ const data: PuzzleSet = {
             0,
             0,
             0,
+            5,
             0,
-            0,
-            0
+            6
           ],
           [
             0,
             0,
             0,
-            6,
+            0,
             4,
-            5
+            0
           ],
           [
             3,
-            2,
-            0,
+            6,
+            5,
             0,
             0,
             0
@@ -24363,9 +22539,169 @@ const data: PuzzleSet = {
           [
             0,
             0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            1,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            2,
+            5,
+            3,
+            6
+          ],
+          [
+            5,
+            3,
+            6,
+            1,
+            4,
+            2
+          ],
+          [
+            3,
+            6,
+            5,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            2,
+            1,
+            3,
+            6,
+            5
+          ],
+          [
+            2,
+            1,
+            4,
+            6,
+            5,
+            3
+          ],
+          [
+            6,
+            5,
+            3,
+            2,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
             4,
             0,
             2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
             0
           ],
           [
@@ -24373,64 +22709,208 @@ const data: PuzzleSet = {
             5,
             0,
             0,
-            3,
+            6,
             2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            6,
+            2,
+            1,
+            5
+          ],
+          [
+            6,
+            2,
+            5,
+            1,
+            3,
+            4
+          ],
+          [
+            5,
+            1,
+            4,
+            3,
+            2,
+            6
+          ],
+          [
+            3,
+            4,
+            2,
+            6,
+            5,
+            1
+          ],
+          [
+            2,
+            6,
+            1,
+            5,
+            4,
+            3
+          ],
+          [
+            1,
+            5,
+            3,
+            4,
+            6,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
           ],
           [
             0,
+            0,
+            0,
+            5,
+            6,
+            1
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
             3,
             0,
-            4,
+            2,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            6,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
             0,
             0
           ]
         ],
         "solution": [
           [
+            5,
+            1,
             6,
             4,
-            5,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            1,
-            3,
-            6,
-            4,
-            5
-          ],
-          [
-            3,
-            2,
-            1,
-            5,
-            6,
-            4
-          ],
-          [
-            5,
-            6,
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            4,
-            5,
-            6,
-            1,
             3,
             2
           ],
           [
+            4,
+            2,
+            3,
+            5,
+            6,
+            1
+          ],
+          [
+            6,
+            5,
             1,
             3,
             2,
+            4
+          ],
+          [
+            3,
             4,
+            2,
+            6,
+            1,
+            5
+          ],
+          [
+            1,
+            6,
+            5,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1,
             5,
             6
           ]
@@ -24441,7 +22921,7 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
+            true,
             false
           ],
           [
@@ -24453,28 +22933,180 @@ const data: PuzzleSet = {
             true
           ],
           [
-            true,
+            false,
             true,
             false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
             false,
             false,
             false
           ],
           [
+            true,
             false,
             false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            5,
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
+            2,
+            6,
+            5
+          ],
+          [
+            5,
+            2,
+            6,
+            1,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            6,
+            5,
+            2
+          ],
+          [
+            4,
+            1,
+            3,
+            5,
+            2,
+            6
+          ],
+          [
+            2,
+            6,
+            5,
+            3,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
             true,
             false,
             true,
+            false,
+            false,
             false
           ],
           [
-            false,
+            true,
             true,
             false,
             false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
             true,
             true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
           ],
           [
             false,
@@ -24489,43 +23121,43 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            6,
             0,
-            4,
             0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
             5,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            4,
             0,
             3,
-            5,
-            0
-          ],
-          [
-            5,
-            6,
-            0,
-            0,
-            0,
-            0
+            1
           ],
           [
             0,
+            2,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
             0,
             3,
             2,
             0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            4,
             0
           ],
           [
@@ -24534,251 +23166,99 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            0
+            3
           ]
         ],
         "solution": [
           [
             6,
-            5,
             4,
-            1,
+            5,
             2,
-            3
-          ],
-          [
             3,
-            2,
-            5,
-            6,
-            4,
             1
           ],
           [
-            1,
-            4,
-            2,
-            3,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            1,
-            4,
-            3,
-            2
-          ],
-          [
-            4,
-            1,
             3,
             2,
+            1,
+            4,
             6,
             5
           ],
           [
-            2,
+            1,
             3,
+            2,
             6,
             5,
-            1,
             4
+          ],
+          [
+            5,
+            6,
+            4,
+            3,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            3,
+            5,
+            4,
+            6
+          ],
+          [
+            4,
+            5,
+            6,
+            1,
+            2,
+            3
           ]
         ],
         "isClue": [
           [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            3,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            6,
-            4,
-            3,
-            5,
-            1
-          ],
-          [
-            1,
-            5,
-            3,
-            4,
-            6,
-            2
-          ],
-          [
-            3,
-            1,
-            5,
-            6,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            6,
-            5,
-            1,
-            3
-          ],
-          [
-            6,
-            4,
-            2,
-            1,
-            3,
-            5
-          ],
-          [
-            5,
-            3,
-            1,
-            2,
-            4,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
             false,
             false,
             true,
             false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
             true,
             true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
           ],
           [
             false,
@@ -24794,118 +23274,110 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            6,
             5,
+            2,
             0,
-            0,
+            4,
             0
           ],
           [
             0,
-            1,
+            2,
             0,
             0,
             0,
             6
           ],
           [
-            5,
             0,
+            4,
             0,
-            0,
-            0,
-            2
-          ],
-          [
             6,
             0,
+            3
+          ],
+          [
             0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
             4,
             0,
             0
           ],
           [
             0,
-            4,
-            1,
-            5,
             0,
-            0
+            0,
+            0,
+            3,
+            2
           ]
         ],
         "solution": [
           [
-            1,
-            2,
-            4,
             6,
+            5,
+            2,
             3,
-            5
+            4,
+            1
           ],
           [
             3,
-            6,
+            2,
+            4,
+            1,
             5,
+            6
+          ],
+          [
+            1,
+            4,
+            5,
+            6,
+            2,
+            3
+          ],
+          [
+            5,
+            6,
+            3,
             2,
             1,
             4
           ],
           [
-            4,
-            1,
             2,
             3,
-            5,
-            6
-          ],
-          [
-            5,
-            3,
-            6,
             1,
             4,
+            6,
+            5
+          ],
+          [
+            4,
+            1,
+            6,
+            5,
+            3,
             2
-          ],
-          [
-            6,
-            5,
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            5,
-            6,
-            3
           ]
         ],
         "isClue": [
           [
             false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
             true,
             true,
             false,
-            false,
+            true,
             false
           ],
           [
@@ -24917,28 +23389,36 @@ const data: PuzzleSet = {
             true
           ],
           [
+            false,
             true,
             false,
-            false,
-            false,
+            true,
             false,
             true
           ],
           [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
             true,
-            false,
-            false,
             true,
             false,
             false
           ],
           [
             false,
-            true,
-            true,
-            true,
             false,
-            false
+            false,
+            false,
+            true,
+            true
           ]
         ]
       },
@@ -24950,97 +23430,97 @@ const data: PuzzleSet = {
             0,
             2,
             5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
             6
           ],
           [
             0,
-            1,
             0,
             0,
-            0,
-            0
-          ],
-          [
-            2,
-            5,
-            4,
             0,
             0,
             0
           ],
           [
+            6,
+            0,
             0,
             0,
             3,
-            0,
-            2,
             0
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            0,
+            2
           ],
           [
             0,
             0,
-            2,
-            6,
+            5,
             0,
-            1
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4,
+            6,
+            2,
+            0
           ]
         ],
         "solution": [
           [
-            6,
-            3,
-            1,
-            2,
-            5,
-            4
-          ],
-          [
             4,
+            1,
+            3,
             2,
             5,
-            3,
-            1,
             6
           ],
           [
-            3,
+            5,
+            2,
+            6,
             1,
+            4,
+            3
+          ],
+          [
             6,
             5,
+            2,
             4,
+            3,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            5,
+            6,
             2
           ],
           [
             2,
-            5,
-            4,
-            1,
             6,
-            3
+            5,
+            3,
+            1,
+            4
           ],
           [
             1,
-            6,
             3,
             4,
+            6,
             2,
             5
-          ],
-          [
-            5,
-            4,
-            2,
-            6,
-            3,
-            1
           ]
         ],
         "isClue": [
@@ -25050,6 +23530,174 @@ const data: PuzzleSet = {
             false,
             true,
             true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            5,
+            3,
+            6
+          ],
+          [
+            6,
+            3,
+            4,
+            1,
+            5,
+            2
+          ],
+          [
+            2,
+            5,
+            6,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            1,
+            4,
+            2,
+            5
+          ],
+          [
+            5,
+            2,
+            3,
+            6,
+            4,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
             false
           ],
           [
@@ -25062,8 +23710,736 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            false,
             true,
             false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            5,
+            0,
+            4,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            2,
+            4
+          ],
+          [
+            0,
+            0,
+            2,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            5,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            6,
+            5
+          ],
+          [
+            3,
+            2,
+            4,
+            5,
+            1,
+            6
+          ],
+          [
+            5,
+            1,
+            6,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            6,
+            5,
+            1
+          ],
+          [
+            6,
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            6,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            4,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            2,
+            4,
+            5,
+            1
+          ],
+          [
+            4,
+            2,
+            5,
+            1,
+            6,
+            3
+          ],
+          [
+            1,
+            5,
+            6,
+            3,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            1,
+            5,
+            3,
+            6
+          ],
+          [
+            6,
+            3,
+            4,
+            2,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            3,
+            6,
+            4,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            2,
+            5,
+            3,
+            6
+          ],
+          [
+            5,
+            2,
+            3,
+            6,
+            1,
+            4
+          ],
+          [
+            6,
+            3,
+            1,
+            4,
+            2,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            6,
+            3
+          ],
+          [
+            2,
+            5,
+            6,
+            3,
+            4,
+            1
+          ],
+          [
+            3,
+            6,
+            4,
+            1,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            6,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            6,
+            4,
+            2,
+            5
+          ],
+          [
+            2,
+            5,
+            3,
+            1,
+            6,
+            4
+          ],
+          [
+            6,
+            4,
+            2,
+            5,
+            3,
+            1
+          ],
+          [
+            5,
+            2,
+            1,
+            3,
+            4,
+            6
+          ],
+          [
+            1,
+            3,
+            4,
+            6,
+            5,
+            2
+          ],
+          [
+            4,
+            6,
+            5,
+            2,
+            1,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            5,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            5,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            4,
+            0,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            2,
+            6,
+            3,
+            4
+          ],
+          [
+            4,
+            6,
+            3,
+            1,
+            2,
+            5
+          ],
+          [
+            6,
+            3,
+            4,
+            2,
+            5,
+            1
+          ],
+          [
+            1,
+            2,
+            5,
+            3,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            6,
+            5,
+            1,
+            2
+          ],
+          [
+            2,
+            5,
+            1,
+            4,
+            6,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
             false,
             false,
             false
@@ -25071,7 +24447,7 @@ const data: PuzzleSet = {
           [
             true,
             true,
-            true,
+            false,
             false,
             false,
             false
@@ -25079,10 +24455,26 @@ const data: PuzzleSet = {
           [
             false,
             false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
             true,
             false,
             true,
+            true,
+            false,
             false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
           ],
           [
             false,
@@ -25097,34 +24489,26 @@ const data: PuzzleSet = {
       {
         "values": [
           [
+            5,
             0,
-            2,
             3,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
             0,
             0,
             0
           ],
           [
+            2,
             6,
             0,
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
             0,
             0
           ],
@@ -25132,67 +24516,835 @@ const data: PuzzleSet = {
             0,
             0,
             1,
-            4,
-            3,
-            0
+            0,
+            0,
+            2
           ],
           [
             0,
             0,
-            2,
             0,
+            4,
             0,
             1
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            4,
+            0
           ]
         ],
         "solution": [
           [
+            5,
             4,
-            2,
             3,
             1,
+            2,
+            6
+          ],
+          [
+            1,
+            3,
             6,
-            5
+            2,
+            5,
+            4
+          ],
+          [
+            2,
+            6,
+            4,
+            5,
+            1,
+            3
+          ],
+          [
+            4,
+            5,
+            1,
+            3,
+            6,
+            2
           ],
           [
             6,
+            2,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            3,
             1,
+            2,
+            6,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            4,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            5
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
             5,
             2,
+            6,
+            1
+          ],
+          [
+            2,
+            5,
+            6,
+            1,
             4,
             3
           ],
           [
             1,
+            6,
+            4,
+            3,
             5,
+            2
+          ],
+          [
+            5,
+            2,
+            1,
             6,
             3,
-            2,
             4
           ],
           [
-            2,
-            3,
             4,
+            3,
+            2,
             5,
             1,
             6
           ],
           [
-            5,
             6,
             1,
-            4,
-            3,
-            2
-          ],
-          [
             3,
             4,
             2,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0,
+            6,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            0,
+            3
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            1,
+            2,
+            6,
+            5
+          ],
+          [
+            5,
+            6,
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            5,
+            6,
+            4,
+            3
+          ],
+          [
+            2,
+            1,
             6,
             5,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            1,
+            5,
+            6
+          ],
+          [
+            6,
+            5,
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            5,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            5
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            2,
+            4,
+            6,
+            5,
+            3
+          ],
+          [
+            4,
+            6,
+            5,
+            3,
+            1,
+            2
+          ],
+          [
+            5,
+            3,
+            1,
+            2,
+            4,
+            6
+          ],
+          [
+            6,
+            4,
+            3,
+            5,
+            2,
             1
+          ],
+          [
+            3,
+            5,
+            2,
+            1,
+            6,
+            4
+          ],
+          [
+            2,
+            1,
+            6,
+            4,
+            3,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            5,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            6,
+            1,
+            3,
+            2,
+            5
+          ],
+          [
+            2,
+            5,
+            4,
+            6,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            5,
+            4,
+            6
+          ],
+          [
+            3,
+            1,
+            5,
+            2,
+            6,
+            4
+          ],
+          [
+            5,
+            2,
+            6,
+            4,
+            3,
+            1
+          ],
+          [
+            6,
+            4,
+            3,
+            1,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            4
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            2,
+            4,
+            3,
+            6
+          ],
+          [
+            4,
+            2,
+            6,
+            3,
+            5,
+            1
+          ],
+          [
+            3,
+            6,
+            1,
+            5,
+            4,
+            2
+          ],
+          [
+            1,
+            5,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            2,
+            4,
+            3,
+            6,
+            1,
+            5
+          ],
+          [
+            6,
+            3,
+            5,
+            1,
+            2,
+            4
           ]
         ],
         "isClue": [
@@ -25208,8 +25360,32 @@ const data: PuzzleSet = {
             true,
             false,
             false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
             false,
             false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
             false
           ],
           [
@@ -25219,10 +25395,122 @@ const data: PuzzleSet = {
             false,
             true,
             true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            6,
+            5
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            4,
+            6,
+            5,
+            3
+          ],
+          [
+            6,
+            3,
+            5,
+            2,
+            4,
+            1
+          ],
+          [
+            3,
+            5,
+            6,
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            4,
+            2,
+            3,
+            6,
+            5
+          ],
+          [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            5,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
           ],
           [
             false,
-            false,
+            true,
             false,
             true,
             false,
@@ -25231,18 +25519,34 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
             false,
-            false,
-            true,
             false,
             false,
             true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
           ]
         ]
       },
@@ -25253,6 +25557,14 @@ const data: PuzzleSet = {
             3,
             0,
             0,
+            2,
+            1
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
             0,
             0
           ],
@@ -25260,91 +25572,83 @@ const data: PuzzleSet = {
             0,
             2,
             0,
-            6,
-            1,
+            0,
+            0,
             0
           ],
           [
             0,
             0,
             0,
-            0,
+            6,
             0,
             4
           ],
           [
             0,
             0,
+            4,
             0,
-            3,
-            6,
-            0
-          ],
-          [
             1,
-            0,
-            0,
-            4,
-            0,
-            5
+            0
           ],
           [
-            4,
             0,
             0,
+            2,
             0,
-            3,
-            0
+            0,
+            3
           ]
         ],
         "solution": [
           [
             6,
             3,
-            1,
             5,
             4,
-            2
-          ],
-          [
-            5,
             2,
-            4,
-            6,
-            1,
-            3
+            1
           ],
           [
+            5,
+            4,
+            1,
+            2,
             3,
+            6
+          ],
+          [
             1,
-            6,
             2,
+            6,
+            3,
+            4,
+            5
+          ],
+          [
+            2,
+            1,
+            3,
+            6,
             5,
             4
           ],
           [
-            2,
+            3,
+            6,
             4,
             5,
-            3,
-            6,
-            1
-          ],
-          [
             1,
-            6,
-            3,
-            4,
-            2,
-            5
+            2
           ],
           [
             4,
             5,
             2,
             1,
-            3,
-            6
+            6,
+            3
           ]
         ],
         "isClue": [
@@ -25353,35 +25657,27 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            false,
-            false
-          ],
-          [
-            false,
             true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
             true
           ],
           [
-            false,
-            false,
-            false,
             true,
-            true,
+            false,
+            false,
+            false,
+            false,
             false
           ],
           [
+            false,
             true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
             false,
             false,
             true,
@@ -25389,273 +25685,9 @@ const data: PuzzleSet = {
             true
           ],
           [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            5,
-            4,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            4,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            5,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            2,
-            6
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            2,
-            3,
-            5,
-            4,
-            1
-          ],
-          [
-            5,
-            3,
-            1,
-            4,
-            6,
-            2
-          ],
-          [
-            4,
-            1,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            1,
-            4,
-            6,
-            2,
-            3,
-            5
-          ],
-          [
-            3,
-            5,
-            4,
-            1,
-            2,
-            6
-          ],
-          [
-            2,
-            6,
-            5,
-            3,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
             false,
             false,
             true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            5,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            0,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            0,
-            2
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            5,
-            4,
-            3,
-            6,
-            1
-          ],
-          [
-            3,
-            1,
-            6,
-            2,
-            4,
-            5
-          ],
-          [
-            1,
-            6,
-            3,
-            5,
-            2,
-            4
-          ],
-          [
-            5,
-            4,
-            2,
-            1,
-            3,
-            6
-          ],
-          [
-            6,
-            3,
-            1,
-            4,
-            5,
-            2
-          ],
-          [
-            4,
-            2,
-            5,
-            6,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
             false,
             true,
             false
@@ -25663,39 +25695,7 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            false,
-            false,
             true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
             false,
             false,
             true
@@ -25708,110 +25708,126 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
-            0,
-            0,
-            3,
-            2
-          ],
-          [
-            0,
+            4,
             0,
             0,
             5,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
             0,
             0
           ],
           [
+            5,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
             0,
             3,
-            0,
+            4,
+            0
+          ],
+          [
             0,
             6,
+            0,
+            1,
+            0,
             0
           ],
           [
-            5,
             0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
             0,
             0,
             4,
             0,
-            0,
-            0
-          ],
-          [
-            1,
-            6,
-            5,
-            0,
-            0,
-            0
+            2
           ]
         ],
         "solution": [
           [
             6,
-            5,
-            1,
             4,
-            3,
-            2
+            1,
+            2,
+            5,
+            3
           ],
           [
             2,
-            4,
+            1,
             3,
             5,
-            1,
-            6
-          ],
-          [
-            4,
-            3,
-            2,
-            1,
             6,
-            5
-          ],
-          [
-            5,
-            1,
-            6,
-            3,
-            2,
             4
           ],
           [
+            5,
             3,
-            2,
             4,
             6,
-            5,
+            2,
             1
           ],
           [
             1,
-            6,
-            5,
             2,
+            5,
+            3,
             4,
-            3
+            6
+          ],
+          [
+            4,
+            6,
+            2,
+            1,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            6,
+            4,
+            1,
+            2
           ]
         ],
         "isClue": [
           [
             false,
-            false,
+            true,
             false,
             false,
             true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
             true
           ],
           [
@@ -25819,40 +25835,24 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
             true,
             false
           ],
           [
             false,
-            false,
             true,
             false,
+            true,
             false,
             false
           ],
           [
-            true,
-            true,
-            true,
             false,
             false,
-            false
+            false,
+            true,
+            false,
+            true
           ]
         ]
       },
@@ -25862,14 +25862,6 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            0,
-            6,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
             3,
             0,
             0
@@ -25877,182 +25869,38 @@ const data: PuzzleSet = {
           [
             0,
             0,
-            4,
             0,
             0,
-            0
-          ],
-          [
-            3,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            6,
-            0,
-            2,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
             5,
-            6,
-            4
-          ],
-          [
-            6,
-            4,
-            5,
-            3,
-            1,
             2
           ],
           [
-            5,
-            6,
+            0,
             4,
+            0,
+            0,
             2,
-            3,
             1
           ],
           [
-            3,
-            1,
-            2,
-            4,
-            5,
-            6
-          ],
-          [
-            2,
-            3,
-            1,
-            6,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            6,
-            1,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
             0,
             0,
+            5,
             0,
-            2,
+            4,
             0
           ],
           [
-            3,
-            0,
-            0,
-            0,
-            0,
-            4
-          ],
-          [
+            6,
             0,
             4,
             0,
-            2,
-            1,
+            0,
             0
           ],
           [
             0,
             1,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            5,
-            6
-          ],
-          [
-            0,
-            0,
             0,
             0,
             0,
@@ -26061,250 +25909,98 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
+            2,
             5,
-            6,
-            4,
-            3,
-            2,
-            1
-          ],
-          [
-            3,
-            2,
             1,
-            5,
+            3,
             6,
             4
           ],
           [
+            4,
             6,
-            4,
-            5,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            1,
             3,
-            6,
-            4,
-            5
-          ],
-          [
             1,
-            3,
-            2,
-            4,
             5,
-            6
-          ],
-          [
-            4,
-            5,
-            6,
-            1,
-            3,
             2
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
           ],
           [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
+            3,
             4,
+            6,
             5,
-            0,
-            0,
-            0,
+            2,
             1
           ],
           [
-            0,
-            0,
             1,
-            0,
-            0,
-            2
-          ],
-          [
-            1,
-            0,
-            6,
             2,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
             5,
-            2,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            5,
-            2,
-            3,
             6,
-            1
-          ],
-          [
-            3,
-            6,
-            1,
             4,
-            5,
-            2
-          ],
-          [
-            1,
-            3,
-            6,
-            2,
-            4,
-            5
-          ],
-          [
-            2,
-            4,
-            5,
-            1,
-            3,
-            6
-          ],
-          [
-            5,
-            2,
-            4,
-            6,
-            1,
             3
           ],
           [
             6,
-            1,
             3,
-            5,
+            4,
             2,
-            4
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            2,
+            4,
+            3,
+            6
           ]
         ],
         "isClue": [
           [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
             false,
             false,
             false,
             true,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
             false,
             false
           ],
           [
             false,
             false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
             false,
             false,
             false,
@@ -26316,1013 +26012,101 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            3,
-            6,
+            5,
             0,
             0,
+            4,
             0
           ],
           [
             1,
-            5,
+            0,
             0,
             0,
             0,
             0
           ],
           [
-            0,
-            0,
-            0,
             4,
-            5,
-            0
+            0,
+            0,
+            0,
+            0,
+            6
           ],
           [
-            0,
-            0,
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            5,
             0,
             0,
             3,
             0,
+            5,
             0
           ],
           [
             0,
-            6,
-            2,
+            0,
             5,
             0,
-            0
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            4
           ]
         ],
         "solution": [
           [
             2,
-            3,
-            6,
-            1,
-            4,
-            5
-          ],
-          [
-            1,
             5,
-            4,
-            2,
+            1,
             6,
+            4,
             3
           ],
           [
+            1,
             6,
-            2,
-            3,
             4,
-            5,
-            1
-          ],
-          [
-            4,
-            1,
-            5,
-            6,
-            3,
-            2
-          ],
-          [
-            5,
-            4,
-            1,
-            3,
-            2,
-            6
-          ],
-          [
-            3,
-            6,
-            2,
-            5,
-            1,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            2,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            6,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            1,
-            4,
-            5,
-            3,
-            2
-          ],
-          [
-            5,
-            3,
-            2,
-            6,
-            1,
-            4
-          ],
-          [
-            3,
-            2,
-            5,
-            1,
-            4,
-            6
-          ],
-          [
-            1,
-            4,
-            6,
             3,
             2,
             5
           ],
           [
             4,
-            6,
-            1,
+            3,
             2,
             5,
-            3
-          ],
-          [
-            2,
-            5,
-            3,
-            4,
-            6,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4,
-            2,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
             1,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            0,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            3,
-            1,
-            4,
-            2,
-            5
-          ],
-          [
-            4,
-            2,
-            5,
-            6,
-            3,
-            1
-          ],
-          [
-            1,
-            6,
-            3,
-            5,
-            4,
-            2
-          ],
-          [
-            5,
-            4,
-            2,
-            1,
-            6,
-            3
-          ],
-          [
-            3,
-            1,
-            6,
-            2,
-            5,
-            4
-          ],
-          [
-            2,
-            5,
-            4,
-            3,
-            1,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            4
-          ],
-          [
-            4,
-            2,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            5,
-            0,
-            1,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            5,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            5,
-            3,
-            2,
-            6,
-            4
-          ],
-          [
-            4,
-            2,
-            6,
-            5,
-            3,
-            1
-          ],
-          [
-            5,
-            3,
-            1,
-            6,
-            4,
-            2
-          ],
-          [
-            2,
-            6,
-            4,
-            3,
-            1,
-            5
-          ],
-          [
-            6,
-            4,
-            2,
-            1,
-            5,
-            3
-          ],
-          [
-            3,
-            1,
-            5,
-            4,
-            2,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            3,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            2,
-            0,
-            5
-          ],
-          [
-            2,
-            0,
-            0,
-            3,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            2,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            4,
-            2,
-            1,
-            3,
             6
           ],
           [
+            6,
             1,
-            6,
             3,
-            5,
-            2,
-            4
-          ],
-          [
-            3,
-            1,
-            6,
-            2,
-            4,
-            5
-          ],
-          [
-            2,
-            5,
-            4,
-            3,
-            6,
-            1
-          ],
-          [
-            6,
-            3,
-            1,
             4,
             5,
             2
           ],
           [
-            4,
-            2,
-            5,
-            6,
-            1,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            0,
-            4,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            6,
-            0
-          ],
-          [
-            0,
-            1,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            3,
-            4,
-            2,
-            1,
-            6
-          ],
-          [
-            1,
-            6,
-            2,
-            4,
-            5,
-            3
-          ],
-          [
-            6,
-            2,
-            1,
-            5,
-            3,
-            4
-          ],
-          [
             3,
             4,
             5,
-            1,
-            6,
-            2
-          ],
-          [
             2,
-            1,
             6,
-            3,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            3,
-            6,
-            2,
             1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            5,
-            0,
-            0,
-            0
           ],
           [
             5,
-            0,
-            3,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            2,
-            6,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            4,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
             2,
             6,
             1,
-            4,
-            5,
-            3
-          ],
-          [
-            4,
-            3,
-            5,
-            2,
-            1,
-            6
-          ],
-          [
-            5,
-            4,
-            3,
-            1,
-            6,
-            2
-          ],
-          [
-            1,
-            2,
-            6,
-            5,
             3,
             4
-          ],
-          [
-            6,
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          [
-            3,
-            5,
-            4,
-            6,
-            2,
-            1
           ]
         ],
         "isClue": [
@@ -27331,29 +26115,21 @@ const data: PuzzleSet = {
             true,
             false,
             false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
             false,
             false
           ],
           [
             true,
             false,
-            true,
             false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
             false,
             false,
             true
@@ -27361,9 +26137,17 @@ const data: PuzzleSet = {
           [
             false,
             false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
             false,
             false,
             true,
+            false,
+            false,
             true
           ],
           [
@@ -27379,8 +26163,40 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
             0,
+            0,
+            0,
+            0,
+            6,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            4,
+            0,
+            6
+          ],
+          [
+            0,
+            5,
             0,
             0,
             0,
@@ -27388,548 +26204,60 @@ const data: PuzzleSet = {
           ],
           [
             0,
-            0,
-            5,
-            6,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            2,
-            3,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            3,
-            6,
-            5,
-            1,
-            4
-          ],
-          [
-            1,
-            4,
-            5,
-            6,
-            2,
-            3
-          ],
-          [
-            4,
-            5,
-            1,
-            2,
-            3,
-            6
-          ],
-          [
-            3,
-            6,
-            2,
-            1,
-            4,
-            5
-          ],
-          [
-            5,
-            1,
-            4,
-            3,
-            6,
-            2
-          ],
-          [
-            6,
-            2,
-            3,
-            4,
-            5,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            6,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            2,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            6,
-            5,
-            4,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            5,
-            6,
-            2
-          ],
-          [
-            4,
-            1,
-            3,
-            6,
-            2,
-            5
-          ],
-          [
-            5,
-            2,
-            6,
-            3,
-            1,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
             2,
             5,
-            6
-          ],
-          [
-            6,
-            5,
-            2,
-            1,
-            4,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            3,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            3,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
             0,
             3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
             0
           ]
         ],
         "solution": [
           [
             3,
-            6,
-            2,
-            5,
+            1,
             4,
-            1
+            2,
+            6,
+            5
+          ],
+          [
+            2,
+            4,
+            6,
+            5,
+            1,
+            3
           ],
           [
             5,
+            6,
             1,
+            3,
             4,
+            2
+          ],
+          [
+            1,
             3,
             2,
+            4,
+            5,
             6
           ],
           [
-            2,
-            3,
             6,
-            4,
-            1,
-            5
-          ],
-          [
-            4,
             5,
-            1,
-            2,
-            6,
-            3
-          ],
-          [
-            1,
-            4,
-            5,
-            6,
             3,
-            2
-          ],
-          [
-            6,
-            2,
-            3,
-            1,
-            5,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            3
-          ],
-          [
-            2,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            6,
-            3,
-            0,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            3,
-            5,
-            4,
-            1,
-            2
-          ],
-          [
-            1,
-            2,
-            4,
-            5,
-            6,
-            3
-          ],
-          [
-            2,
-            4,
-            1,
-            6,
-            3,
-            5
-          ],
-          [
-            3,
-            5,
-            6,
             1,
             2,
             4
           ],
           [
             4,
-            1,
             2,
-            3,
-            5,
-            6
-          ],
-          [
             5,
             6,
             3,
-            2,
-            4,
             1
           ]
         ],
@@ -27938,30 +26266,14 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
             false,
             true,
             true
           ],
           [
-            true,
-            true,
             false,
             false,
             false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
             false,
             false,
             false
@@ -27970,169 +26282,33 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            false,
             true,
+            false,
             false
           ],
           [
             false,
             true,
-            true,
             false,
+            true,
             false,
             true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
           ],
           [
-            5,
-            6,
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            6,
-            0,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            5,
-            4,
-            0
-          ],
-          [
-            4,
-            0,
-            1,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            2
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            4,
-            2,
-            1,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            3,
-            4,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
-            5,
-            6,
-            3,
-            4
-          ],
-          [
-            1,
-            2,
-            6,
-            5,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            1,
-            2,
-            6,
-            5
-          ],
-          [
-            6,
-            5,
-            4,
-            3,
-            1,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
             false,
             true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
             false,
             false,
             false,
             true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
           ]
         ]
       },
@@ -28150,22 +26326,22 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            5,
             1,
+            0,
+            6
+          ],
+          [
+            0,
+            1,
+            6,
+            5,
+            0,
             3
           ],
           [
-            4,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
             0,
             3,
+            0,
             0,
             0,
             0
@@ -28173,68 +26349,68 @@ const data: PuzzleSet = {
           [
             5,
             0,
-            0,
             4,
+            0,
             0,
             0
           ],
           [
+            1,
+            0,
+            0,
             6,
             0,
-            0,
-            0,
-            3,
             0
           ]
         ],
         "solution": [
           [
-            3,
-            1,
-            5,
             6,
+            5,
+            3,
             4,
+            1,
             2
           ],
           [
-            2,
+            3,
             4,
+            2,
+            1,
+            5,
+            6
+          ],
+          [
+            2,
+            1,
             6,
             5,
-            1,
+            4,
             3
           ],
           [
             4,
-            6,
-            2,
             3,
+            1,
+            2,
+            6,
+            5
+          ],
+          [
             5,
+            6,
+            4,
+            3,
+            2,
             1
           ],
           [
             1,
-            5,
-            3,
             2,
+            5,
             6,
+            3,
             4
-          ],
-          [
-            5,
-            3,
-            1,
-            4,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            4,
-            1,
-            3,
-            5
           ]
         ],
         "isClue": [
@@ -28251,11 +26427,19 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            true,
+            false,
             true
           ],
           [
+            false,
             true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
             true,
             false,
             false,
@@ -28263,7 +26447,7 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
+            true,
             false,
             true,
             false,
@@ -28276,14 +26460,6 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
             false
           ]
         ]
@@ -28292,42 +26468,42 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            0,
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
             6,
             0,
             0,
-            2,
-            5
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
             0
           ],
           [
-            0,
-            0,
-            2,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            3,
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
             5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            3,
             0
           ],
           [
@@ -28336,78 +26512,62 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            6
+            2
           ]
         ],
         "solution": [
           [
-            3,
+            1,
             6,
-            4,
-            1,
             2,
-            5
-          ],
-          [
-            2,
-            1,
+            3,
             5,
-            6,
-            3,
             4
           ],
           [
-            1,
-            5,
-            2,
+            3,
             4,
+            5,
+            1,
+            2,
+            6
+          ],
+          [
+            2,
+            1,
             6,
+            5,
+            4,
             3
           ],
           [
-            6,
-            4,
-            3,
             5,
-            1,
-            2
-          ],
-          [
-            4,
             3,
-            6,
+            4,
             2,
-            5,
+            6,
             1
           ],
           [
-            5,
+            6,
             2,
             1,
-            3,
             4,
-            6
+            3,
+            5
+          ],
+          [
+            4,
+            5,
+            3,
+            6,
+            1,
+            2
           ]
         ],
         "isClue": [
           [
             false,
-            true,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
             false,
             true,
             true,
@@ -28416,10 +26576,26 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
             true,
             false,
             true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
             false
           ],
           [
@@ -28443,42 +26619,42 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
-            0,
+            3,
+            1,
             4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
             5,
-            0
+            0,
+            6
           ],
           [
             0,
             0,
-            0,
-            0,
+            5,
             4,
-            2
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            3,
-            0
-          ],
-          [
-            6,
-            0,
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
             0,
             0
           ],
@@ -28486,12 +26662,180 @@ const data: PuzzleSet = {
             1,
             0,
             0,
-            0,
+            6,
             0,
             0
           ]
         ],
         "solution": [
+          [
+            3,
+            1,
+            4,
+            2,
+            6,
+            5
+          ],
+          [
+            5,
+            2,
+            6,
+            1,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            3,
+            1,
+            5,
+            2,
+            6
+          ],
+          [
+            2,
+            6,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            6,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            6,
+            5,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            5,
+            6,
+            4
+          ],
           [
             3,
             1,
@@ -28501,44 +26845,180 @@ const data: PuzzleSet = {
             6
           ],
           [
-            5,
             6,
-            1,
-            3,
-            4,
-            2
-          ],
-          [
+            5,
             4,
             2,
-            6,
-            5,
-            3,
-            1
-          ],
-          [
-            6,
-            5,
-            3,
-            1,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            5,
-            6,
             1,
             3
           ],
           [
+            5,
+            4,
+            6,
+            3,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
             1,
             3,
-            4,
+            0
+          ],
+          [
+            0,
             2,
+            0,
             6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            6,
+            4
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            4,
+            5,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            4,
+            6,
+            1,
             5
+          ],
+          [
+            1,
+            5,
+            2,
+            3,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
+            1,
+            5,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6,
+            4,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            3,
+            2,
+            4,
+            6
           ]
         ],
         "isClue": [
@@ -28552,7 +27032,31 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            true,
             false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
             false,
             false,
             true,
@@ -28560,9 +27064,449 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            4,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            4,
+            3
+          ],
+          [
+            0,
+            0,
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            6,
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          [
+            4,
+            5,
+            3,
+            1,
+            2,
+            6
+          ],
+          [
+            2,
+            1,
+            6,
+            5,
+            4,
+            3
+          ],
+          [
+            1,
+            6,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            5,
+            3,
+            4,
+            6,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
             false,
             true,
             false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            3,
+            1,
+            2,
+            6,
+            5
+          ],
+          [
+            2,
+            1,
+            5,
+            6,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            3,
+            4,
+            2,
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            6,
+            5,
+            3,
+            4
+          ],
+          [
+            5,
+            6,
+            4,
+            3,
+            1,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            6,
+            2,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            2,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            5,
+            1,
+            4,
+            0
+          ],
+          [
+            5,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            1,
+            6,
+            2,
+            5
+          ],
+          [
+            6,
+            5,
+            2,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            4,
+            2,
+            5,
+            6
+          ],
+          [
+            2,
+            6,
+            5,
+            1,
+            4,
+            3
+          ],
+          [
+            5,
+            2,
+            6,
+            4,
+            3,
+            1
+          ],
+          [
+            4,
+            1,
+            3,
+            5,
+            6,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
             true,
             false
           ],
@@ -28570,21 +27514,13 @@ const data: PuzzleSet = {
             true,
             false,
             true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
             false,
             false,
             false
           ],
           [
-            true,
             false,
+            true,
             false,
             false,
             false,
@@ -28596,829 +27532,61 @@ const data: PuzzleSet = {
         "values": [
           [
             6,
-            3,
             0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
+            5,
             0,
             0,
             0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            2
           ],
           [
             0,
             1,
             0,
-            5,
-            0,
-            6
-          ],
-          [
             0,
             0,
-            2,
-            0,
-            4,
             0
           ],
           [
-            0,
-            5,
             0,
             6,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            4,
+            1,
+            0,
             2,
             0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            1
           ]
         ],
         "solution": [
           [
             6,
-            3,
-            1,
             2,
             5,
-            4
-          ],
-          [
-            1,
-            2,
-            5,
-            4,
-            6,
-            3
-          ],
-          [
-            5,
-            4,
-            6,
-            3,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            4,
-            5,
-            3,
-            6
-          ],
-          [
-            3,
-            6,
-            2,
-            1,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            3,
-            6,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            6,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            5,
-            0
-          ],
-          [
-            5,
-            0,
-            0,
-            6,
-            2,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            1,
-            4,
-            2,
-            3,
-            5
-          ],
-          [
-            4,
-            2,
-            3,
-            5,
-            6,
-            1
-          ],
-          [
-            3,
-            5,
-            6,
-            1,
-            4,
-            2
-          ],
-          [
-            1,
-            6,
-            2,
-            4,
-            5,
-            3
-          ],
-          [
-            5,
-            3,
-            1,
-            6,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            5,
-            3,
-            1,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            5,
-            2,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            3,
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            0,
-            1,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            6,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            4,
-            3,
-            6,
-            5,
-            2
-          ],
-          [
-            6,
-            5,
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            5,
-            2,
-            6,
-            4,
-            3,
-            1
-          ],
-          [
-            4,
-            3,
-            1,
-            5,
-            2,
-            6
-          ],
-          [
-            2,
-            6,
-            5,
-            3,
-            1,
-            4
-          ],
-          [
-            3,
-            1,
-            4,
-            2,
-            6,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            6,
-            5
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            6,
-            0,
-            5,
-            4,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            6,
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            4,
-            1,
-            3,
-            2,
-            6,
-            5
-          ],
-          [
-            2,
-            5,
-            6,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            1,
-            6,
-            5,
-            2
-          ],
-          [
-            1,
-            3,
-            4,
-            5,
-            2,
-            6
-          ],
-          [
-            6,
-            2,
-            5,
-            4,
-            3,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            3,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            3,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            5,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            3,
-            4,
-            6,
-            5
-          ],
-          [
-            4,
-            3,
-            5,
-            6,
-            1,
-            2
-          ],
-          [
-            6,
-            5,
-            2,
-            1,
-            4,
-            3
-          ],
-          [
-            3,
-            4,
-            6,
-            5,
-            2,
-            1
-          ],
-          [
-            5,
-            6,
-            1,
-            2,
-            3,
-            4
-          ],
-          [
-            2,
-            1,
-            4,
-            3,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            5,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
             1,
             3,
             4
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            5,
-            0,
-            0,
-            4,
-            1,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            5,
-            6,
-            3,
-            4,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            5,
-            6,
-            2
           ],
           [
             4,
@@ -29427,22 +27595,6 @@ const data: PuzzleSet = {
             2,
             5,
             6
-          ],
-          [
-            6,
-            2,
-            5,
-            1,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            6,
-            2,
-            5
           ],
           [
             5,
@@ -29451,310 +27603,30 @@ const data: PuzzleSet = {
             4,
             1,
             3
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
           ],
           [
-            true,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            1,
-            0,
-            6,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            2,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            3,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            1,
-            2,
-            5,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            3,
-            6,
-            5,
-            4,
-            2
-          ],
-          [
-            5,
-            2,
-            4,
-            1,
-            6,
-            3
-          ],
-          [
-            4,
-            5,
-            2,
-            6,
-            3,
-            1
-          ],
-          [
-            6,
-            1,
             3,
             4,
+            1,
+            6,
             2,
             5
           ],
           [
-            2,
+            1,
+            3,
             4,
             5,
-            3,
-            1,
-            6
-          ],
-          [
-            3,
             6,
-            1,
-            2,
-            5,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            1,
-            0,
-            0,
             2
           ],
           [
+            2,
             5,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
             6,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            5
-          ]
-        ],
-        "solution": [
-          [
-            2,
             3,
-            5,
-            6,
             4,
             1
-          ],
-          [
-            6,
-            1,
-            4,
-            2,
-            5,
-            3
-          ],
-          [
-            4,
-            6,
-            1,
-            5,
-            3,
-            2
-          ],
-          [
-            5,
-            2,
-            3,
-            4,
-            1,
-            6
-          ],
-          [
-            3,
-            5,
-            2,
-            1,
-            6,
-            4
-          ],
-          [
-            1,
-            4,
-            6,
-            3,
-            2,
-            5
           ]
         ],
         "isClue": [
@@ -29777,14 +27649,6 @@ const data: PuzzleSet = {
           [
             false,
             true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
             false,
             false,
             false,
@@ -29792,11 +27656,19 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
             false,
             false,
             true,
-            true,
-            true
+            false,
+            false
           ],
           [
             false,
@@ -29813,29 +27685,37 @@ const data: PuzzleSet = {
           [
             0,
             0,
+            4,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
             0,
             5,
-            3,
+            4,
+            0,
             0
           ],
           [
             0,
             0,
-            1,
             0,
-            0,
-            5
+            6,
+            4,
+            0
           ],
           [
             0,
             0,
             0,
-            4,
             0,
+            5,
             2
           ],
           [
-            4,
+            1,
             0,
             0,
             0,
@@ -29844,59 +27724,19 @@ const data: PuzzleSet = {
           ],
           [
             0,
-            6,
-            0,
+            4,
+            3,
             0,
             0,
             0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            4,
-            3
           ]
         ],
         "solution": [
           [
-            1,
-            2,
-            6,
-            5,
             3,
-            4
-          ],
-          [
-            3,
-            4,
-            1,
-            2,
-            6,
-            5
-          ],
-          [
-            6,
-            5,
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            3,
-            2,
-            1,
-            5,
-            6
-          ],
-          [
-            5,
             6,
             4,
-            3,
+            5,
             2,
             1
           ],
@@ -29904,14 +27744,374 @@ const data: PuzzleSet = {
             2,
             1,
             5,
+            4,
+            3,
+            6
+          ],
+          [
+            5,
+            2,
+            1,
             6,
             4,
             3
+          ],
+          [
+            4,
+            3,
+            6,
+            1,
+            5,
+            2
+          ],
+          [
+            1,
+            5,
+            2,
+            3,
+            6,
+            4
+          ],
+          [
+            6,
+            4,
+            3,
+            2,
+            1,
+            5
           ]
         ],
         "isClue": [
           [
             false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            6,
+            0,
+            3,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            2,
+            4,
+            3,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            3,
+            4,
+            5,
+            2
+          ],
+          [
+            2,
+            4,
+            5,
+            6,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            6,
+            5,
+            2,
+            4
+          ],
+          [
+            3,
+            6,
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            4,
+            5,
+            2,
+            1,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            5,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            2,
+            0,
+            0,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            5,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            1,
+            6,
+            5
+          ],
+          [
+            1,
+            6,
+            5,
+            3,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            5,
+            1,
+            6
+          ],
+          [
+            3,
+            2,
+            4,
+            6,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            3,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
             false,
             false,
             true,
@@ -29924,6 +28124,902 @@ const data: PuzzleSet = {
             true,
             false,
             false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            3,
+            5,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            5,
+            3,
+            6,
+            2
+          ],
+          [
+            6,
+            2,
+            4,
+            1,
+            5,
+            3
+          ],
+          [
+            5,
+            3,
+            6,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            5,
+            2,
+            6
+          ],
+          [
+            2,
+            6,
+            1,
+            4,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            2,
+            6,
+            1,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            2,
+            3
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            4,
+            3,
+            2,
+            5,
+            1
+          ],
+          [
+            1,
+            5,
+            4,
+            6,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            5,
+            1,
+            4,
+            6
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            5,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
+            2,
+            3,
+            1,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            5,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            2,
+            1,
+            6,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            3,
+            4,
+            2,
+            5
+          ],
+          [
+            4,
+            3,
+            2,
+            5,
+            1,
+            6
+          ],
+          [
+            2,
+            5,
+            6,
+            1,
+            3,
+            4
+          ],
+          [
+            6,
+            1,
+            4,
+            3,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            1,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            5,
+            3
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            1,
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            3,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            5,
+            4,
+            6,
+            2
+          ],
+          [
+            2,
+            4,
+            6,
+            1,
+            5,
+            3
+          ],
+          [
+            6,
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          [
+            5,
+            3,
+            1,
+            2,
+            4,
+            6
+          ],
+          [
+            1,
+            5,
+            3,
+            6,
+            2,
+            4
+          ],
+          [
+            4,
+            6,
+            2,
+            5,
+            3,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            2,
+            3,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            6,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            4,
+            1,
+            6,
+            2,
+            3
+          ],
+          [
+            6,
+            2,
+            3,
+            5,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            5,
+            2,
+            3,
+            6
+          ],
+          [
+            2,
+            3,
+            6,
+            4,
+            1,
+            5
+          ],
+          [
+            3,
+            6,
+            2,
+            1,
+            5,
+            4
+          ],
+          [
+            1,
+            5,
+            4,
+            3,
+            6,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            6,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            3,
+            4,
+            2,
+            5
+          ],
+          [
+            5,
+            2,
+            1,
+            6,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            4,
+            3,
+            2,
+            5,
+            1,
+            6
+          ],
+          [
+            2,
+            5,
+            6,
+            1,
+            3,
+            4
+          ],
+          [
+            6,
+            1,
+            4,
+            3,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
             true
           ],
           [
@@ -29933,6 +29029,302 @@ const data: PuzzleSet = {
             true,
             false,
             true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            4,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            6,
+            5,
+            1,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            6,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            4,
+            3,
+            6,
+            2
+          ],
+          [
+            6,
+            2,
+            1,
+            5,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            6,
+            2,
+            5,
+            1
+          ],
+          [
+            1,
+            5,
+            3,
+            4,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            5,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            1,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            1,
+            5,
+            3,
+            6,
+            2
+          ],
+          [
+            2,
+            6,
+            4,
+            1,
+            3,
+            5
+          ],
+          [
+            5,
+            3,
+            2,
+            6,
+            1,
+            4
+          ],
+          [
+            6,
+            2,
+            1,
+            4,
+            5,
+            3
+          ],
+          [
+            3,
+            5,
+            6,
+            2,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            5,
+            2,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
           ],
           [
             true,
@@ -29963,108 +29355,124 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
             0,
             0,
-            1,
             0,
-            6
+            0,
+            0,
+            1
           ],
           [
             0,
-            5,
             0,
-            3,
             0,
+            2,
+            6,
             0
           ],
           [
             0,
+            6,
+            0,
+            1,
+            0,
+            4
+          ],
+          [
             0,
             4,
             0,
-            0,
+            5,
+            2,
             0
           ],
           [
             1,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
             3,
-            4
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            6,
+            0,
+            0,
+            0
           ]
         ],
         "solution": [
           [
-            2,
-            4,
-            3,
-            1,
-            5,
-            6
-          ],
-          [
             6,
             5,
-            1,
-            3,
-            4,
-            2
-          ],
-          [
-            3,
             2,
+            3,
             4,
-            5,
-            6,
             1
           ],
           [
+            4,
             1,
-            6,
-            5,
-            4,
-            2,
-            3
-          ],
-          [
-            4,
             3,
             2,
             6,
-            1,
             5
           ],
           [
+            2,
+            6,
             5,
             1,
-            6,
-            2,
             3,
             4
+          ],
+          [
+            3,
+            4,
+            1,
+            5,
+            2,
+            6
+          ],
+          [
+            1,
+            3,
+            4,
+            6,
+            5,
+            2
+          ],
+          [
+            5,
+            2,
+            6,
+            4,
+            1,
+            3
           ]
         ],
         "isClue": [
           [
-            true,
             false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
             false,
             true,
             false,
@@ -30075,15 +29483,7 @@ const data: PuzzleSet = {
             true,
             false,
             true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
             true,
-            false,
-            false,
             false
           ],
           [
@@ -30096,127 +29496,431 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            false,
-            false,
             true,
+            true,
+            false,
             false,
             false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
           ]
         ]
       },
       {
         "values": [
           [
+            0,
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            6,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
             5,
             0,
-            0,
             6,
-            0,
             0
           ],
           [
             0,
-            3,
+            0,
+            0,
             4,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            0,
-            3,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            3,
-            1,
-            0,
-            0,
             2,
+            0
+          ],
+          [
+            5,
+            0,
+            1,
+            0,
+            4,
             0
           ]
         ],
         "solution": [
           [
-            5,
             4,
+            3,
             2,
-            6,
+            5,
             1,
-            3
+            6
           ],
           [
-            1,
-            3,
-            4,
-            5,
             6,
+            1,
+            4,
+            3,
+            5,
             2
           ],
           [
-            6,
             2,
-            3,
-            1,
             5,
+            6,
+            1,
+            3,
             4
           ],
           [
+            3,
             4,
             5,
-            6,
             2,
-            3,
+            6,
             1
           ],
           [
-            2,
-            6,
             1,
+            6,
             3,
             4,
+            2,
+            5
+          ],
+          [
+            5,
+            2,
+            1,
+            6,
+            4,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            5,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            6,
+            3
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            2,
+            6,
+            3,
             5
           ],
           [
             3,
-            1,
+            6,
             5,
             4,
+            1,
+            2
+          ],
+          [
+            6,
+            5,
+            3,
             2,
+            4,
+            1
+          ],
+          [
+            4,
+            2,
+            1,
+            5,
+            6,
+            3
+          ],
+          [
+            2,
+            1,
+            4,
+            3,
+            5,
             6
+          ],
+          [
+            5,
+            3,
+            6,
+            1,
+            2,
+            4
           ]
         ],
         "isClue": [
           [
             true,
             false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            6,
+            2
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            4,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            1,
+            6,
+            2,
+            5,
+            4
+          ],
+          [
+            6,
+            2,
+            5,
+            4,
+            3,
+            1
+          ],
+          [
+            5,
+            4,
+            3,
+            1,
+            6,
+            2
+          ],
+          [
+            2,
+            6,
+            4,
+            5,
+            1,
+            3
+          ],
+          [
+            4,
+            5,
+            1,
+            3,
+            2,
+            6
+          ],
+          [
+            1,
+            3,
+            2,
+            6,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
             false,
             true,
             false,
@@ -30224,30 +29928,14 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
+            false,
             true,
             false,
-            false,
-            false
+            true,
+            true
           ],
           [
             true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
             false,
             false,
             false,
@@ -30259,7 +29947,319 @@ const data: PuzzleSet = {
             true,
             false,
             false,
+            false,
+            false
+          ],
+          [
             true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            6,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            5,
+            3,
+            1,
+            6
+          ],
+          [
+            3,
+            5,
+            1,
+            6,
+            4,
+            2
+          ],
+          [
+            6,
+            1,
+            4,
+            2,
+            5,
+            3
+          ],
+          [
+            1,
+            6,
+            2,
+            4,
+            3,
+            5
+          ],
+          [
+            4,
+            2,
+            3,
+            5,
+            6,
+            1
+          ],
+          [
+            5,
+            3,
+            6,
+            1,
+            2,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            4,
+            0,
+            0,
+            2,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            3,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            6,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            5,
+            1,
+            2,
+            6,
+            3
+          ],
+          [
+            2,
+            1,
+            6,
+            3,
+            5,
+            4
+          ],
+          [
+            3,
+            6,
+            5,
+            4,
+            1,
+            2
+          ],
+          [
+            6,
+            3,
+            4,
+            5,
+            2,
+            1
+          ],
+          [
+            5,
+            4,
+            2,
+            1,
+            3,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
             false
           ]
         ]
@@ -30271,9 +30271,9 @@ const data: PuzzleSet = {
           [
             0,
             0,
+            3,
+            1,
             0,
-            5,
-            4,
             0
           ],
           [
@@ -30282,697 +30282,89 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            6
+            0
           ],
           [
             0,
             0,
-            1,
             0,
             0,
+            4,
             5
           ],
           [
+            0,
+            2,
+            5,
+            0,
+            1,
+            0
+          ],
+          [
             3,
             0,
             0,
-            0,
             6,
-            2
-          ],
-          [
-            2,
-            0,
-            6,
-            0,
             0,
             0
           ],
           [
             0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            6,
-            2,
             5,
-            4,
-            3
-          ],
-          [
-            4,
+            0,
             3,
-            5,
             2,
-            1,
-            6
-          ],
-          [
-            6,
-            2,
-            1,
-            4,
-            3,
-            5
-          ],
-          [
-            3,
-            5,
-            4,
-            1,
-            6,
-            2
-          ],
-          [
-            2,
-            1,
-            6,
-            3,
-            5,
-            4
-          ],
-          [
-            5,
-            4,
-            3,
-            6,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            0,
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            2,
-            4,
-            0,
-            0,
-            6
-          ],
-          [
-            6,
-            3,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            3,
-            5,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
             0
           ]
         ],
         "solution": [
           [
             5,
-            6,
-            3,
             4,
+            3,
             1,
+            6,
             2
           ],
           [
-            1,
-            2,
-            4,
-            3,
-            5,
-            6
-          ],
-          [
-            6,
-            3,
-            5,
-            1,
-            2,
-            4
-          ],
-          [
-            2,
-            4,
-            1,
-            5,
-            6,
-            3
-          ],
-          [
-            3,
-            5,
-            6,
-            2,
-            4,
-            1
-          ],
-          [
-            4,
-            1,
             2,
             6,
-            3,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            2,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            0,
-            6,
-            3,
-            0,
-            4,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            4,
-            0,
-            0
-          ],
-          [
             4,
             5,
-            1,
-            6,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            2,
             3,
-            4,
-            5,
-            6,
             1
           ],
           [
             1,
-            6,
             3,
+            6,
             2,
             4,
             5
           ],
           [
+            6,
+            2,
             5,
             4,
-            6,
             1,
-            3,
-            2
+            3
           ],
           [
-            6,
+            3,
             1,
             2,
-            3,
+            6,
             5,
             4
           ],
           [
+            4,
+            5,
+            1,
             3,
             2,
-            5,
-            4,
-            1,
             6
-          ],
-          [
-            4,
-            5,
-            1,
-            6,
-            2,
-            3
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            5,
-            0,
-            4,
-            0,
-            3
-          ],
-          [
-            0,
-            4,
-            0,
-            3,
-            6,
-            0
-          ],
-          [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            5,
-            6,
-            4,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            5,
-            6
-          ]
-        ],
-        "solution": [
-          [
-            6,
-            5,
-            2,
-            4,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            1,
-            3,
-            6,
-            5,
-            2,
-            4
-          ],
-          [
-            5,
-            6,
-            4,
-            2,
-            3,
-            1
-          ],
-          [
-            3,
-            1,
-            5,
-            6,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            1,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            1,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            5,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            3,
-            1,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            3
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            5,
-            2,
-            1,
-            3,
-            6
-          ],
-          [
-            3,
-            1,
-            6,
-            5,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            5,
-            3,
-            6,
-            1
-          ],
-          [
-            6,
-            3,
-            1,
-            4,
-            2,
-            5
-          ],
-          [
-            1,
-            6,
-            3,
-            2,
-            5,
-            4
-          ],
-          [
-            5,
-            2,
-            4,
-            6,
-            1,
-            3
           ]
         ],
         "isClue": [
@@ -30985,25 +30377,9 @@ const data: PuzzleSet = {
             false
           ],
           [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
             false,
             false,
             false,
-            false
-          ],
-          [
-            true,
-            true,
-            true,
             false,
             false,
             false
@@ -31012,444 +30388,20 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            5,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            1,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            5,
-            0,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            6,
-            1,
-            4,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            1,
-            5,
-            6
-          ],
-          [
-            1,
-            5,
-            6,
-            3,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            3,
-            6,
-            1,
-            5
-          ],
-          [
-            6,
-            1,
-            5,
-            2,
-            3,
-            4
-          ],
-          [
-            3,
-            4,
-            2,
-            5,
-            6,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            1,
-            3,
-            0,
-            0,
-            4,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            0,
-            4
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            4,
-            5,
-            1,
-            6,
-            3
-          ],
-          [
-            6,
-            1,
-            3,
-            4,
-            2,
-            5
-          ],
-          [
-            1,
-            3,
-            6,
-            5,
-            4,
-            2
-          ],
-          [
-            4,
-            5,
-            2,
-            3,
-            1,
-            6
-          ],
-          [
-            5,
-            2,
-            4,
-            6,
-            3,
-            1
-          ],
-          [
-            3,
-            6,
-            1,
-            2,
-            5,
-            4
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            2,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            1,
-            0,
-            2
-          ],
-          [
-            0,
-            4,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            3,
-            0,
-            0,
-            6,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            2,
-            4,
-            5,
-            6
-          ],
-          [
-            6,
-            5,
-            1,
-            3,
-            2,
-            4
-          ],
-          [
-            4,
-            2,
-            5,
-            6,
-            1,
-            3
-          ],
-          [
-            5,
-            6,
-            3,
-            1,
-            4,
-            2
-          ],
-          [
-            2,
-            4,
-            6,
-            5,
-            3,
-            1
-          ],
-          [
-            1,
-            3,
-            4,
-            2,
-            6,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
             false,
             true,
             true
           ],
           [
             false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
             false,
             false,
             true,
@@ -31461,22 +30413,6 @@ const data: PuzzleSet = {
             true,
             false,
             true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
             true,
             false
           ]
@@ -31485,102 +30421,102 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            2,
+            3,
             1,
             0,
             0,
             6,
+            5
+          ],
+          [
+            6,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
             4
           ],
           [
+            0,
             4,
             6,
             0,
             0,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            6
+            3
           ],
           [
             0,
             0,
             4,
             0,
-            2,
+            5,
             0
           ]
         ],
         "solution": [
           [
-            2,
-            1,
-            5,
             3,
-            6,
-            4
-          ],
-          [
-            4,
-            6,
             1,
             2,
-            5,
-            3
-          ],
-          [
-            3,
-            5,
-            6,
             4,
-            1,
-            2
-          ],
-          [
             6,
-            4,
-            2,
-            1,
-            3,
             5
           ],
           [
-            1,
-            2,
-            3,
+            6,
             5,
+            1,
+            3,
             4,
-            6
+            2
+          ],
+          [
+            4,
+            2,
+            5,
+            6,
+            3,
+            1
           ],
           [
             5,
+            6,
             3,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
             4,
             6,
+            5,
+            1,
+            3
+          ],
+          [
+            1,
+            3,
+            4,
             2,
-            1
+            5,
+            6
           ]
         ],
         "isClue": [
@@ -31602,7 +30538,7 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
+            false,
             false,
             false,
             false,
@@ -31611,16 +30547,16 @@ const data: PuzzleSet = {
           [
             false,
             false,
-            true,
             false,
+            true,
             false,
             true
           ],
           [
             false,
-            false,
-            false,
             true,
+            true,
+            false,
             false,
             true
           ],
@@ -31637,102 +30573,862 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            0,
-            0,
             3,
             0,
             0,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
             0,
             0,
             0
           ],
           [
-            0,
-            1,
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            5,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
             0,
             2,
+            0,
+            0,
+            6,
+            4
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
             0
           ],
           [
             0,
             0,
             0,
+            1,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
             5,
-            3,
-            6
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            2
           ]
         ],
         "solution": [
           [
-            5,
-            6,
             3,
-            2,
+            1,
+            6,
             4,
+            2,
+            5
+          ],
+          [
+            5,
+            2,
+            1,
+            3,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
+            2,
+            5,
+            1,
+            3
+          ],
+          [
+            2,
+            5,
+            3,
+            1,
+            4,
+            6
+          ],
+          [
+            6,
+            4,
+            5,
+            2,
+            3,
             1
           ],
           [
             1,
-            4,
-            2,
             3,
-            6,
-            5
-          ],
-          [
-            2,
-            1,
             4,
             6,
             5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0,
+            6,
             3
           ],
           [
             3,
-            5,
             6,
+            0,
+            0,
             4,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            5,
             1,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            5,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            3,
+            6,
+            5,
+            1,
+            4,
             2
+          ],
+          [
+            2,
+            4,
+            6,
+            3,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            2,
+            4,
+            3,
+            6
           ],
           [
             6,
             3,
-            5,
             1,
+            5,
             2,
             4
           ],
           [
             4,
             2,
+            3,
+            6,
             1,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            3,
+            0,
+            0,
+            4,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            5,
+            0,
+            3,
+            0,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            1,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            1,
+            4,
+            2,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            6,
+            3
+          ],
+          [
+            5,
+            2,
+            3,
+            6,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
             5,
             3,
             6
+          ],
+          [
+            2,
+            5,
+            6,
+            3,
+            1,
+            4
+          ],
+          [
+            6,
+            3,
+            4,
+            1,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            5,
+            6,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            2,
+            4,
+            6,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            5,
+            2,
+            4,
+            6
+          ],
+          [
+            4,
+            6,
+            3,
+            1,
+            5,
+            2
+          ],
+          [
+            2,
+            5,
+            6,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            4,
+            1,
+            3,
+            2,
+            5
+          ],
+          [
+            1,
+            3,
+            2,
+            5,
+            6,
+            4
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            5,
+            6,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            4,
+            5,
+            6
+          ],
+          [
+            6,
+            5,
+            3,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            4,
+            6,
+            5,
+            1,
+            3
+          ],
+          [
+            5,
+            6,
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            3,
+            1,
+            4,
+            2,
+            6,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            0,
+            5,
+            0
+          ],
+          [
+            1,
+            6,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            4,
+            2,
+            1,
+            6,
+            5
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            2,
+            3
+          ],
+          [
+            4,
+            2,
+            3,
+            6,
+            5,
+            1
+          ],
+          [
+            1,
+            6,
+            5,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            1,
+            6
+          ],
+          [
+            6,
+            5,
+            1,
+            3,
+            4,
+            2
           ]
         ],
         "isClue": [
@@ -31747,13 +31443,157 @@ const data: PuzzleSet = {
           [
             true,
             true,
-            false,
+            true,
             false,
             false,
             false
           ],
           [
             false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            6,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            3,
+            6
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            4,
+            6,
+            3,
+            5,
+            2
+          ],
+          [
+            3,
+            6,
+            5,
+            2,
+            4,
+            1
+          ],
+          [
+            2,
+            5,
+            4,
+            1,
+            6,
+            3
+          ],
+          [
+            6,
+            3,
+            2,
+            5,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            6,
+            2,
+            5
+          ],
+          [
+            5,
+            2,
+            1,
+            4,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
             true,
             false,
             false,
@@ -31764,7 +31604,15 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            false,
             true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
             false,
             false
           ],
@@ -31772,8 +31620,8 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
             true,
+            false,
             false
           ],
           [
@@ -31790,318 +31638,6 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            5,
-            4,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            2,
-            3,
-            0
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            5,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            2,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            5,
-            4,
-            2,
-            1,
-            6,
-            3
-          ],
-          [
-            3,
-            6,
-            5,
-            4,
-            1,
-            2
-          ],
-          [
-            2,
-            1,
-            3,
-            6,
-            4,
-            5
-          ],
-          [
-            4,
-            5,
-            1,
-            2,
-            3,
-            6
-          ],
-          [
-            1,
-            2,
-            6,
-            3,
-            5,
-            4
-          ],
-          [
-            6,
-            3,
-            4,
-            5,
-            2,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            5,
-            1,
-            0,
-            0,
-            0,
-            4
-          ],
-          [
-            0,
-            3,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            6,
-            2,
-            4,
-            1,
-            5
-          ],
-          [
-            4,
-            2,
-            1,
-            5,
-            6,
-            3
-          ],
-          [
-            5,
-            1,
-            6,
-            3,
-            2,
-            4
-          ],
-          [
-            6,
-            3,
-            4,
-            2,
-            5,
-            1
-          ],
-          [
-            2,
-            4,
-            5,
-            1,
-            3,
-            6
-          ],
-          [
-            1,
-            5,
-            3,
-            6,
-            4,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
             0,
             3,
             0,
@@ -32112,485 +31648,37 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            6,
-            4,
-            2
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
             5,
-            3,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            6,
-            2,
-            4,
-            5,
-            3
-          ],
-          [
-            2,
-            4,
-            3,
-            5,
-            6,
-            1
-          ],
-          [
-            3,
-            5,
-            1,
-            6,
-            4,
-            2
-          ],
-          [
-            4,
-            2,
-            5,
-            3,
-            1,
-            6
-          ],
-          [
-            5,
-            3,
-            6,
-            1,
-            2,
-            4
-          ],
-          [
-            6,
-            1,
-            4,
-            2,
-            3,
-            5
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            1,
-            3,
-            2
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            5,
-            0,
-            4,
-            0,
             0,
             0
           ],
           [
             0,
             0,
-            5,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            3,
-            5,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            5,
-            6,
-            1,
-            3,
-            2
-          ],
-          [
-            2,
-            3,
-            1,
-            6,
-            5,
-            4
-          ],
-          [
-            3,
-            1,
-            2,
-            4,
-            6,
-            5
-          ],
-          [
-            5,
-            6,
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            6,
-            4,
-            5,
-            3,
-            2,
-            1
-          ],
-          [
-            1,
-            2,
-            3,
-            5,
-            4,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            true,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            5,
             0,
             4,
-            0,
-            2
-          ],
-          [
-            0,
-            6,
             5,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
-            1,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            0,
-            0,
-            1,
-            0,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            6,
-            5,
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            3,
-            6,
-            5,
-            2,
-            4,
-            1
-          ],
-          [
-            2,
-            4,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            5,
-            3,
-            6,
-            1,
-            2,
-            4
-          ],
-          [
-            1,
-            2,
-            4,
-            5,
-            3,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            0,
-            2,
-            0,
             6
           ],
           [
             0,
+            2,
             0,
-            0,
-            0,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            6,
-            0,
-            4,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            4,
             0,
             3,
-            0,
             0
           ],
           [
             0,
-            5,
+            6,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
             4,
             0,
             0,
@@ -32599,74 +31687,90 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
-            4,
-            1,
+            6,
+            5,
             3,
+            1,
+            4,
+            2
+          ],
+          [
             2,
+            4,
+            6,
+            5,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            2,
+            4,
             5,
             6
           ],
           [
-            5,
-            6,
-            1,
             4,
             2,
-            3
-          ],
-          [
-            2,
+            5,
+            6,
             3,
-            6,
-            5,
-            4,
             1
           ],
           [
-            3,
-            2,
             5,
             6,
             1,
+            3,
+            2,
             4
           ],
           [
             1,
+            3,
             4,
             2,
-            3,
             6,
             5
-          ],
-          [
-            6,
-            5,
-            4,
-            1,
-            3,
-            2
           ]
         ],
         "isClue": [
           [
             false,
             false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
             false,
             true,
             false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
             true
           ],
           [
             false,
+            true,
             false,
             false,
-            false,
-            false,
-            true
+            true,
+            false
           ],
           [
             false,
-            false,
+            true,
             true,
             false,
             true,
@@ -32675,22 +31779,6 @@ const data: PuzzleSet = {
           [
             true,
             false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
             true,
             false,
             false,
@@ -32702,261 +31790,109 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
             1,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            3,
-            0,
-            2,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          [
-            1,
-            4,
-            0,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            6,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            4,
-            1
-          ]
-        ],
-        "solution": [
-          [
-            2,
-            5,
-            1,
-            4,
-            3,
-            6
-          ],
-          [
-            6,
-            3,
             5,
             2,
-            1,
-            4
+            0,
+            0
           ],
           [
-            4,
-            1,
-            3,
             6,
+            0,
+            0,
             5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0,
             2
           ],
           [
-            1,
-            4,
-            6,
+            0,
+            0,
+            0,
             3,
-            2,
+            1,
             5
           ],
           [
-            5,
-            2,
-            4,
-            1,
-            6,
-            3
-          ],
-          [
-            3,
-            6,
-            2,
-            5,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            6,
-            1,
-            5,
-            0,
-            0,
-            0
-          ],
-          [
-            3,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            2,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            6
-          ],
-          [
-            0,
-            2,
             0,
             0,
             1,
+            0,
+            0,
             0
           ],
           [
-            0,
-            0,
+            2,
             6,
             0,
-            4,
+            0,
+            0,
             0
           ]
         ],
         "solution": [
           [
-            6,
+            3,
             1,
             5,
             2,
-            3,
+            6,
             4
           ],
           [
-            3,
+            6,
             4,
             2,
             5,
-            6,
+            3,
             1
           ],
           [
-            5,
-            6,
             1,
-            4,
-            2,
-            3
-          ],
-          [
-            2,
+            5,
             3,
+            6,
             4,
-            1,
-            5,
-            6
+            2
           ],
           [
             4,
             2,
-            3,
             6,
+            3,
             1,
             5
           ],
           [
+            5,
+            3,
+            1,
+            4,
+            2,
+            6
+          ],
+          [
+            2,
+            6,
+            4,
             1,
             5,
-            6,
-            3,
-            4,
-            2
+            3
           ]
         ],
         "isClue": [
           [
-            true,
-            true,
-            true,
             false,
+            true,
+            true,
+            true,
             false,
             false
           ],
@@ -32964,7 +31900,7 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            false,
+            true,
             false,
             false
           ],
@@ -32973,31 +31909,31 @@ const data: PuzzleSet = {
             false,
             false,
             true,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
             false,
             true
           ],
           [
             false,
-            true,
             false,
             false,
             true,
-            false
+            true,
+            true
           ],
           [
             false,
             false,
             true,
             false,
+            false,
+            false
+          ],
+          [
             true,
+            true,
+            false,
+            false,
+            false,
             false
           ]
         ]
@@ -33005,51 +31941,51 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            1,
-            4
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            1,
-            0,
-            0,
-            2
-          ],
-          [
             0,
             0,
             0,
             3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1,
+            0,
             0,
             5
           ],
           [
             0,
             0,
-            5,
+            2,
             0,
-            4,
+            6,
             0
           ]
         ],
@@ -33057,63 +31993,63 @@ const data: PuzzleSet = {
           [
             1,
             4,
-            3,
-            2,
-            5,
-            6
-          ],
-          [
-            2,
-            3,
             6,
+            3,
             5,
-            1,
-            4
+            2
           ],
           [
+            2,
             5,
+            3,
             6,
             4,
+            1
+          ],
+          [
+            6,
             1,
+            4,
+            5,
             2,
             3
           ],
           [
-            6,
-            5,
-            1,
-            4,
             3,
-            2
+            2,
+            5,
+            4,
+            1,
+            6
           ],
           [
             4,
+            6,
             1,
             2,
             3,
-            6,
             5
           ],
           [
+            5,
             3,
             2,
-            5,
+            1,
             6,
-            4,
-            1
+            4
           ]
         ],
         "isClue": [
           [
+            false,
+            false,
+            false,
             true,
-            false,
-            false,
-            false,
             false,
             false
           ],
           [
-            true,
+            false,
             false,
             false,
             false,
@@ -33122,6 +32058,14 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
             true,
             false,
             false,
@@ -33129,18 +32073,10 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
+            true,
             false,
             true,
             false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
             false,
             true
           ],
@@ -33158,226 +32094,74 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
+            5,
             0,
             0,
             0,
             0
           ],
           [
-            0,
-            0,
-            2,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            6,
-            5
-          ],
-          [
-            0,
-            3,
-            0,
             1,
             0,
-            0
-          ],
-          [
-            6,
-            0,
-            0,
-            0,
+            3,
             4,
+            0,
             0
           ],
           [
-            1,
+            4,
             0,
             0,
-            6,
             0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
             2
-          ]
-        ],
-        "solution": [
-          [
-            4,
-            1,
-            6,
-            5,
-            2,
-            3
           ],
-          [
-            5,
-            6,
-            2,
-            3,
-            1,
-            4
-          ],
-          [
-            3,
-            2,
-            1,
-            4,
-            6,
-            5
-          ],
-          [
-            2,
-            3,
-            4,
-            1,
-            5,
-            6
-          ],
-          [
-            6,
-            5,
-            3,
-            2,
-            4,
-            1
-          ],
-          [
-            1,
-            4,
-            5,
-            6,
-            3,
-            2
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            true
-          ]
-        ]
-      },
-      {
-        "values": [
           [
             0,
-            5,
             0,
+            1,
             0,
-            6,
+            3,
             0
           ],
           [
             0,
             0,
             0,
-            4,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            6,
-            1,
-            2,
-            0,
-            0,
-            0
-          ],
-          [
-            4,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            2,
-            0,
             5,
-            0,
+            6,
             0
           ]
         ],
         "solution": [
           [
-            3,
-            5,
-            4,
-            1,
-            6,
-            2
-          ],
-          [
             2,
+            5,
             6,
             1,
             4,
-            5,
             3
           ],
           [
-            5,
+            1,
+            6,
+            3,
+            4,
+            2,
+            5
+          ],
+          [
             4,
             3,
+            5,
             2,
             1,
             6
@@ -33385,26 +32169,26 @@ const data: PuzzleSet = {
           [
             6,
             1,
-            2,
-            3,
-            4,
-            5
-          ],
-          [
             4,
             3,
             5,
-            6,
-            2,
-            1
+            2
           ],
           [
+            5,
+            2,
             1,
-            2,
             6,
-            5,
             3,
             4
+          ],
+          [
+            3,
+            4,
+            2,
+            5,
+            6,
+            1
           ]
         ],
         "isClue": [
@@ -33413,30 +32197,14 @@ const data: PuzzleSet = {
             true,
             false,
             false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
             false,
             false
           ],
           [
             true,
-            true,
-            true,
             false,
+            true,
+            true,
             false,
             false
           ],
@@ -33446,124 +32214,12 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            false,
             false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            5,
-            0,
-            4,
-            2
           ],
-          [
-            0,
-            0,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            0,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            2,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            1,
-            3,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            3,
-            1,
-            5,
-            6,
-            4,
-            2
-          ],
-          [
-            6,
-            5,
-            4,
-            2,
-            1,
-            3
-          ],
-          [
-            2,
-            4,
-            1,
-            3,
-            5,
-            6
-          ],
-          [
-            5,
-            6,
-            2,
-            4,
-            3,
-            1
-          ],
-          [
-            4,
-            2,
-            3,
-            1,
-            6,
-            5
-          ],
-          [
-            1,
-            3,
-            6,
-            5,
-            2,
-            4
-          ]
-        ],
-        "isClue": [
           [
             false,
             false,
-            true,
+            false,
             false,
             true,
             true
@@ -33573,188 +32229,12 @@ const data: PuzzleSet = {
             false,
             true,
             false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            false,
             true,
             false
           ],
           [
             false,
-            true,
             false,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            2,
-            4,
-            0,
-            0,
-            0
-          ],
-          [
-            5,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            0,
-            0
-          ],
-          [
-            0,
-            1,
-            2,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            5
-          ],
-          [
-            0,
-            6,
-            0,
-            2,
-            4,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            2,
-            4,
-            5,
-            3,
-            6
-          ],
-          [
-            5,
-            3,
-            6,
-            1,
-            2,
-            4
-          ],
-          [
-            6,
-            5,
-            3,
-            4,
-            1,
-            2
-          ],
-          [
-            4,
-            1,
-            2,
-            6,
-            5,
-            3
-          ],
-          [
-            2,
-            4,
-            1,
-            3,
-            6,
-            5
-          ],
-          [
-            3,
-            6,
-            5,
-            2,
-            4,
-            1
-          ]
-        ],
-        "isClue": [
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
             false,
             true,
             true,
@@ -33766,25 +32246,33 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            5,
+            4,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            4,
             0,
             3,
             0,
             0,
-            1
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            5
+            0
           ],
           [
             0,
-            5,
             0,
-            1,
+            0,
+            0,
             0,
             4
           ],
@@ -33793,22 +32281,318 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            0,
+            2,
             0
           ],
           [
+            6,
+            4,
             0,
             0,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            5,
             4,
             6,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            5,
+            4,
+            6
+          ],
+          [
+            4,
+            6,
+            3,
+            2,
+            1,
+            5
+          ],
+          [
+            2,
+            3,
+            5,
+            1,
+            6,
+            4
+          ],
+          [
+            5,
+            1,
+            6,
+            4,
+            2,
+            3
+          ],
+          [
+            6,
+            4,
+            2,
+            3,
+            5,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4,
             0,
             0
           ],
           [
+            0,
             4,
+            0,
+            0,
+            3,
+            6
+          ],
+          [
+            2,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            3,
+            6,
+            2,
+            1,
+            4,
+            5
+          ],
+          [
+            5,
+            1,
+            4,
+            6,
+            2,
+            3
+          ],
+          [
+            6,
+            2,
+            3,
+            4,
+            5,
+            1
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            3,
+            6
+          ],
+          [
+            2,
+            3,
             6,
             5,
+            1,
+            4
+          ],
+          [
+            4,
+            5,
+            1,
             3,
+            6,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            0,
+            6,
             0,
             0
           ]
@@ -33817,64 +32601,512 @@ const data: PuzzleSet = {
           [
             6,
             4,
+            2,
             3,
-            5,
-            2,
-            1
-          ],
-          [
-            2,
             1,
-            6,
-            4,
-            3,
             5
           ],
           [
+            2,
             3,
             5,
-            2,
             1,
-            6,
-            4
-          ],
-          [
-            5,
-            3,
-            1,
-            2,
             4,
             6
           ],
           [
-            1,
-            2,
-            4,
-            6,
             5,
-            3
+            1,
+            6,
+            4,
+            3,
+            2
           ],
           [
             4,
             6,
+            3,
+            2,
+            5,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            5,
+            6,
+            4
+          ],
+          [
+            1,
+            5,
+            4,
+            6,
+            2,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            6,
+            3
+          ]
+        ],
+        "solution": [
+          [
+            4,
+            2,
+            5,
+            1,
+            3,
+            6
+          ],
+          [
+            6,
+            3,
+            2,
+            4,
+            5,
+            1
+          ],
+          [
+            1,
             5,
             3,
+            6,
+            2,
+            4
+          ],
+          [
+            3,
+            6,
+            4,
+            2,
             1,
+            5
+          ],
+          [
+            5,
+            1,
+            6,
+            3,
+            4,
             2
+          ],
+          [
+            2,
+            4,
+            1,
+            5,
+            6,
+            3
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            3,
+            2,
+            5,
+            4
+          ],
+          [
+            5,
+            4,
+            1,
+            6,
+            2,
+            3
+          ],
+          [
+            1,
+            6,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5,
+            6,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            5,
+            4,
+            1,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            4,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            1,
+            3,
+            5,
+            6,
+            4
+          ],
+          [
+            6,
+            4,
+            5,
+            3,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            2,
+            6,
+            4,
+            5
+          ],
+          [
+            4,
+            5,
+            6,
+            2,
+            1,
+            3
+          ],
+          [
+            5,
+            6,
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            4,
+            5,
+            6
           ]
         ],
         "isClue": [
           [
             false,
             false,
-            true,
-            false,
-            false,
-            true
-          ],
-          [
-            true,
-            false,
             false,
             false,
             false,
@@ -33882,11 +33114,163 @@ const data: PuzzleSet = {
           ],
           [
             false,
-            true,
+            false,
             false,
             true,
+            true,
+            false
+          ],
+          [
+            true,
             false,
+            false,
+            false,
+            true,
             true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            2,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            6,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            5,
+            2,
+            0,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            2,
+            4,
+            6,
+            5,
+            1,
+            3
+          ],
+          [
+            3,
+            5,
+            1,
+            4,
+            6,
+            2
+          ],
+          [
+            5,
+            1,
+            3,
+            6,
+            2,
+            4
+          ],
+          [
+            4,
+            6,
+            2,
+            1,
+            3,
+            5
+          ],
+          [
+            6,
+            2,
+            4,
+            3,
+            5,
+            1
+          ],
+          [
+            1,
+            3,
+            5,
+            2,
+            4,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
           ],
           [
             false,
@@ -33897,16 +33281,24 @@ const data: PuzzleSet = {
             false
           ],
           [
-            false,
-            false,
             true,
             true,
+            true,
+            false,
             false,
             false
           ],
           [
+            false,
+            false,
+            false,
+            false,
             true,
-            true,
+            true
+          ],
+          [
+            false,
+            false,
             true,
             true,
             false,
@@ -33917,284 +33309,108 @@ const data: PuzzleSet = {
       {
         "values": [
           [
-            3,
-            4,
             0,
             0,
-            1,
-            0
+            0,
+            0,
+            0,
+            2
           ],
           [
             0,
             0,
             0,
             0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
             0,
             5
           ],
           [
             0,
-            0,
-            0,
-            0,
-            3,
-            0
-          ],
-          [
+            2,
             5,
             0,
             0,
-            2,
+            0
+          ],
+          [
+            3,
+            0,
+            4,
+            0,
             0,
             0
           ],
           [
-            0,
-            3,
             6,
             0,
             0,
-            0
-          ],
-          [
-            2,
             0,
-            3,
-            4,
             0,
-            0
+            3
           ]
         ],
         "solution": [
           [
-            3,
-            4,
             5,
+            3,
             6,
+            4,
             1,
             2
           ],
           [
+            2,
+            1,
+            3,
+            5,
+            6,
+            4
+          ],
+          [
+            4,
+            6,
             1,
             2,
-            4,
             3,
-            6,
             5
           ],
           [
-            6,
+            1,
+            2,
             5,
-            2,
-            1,
-            3,
-            4
-          ],
-          [
-            5,
-            6,
-            1,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            6,
-            5,
-            2,
-            1
-          ],
-          [
-            2,
-            1,
             3,
             4,
-            5,
-            6
-          ]
-        ],
-        "isClue": [
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            true,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            true,
-            true,
-            false,
-            false
-          ]
-        ]
-      },
-      {
-        "values": [
-          [
-            0,
-            0,
-            2,
-            6,
-            0,
-            3
-          ],
-          [
-            0,
-            0,
-            4,
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            1,
-            0,
-            4,
-            3,
-            0
-          ],
-          [
-            0,
-            6,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            0,
-            3,
-            6,
-            4
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        ],
-        "solution": [
-          [
-            1,
-            5,
-            2,
-            6,
-            4,
-            3
-          ],
-          [
-            6,
-            3,
-            4,
-            1,
-            2,
-            5
-          ],
-          [
-            2,
-            1,
-            5,
-            4,
-            3,
             6
           ],
           [
+            3,
+            5,
             4,
             6,
-            3,
             2,
-            5,
             1
           ],
           [
-            5,
+            6,
+            4,
             2,
             1,
-            3,
-            6,
-            4
-          ],
-          [
-            3,
-            4,
-            6,
             5,
-            1,
-            2
+            3
           ]
         ],
         "isClue": [
           [
             false,
             false,
-            true,
-            true,
-            false,
-            true
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
-            false,
-            true,
-            true,
-            false
-          ],
-          [
-            false,
-            true,
             false,
             false,
             false,
@@ -34204,17 +33420,41 @@ const data: PuzzleSet = {
             false,
             false,
             false,
+            false,
             true,
-            true,
-            true
+            false
           ],
           [
             false,
             false,
+            true,
+            true,
             false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
             false,
             false,
             false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
           ]
         ]
       },
@@ -34224,44 +33464,196 @@ const data: PuzzleSet = {
             0,
             0,
             0,
-            6,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            0,
-            0,
             1,
-            5
+            2,
+            0
           ],
           [
             0,
             0,
             5,
             0,
-            4,
-            0
+            0,
+            3
           ],
           [
             0,
-            0,
-            4,
-            1,
-            0,
-            2
-          ],
-          [
             0,
             3,
             0,
+            1,
+            4
+          ],
+          [
+            5,
+            0,
+            0,
             0,
             0,
             0
           ],
           [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            6,
+            0,
+            0,
             5,
+            2
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            3,
+            4,
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            2,
+            6,
+            3
+          ],
+          [
+            2,
+            5,
+            3,
+            6,
+            1,
+            4
+          ],
+          [
+            5,
+            2,
+            6,
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            5,
+            3,
+            6
+          ],
+          [
+            3,
+            6,
+            1,
+            4,
+            5,
+            2
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            5,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
             0,
             2,
             0,
@@ -34271,52 +33663,52 @@ const data: PuzzleSet = {
         ],
         "solution": [
           [
+            3,
             2,
+            6,
             5,
             1,
-            6,
-            3,
             4
           ],
           [
-            6,
+            5,
+            1,
             4,
             3,
             2,
+            6
+          ],
+          [
+            2,
+            6,
+            3,
             1,
+            4,
             5
           ],
           [
             1,
-            2,
-            5,
-            3,
             4,
-            6
+            5,
+            2,
+            6,
+            3
           ],
           [
-            3,
-            6,
             4,
-            1,
             5,
+            1,
+            6,
+            3,
             2
           ],
           [
-            4,
+            6,
             3,
-            6,
-            5,
-            2,
-            1
-          ],
-          [
-            5,
-            1,
             2,
             4,
-            6,
-            3
+            5,
+            1
           ]
         ],
         "isClue": [
@@ -34324,38 +33716,38 @@ const data: PuzzleSet = {
             false,
             false,
             false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
             true,
             false,
             false
           ],
           [
             false,
-            false,
-            false,
-            false,
             true,
-            true
-          ],
-          [
-            false,
-            false,
+            true,
             true,
             false,
-            true,
             false
           ],
           [
             false,
-            false,
             true,
             true,
-            false,
-            true
-          ],
-          [
-            false,
-            true,
-            false,
             false,
             false,
             false
@@ -34374,101 +33766,101 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            2,
-            0,
             4,
-            0,
-            0
-          ],
-          [
             0,
             0,
             3,
+            6
+          ],
+          [
+            0,
+            6,
+            0,
             0,
             0,
             0
           ],
           [
-            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
             0,
             0,
             6,
             0,
+            4,
             0
           ],
           [
-            4,
             0,
-            0,
+            5,
+            2,
             0,
             0,
             3
           ],
           [
             0,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          [
-            6,
-            1,
-            0,
-            0,
+            3,
             4,
+            0,
+            2,
             0
           ]
         ],
         "solution": [
           [
-            3,
-            2,
             5,
             4,
             1,
+            2,
+            3,
             6
           ],
           [
-            1,
-            6,
             3,
+            6,
+            5,
+            4,
+            1,
+            2
+          ],
+          [
+            1,
             2,
+            3,
+            6,
             5,
             4
           ],
           [
-            5,
-            4,
+            2,
             1,
             6,
-            3,
-            2
-          ],
-          [
-            4,
-            5,
-            6,
-            1,
-            2,
-            3
-          ],
-          [
-            2,
-            3,
-            4,
-            5,
-            6,
-            1
-          ],
-          [
-            6,
-            1,
-            2,
             3,
             4,
             5
+          ],
+          [
+            4,
+            5,
+            2,
+            1,
+            6,
+            3
+          ],
+          [
+            6,
+            3,
+            4,
+            5,
+            2,
+            1
           ]
         ],
         "isClue": [
@@ -34476,7 +33868,23 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            false,
             true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
             false,
             false
           ],
@@ -34485,6 +33893,134 @@ const data: PuzzleSet = {
             false,
             true,
             false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            1,
+            6,
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            6,
+            1,
+            3,
+            4,
+            5,
+            2
+          ],
+          [
+            2,
+            5,
+            6,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            4,
+            2,
+            5,
+            1,
+            6
+          ],
+          [
+            5,
+            2,
+            1,
+            6,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            5,
+            2,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            4,
+            3,
+            2,
+            5
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            true,
             false,
             false
           ],
@@ -34497,7 +34033,15 @@ const data: PuzzleSet = {
             false
           ],
           [
+            false,
             true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
             false,
             false,
             false,
@@ -34509,8 +34053,8 @@ const data: PuzzleSet = {
             false,
             false,
             false,
-            false,
-            true
+            true,
+            false
           ],
           [
             true,
@@ -34526,39 +34070,15 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
-            0,
             5,
             0,
-            4,
-            3
+            0,
+            0,
+            6
           ],
           [
-            0,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
             4,
             0,
-            0,
-            0
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            1,
-            0
-          ],
-          [
-            3,
-            4,
             0,
             0,
             2,
@@ -34569,46 +34089,46 @@ const data: PuzzleSet = {
             6,
             0,
             0,
+            4,
+            0
+          ],
+          [
             0,
-            4
+            1,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            4,
+            0,
+            0
           ]
         ],
         "solution": [
           [
-            6,
-            1,
-            5,
-            2,
-            4,
-            3
-          ],
-          [
-            4,
-            3,
-            6,
-            1,
-            5,
-            2
-          ],
-          [
-            5,
-            2,
-            4,
-            3,
-            6,
-            1
-          ],
-          [
             2,
             5,
-            3,
             4,
+            3,
             1,
             6
           ],
           [
-            3,
             4,
+            3,
             1,
             6,
             2,
@@ -34619,58 +34139,82 @@ const data: PuzzleSet = {
             6,
             2,
             5,
+            4,
+            3
+          ],
+          [
+            6,
+            1,
+            5,
+            2,
             3,
             4
+          ],
+          [
+            3,
+            4,
+            6,
+            1,
+            5,
+            2
+          ],
+          [
+            5,
+            2,
+            3,
+            4,
+            6,
+            1
           ]
         ],
         "isClue": [
           [
             false,
-            false,
-            true,
-            false,
-            true,
-            true
-          ],
-          [
-            false,
-            false,
-            false,
-            true,
-            false,
-            false
-          ],
-          [
-            false,
-            false,
-            true,
-            false,
-            false,
-            false
-          ],
-          [
-            true,
-            false,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            true,
-            true,
-            false,
-            false,
-            true,
-            false
-          ],
-          [
-            false,
             true,
             false,
             false,
             false,
             true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
           ]
         ]
       },
@@ -34678,27 +34222,35 @@ const data: PuzzleSet = {
         "values": [
           [
             0,
+            0,
+            5,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
             1,
             0,
             3,
+            2
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
             0,
             0
-          ],
-          [
-            0,
-            0,
-            0,
-            4,
-            2,
-            3
-          ],
-          [
-            0,
-            0,
-            0,
-            5,
-            0,
-            4
           ],
           [
             0,
@@ -34709,26 +34261,26 @@ const data: PuzzleSet = {
             0
           ],
           [
-            0,
             4,
+            1,
             0,
             0,
             5,
             6
-          ],
-          [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0
           ]
         ],
         "solution": [
           [
+            2,
+            3,
+            5,
+            6,
             4,
+            1
+          ],
+          [
             1,
+            4,
             2,
             3,
             6,
@@ -34739,8 +34291,8 @@ const data: PuzzleSet = {
             6,
             1,
             4,
-            2,
-            3
+            3,
+            2
           ],
           [
             3,
@@ -34755,22 +34307,318 @@ const data: PuzzleSet = {
             5,
             4,
             1,
-            3,
-            2
+            2,
+            3
           ],
           [
-            1,
             4,
+            1,
             3,
             2,
             5,
             6
+          ]
+        ],
+        "isClue": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            3,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            5,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            5,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            3,
+            6,
+            2,
+            4,
+            5
+          ],
+          [
+            5,
+            2,
+            4,
+            3,
+            6,
+            1
+          ],
+          [
+            3,
+            6,
+            1,
+            4,
+            5,
+            2
+          ],
+          [
+            2,
+            4,
+            5,
+            6,
+            1,
+            3
+          ],
+          [
+            6,
+            1,
+            3,
+            5,
+            2,
+            4
+          ],
+          [
+            4,
+            5,
+            2,
+            1,
+            3,
+            6
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            5,
+            4
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            4,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2,
+            5,
+            4,
+            0
+          ]
+        ],
+        "solution": [
+          [
+            5,
+            1,
+            4,
+            2,
+            6,
+            3
+          ],
+          [
+            6,
+            2,
+            3,
+            1,
+            5,
+            4
           ],
           [
             2,
             3,
-            5,
             6,
+            4,
+            1,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            3,
+            2,
+            6
+          ],
+          [
+            4,
+            5,
+            1,
+            6,
+            3,
+            2
+          ],
+          [
+            3,
+            6,
+            2,
+            5,
             4,
             1
           ]
@@ -34778,9 +34626,9 @@ const data: PuzzleSet = {
         "isClue": [
           [
             false,
-            true,
             false,
-            true,
+            false,
+            false,
             false,
             false
           ],
@@ -34794,11 +34642,147 @@ const data: PuzzleSet = {
           ],
           [
             false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
             false,
             false,
             true,
             false,
+            false,
             true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ]
+        ]
+      },
+      {
+        "values": [
+          [
+            1,
+            6,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            1,
+            0,
+            0,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            1
+          ]
+        ],
+        "solution": [
+          [
+            1,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1,
+            5,
+            6
+          ],
+          [
+            6,
+            5,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            6,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            6,
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            4,
+            2,
+            5,
+            6,
+            1
+          ]
+        ],
+        "isClue": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
           ],
           [
             false,
@@ -34809,20 +34793,36 @@ const data: PuzzleSet = {
             false
           ],
           [
+            true,
             false,
             true,
             false,
             false,
-            true,
             true
           ],
           [
             true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
             false,
             false,
             false,
             false,
+            true,
             false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
           ]
         ]
       }
