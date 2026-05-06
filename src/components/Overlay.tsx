@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Trophy, Star, Clock, RotateCcw, Home } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Star, Clock, RotateCcw, Home } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
 function formatTime(s: number): string {

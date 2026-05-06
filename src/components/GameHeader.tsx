@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Timer, Pause, Play, Eye, EyeOff, Sun, Moon, RotateCcw, Settings, Home } from 'lucide-react';
+import { Timer, Pause, Play, Eye, EyeOff, Sun, Moon, Settings, Home } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
 function formatTime(s: number): string {
@@ -18,24 +18,12 @@ interface GameHeaderProps {
   onSettings: () => void;
 }
 
-const DIFF_COLOR: Record<string, string> = {
-  easy:   'text-emerald-400',
-  medium: 'text-blue-400',
-  hard:   'text-amber-400',
-  expert: 'text-orange-400',
-  evil:   'text-red-400',
-};
 
-const MODE_LABEL: Record<string, string> = {
-  classic: 'Classic', killer: 'Killer', irregular: 'Irregular',
-  diagonal: 'Diagonal X', 'odd-even': 'Odd/Even', samurai: 'Samurai',
-};
 
 const GameHeader: React.FC<GameHeaderProps> = ({ theme, onThemeToggle, onNewGame, onSettings }) => {
   const {
     elapsedSeconds, isPaused, isStarted, isComplete,
     togglePause, tick, showErrors, toggleShowErrors,
-    mode, difficulty, size,
   } = useGameStore();
 
   const tickRef = useRef<ReturnType<typeof setInterval> | null>(null);

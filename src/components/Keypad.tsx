@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { Pencil, Pen, Eraser, Lightbulb, RefreshCw, RotateCcw, RotateCw, Wand2, Star, Moon, PawPrint, Droplet, Square, Heart, Leaf, Sun, Clover } from 'lucide-react';
+import { Pencil, Pen, Eraser, Lightbulb, RotateCcw, RotateCw, Wand2, Star, Moon, PawPrint, Droplet, Square, Heart, Leaf, Sun, Clover } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 import { getRemainingCounts } from '../utils/sudokuGenerator';
 

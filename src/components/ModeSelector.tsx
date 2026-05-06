@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { getVolumesForMode } from '../data/volumes';
-import type { VolumeDef, LevelDef } from '../data/volumes';
+import type { LevelDef } from '../data/volumes';
 import type { GameMode } from '../types';
 import { useGameStore } from '../store/gameStore';
 import { Play, Check, Grid, Image as ImageIcon, Snowflake, LayoutGrid, LayoutTemplate, X, ChevronLeft, Hexagon, Hash, Triangle, Box } from 'lucide-react';

@@ -66,7 +66,7 @@ export const useGameStore = create<Store>()(
 
       // ── Actions ────────────────────────────────────────────────────────────────
 
-      startGame: (mode, difficulty, size, volId = null, levelId = null) => {
+      startGame: (mode, difficulty, size, volId = undefined, levelId = undefined) => {
         set({ isGenerating: true });
 
         // Use setTimeout to yield to the event loop, allowing UI to show loading state

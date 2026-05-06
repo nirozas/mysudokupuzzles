@@ -1,4 +1,4 @@
-import { Difficulty, GameMode, GridState, KillerCage } from '../types';
+import type { Difficulty, GameMode, GridState, KillerCage } from '../types';
 
 // Use bitmasks for O(1) constraint checking. A 9-bit number represents 1-9.
 const getBit = (n: number) => 1 << (n - 1);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface TutorialOverlayProps {
@@ -124,7 +124,7 @@ const TUTORIALS = [
   }
 ];
 
-const MiniGrid: React.FC<{ data: number[][], isSolution?: boolean, type: string }> = ({ data, isSolution, type }) => {
+const MiniGrid: React.FC<{ data: number[][], type: string }> = ({ data, type }) => {
   if (!data || data.length === 0) return <div className="w-40 h-40 bg-white/10 rounded flex items-center justify-center">16x16 Grid</div>;
   
   const size = data.length;
@@ -205,7 +205,7 @@ export const TutorialOverlay: React.FC<TutorialOverlayProps> = ({ initialMode, o
                 <span className="text-white/80">Puzzle</span>
               </div>
               <div className="flex flex-col items-center gap-4">
-                <MiniGrid data={current.solution} isSolution type={current.id} />
+                <MiniGrid data={current.solution} type={current.id} />
                 <span className="text-white/80">Solution</span>
               </div>
             </div>
