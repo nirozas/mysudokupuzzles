@@ -113,8 +113,8 @@ const Cell: React.FC<CellProps> = ({
   ].filter(Boolean).join(' ');
 
   const bgOverride =
-    regionColor && !irregularBorders && !isSelected && !isRelated && !isHighlighted
-      ? regionColor
+    regionColor && !isSelected && !isRelated && !isHighlighted
+      ? regionColor + '22'
       : undefined;
 
   const showPencil = value === 0 && pencilMarks.size > 0;
@@ -204,10 +204,10 @@ const Cell: React.FC<CellProps> = ({
             style={{
               position: 'absolute',
               inset: 0.5,
-              borderTop: irregularBorders.top ? `3.5px solid ${regionColor}` : 'none',
-              borderBottom: irregularBorders.bottom ? `3.5px solid ${regionColor}` : 'none',
-              borderLeft: irregularBorders.left ? `3.5px solid ${regionColor}` : 'none',
-              borderRight: irregularBorders.right ? `3.5px solid ${regionColor}` : 'none',
+              borderTop: irregularBorders.top ? `3.5px solid ${regionColor ?? '#1a1a2e'}` : 'none',
+              borderBottom: irregularBorders.bottom ? `3.5px solid ${regionColor ?? '#1a1a2e'}` : 'none',
+              borderLeft: irregularBorders.left ? `3.5px solid ${regionColor ?? '#1a1a2e'}` : 'none',
+              borderRight: irregularBorders.right ? `3.5px solid ${regionColor ?? '#1a1a2e'}` : 'none',
               filter: 'blur(1.2px) brightness(1.5)',
               zIndex: 4,
               pointerEvents: 'none',
@@ -219,10 +219,10 @@ const Cell: React.FC<CellProps> = ({
             style={{
               position: 'absolute',
               inset: -0.5,
-              borderTop: irregularBorders.top ? '3.5px solid #000' : 'none',
-              borderBottom: irregularBorders.bottom ? '3.5px solid #000' : 'none',
-              borderLeft: irregularBorders.left ? '3.5px solid #000' : 'none',
-              borderRight: irregularBorders.right ? '3.5px solid #000' : 'none',
+              borderTop: irregularBorders.top ? '3.5px solid #0f0f1a' : 'none',
+              borderBottom: irregularBorders.bottom ? '3.5px solid #0f0f1a' : 'none',
+              borderLeft: irregularBorders.left ? '3.5px solid #0f0f1a' : 'none',
+              borderRight: irregularBorders.right ? '3.5px solid #0f0f1a' : 'none',
               zIndex: 5,
               pointerEvents: 'none'
             }}

@@ -8,6 +8,8 @@ import {
   autoFillNotes,
   SAMURAI_OVERLAPS,
 } from '../utils/sudokuGenerator';
+import { loadPregenPuzzle, isPregenMode } from '../data/puzzles/loader';
+
 
 // ─── Theme Helper ─────────────────────────────────────────────────────────────
 
@@ -69,16 +71,25 @@ export const useGameStore = create<Store>()(
       startGame: (mode, difficulty, size, volId = undefined, levelId = undefined) => {
         set({ isGenerating: true });
 
-        // Use setTimeout to yield to the event loop, allowing UI to show loading state
-        setTimeout(() => {
-          let grid = null;
-          let samuraiGrids: ReturnType<typeof generateSamurai> = [];
-
+        const run = async () => {
           try {
-            if (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo') {
-              samuraiGrids = generateSamurai(difficulty, mode);
-            } else {
-              grid = generateGrid(size, difficulty, mode as any);
+            let grid = null;
+            let samuraiGrids: ReturnType<typeof generateSamurai> = [];
+            let samuraiResult: { grids: any[], mode: string } | null = null;
+
+            // Try pre-generated puzzle first (mini, classic, image)
+            if (volId && levelId !== undefined && isPregenMode(volId)) {
+              grid = await loadPregenPuzzle(volId, levelId, size);
+            }
+
+            // Fall back to on-demand generation
+            if (!grid) {
+              if (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo') {
+                samuraiResult = generateSamurai(difficulty, mode);
+                samuraiGrids = samuraiResult.grids;
+              } else {
+                grid = generateGrid(size, difficulty, mode as any);
+              }
             }
 
             const initial = grid
@@ -93,6 +104,7 @@ export const useGameStore = create<Store>()(
               activeLevelId: levelId,
               grid,
               samuraiGrids,
+              samuraiOverlapMode: samuraiResult?.mode,
               activeGridIndex: 0,
               selectedCell: null,
               inputMode: 'pen',
@@ -107,11 +119,15 @@ export const useGameStore = create<Store>()(
               isGenerating: false,
             });
           } catch (err) {
-            console.error("Failed to generate grid:", err);
+            console.error('Failed to start game:', err);
             set({ isGenerating: false });
           }
-        }, 10);
+        };
+
+        // Use setTimeout to yield to UI before heavy work
+        setTimeout(() => { run(); }, 10);
       },
+
 
       selectCell: (pos) => {
         const { lockedNumber } = get();
@@ -198,7 +214,7 @@ export const useGameStore = create<Store>()(
           newSamurai[activeGridIndex] = updatedGrid;
           
           // Overlap Sync
-          const m = mode === 'combo' ? 'combo' : 'samurai';
+          const m = state.samuraiOverlapMode || (mode === 'combo' ? 'combo' : 'samurai');
           const syncs = SAMURAI_OVERLAPS[m]?.[activeGridIndex]?.filter(o => row >= o.range[0] && row <= o.range[1] && col >= o.range[2] && col <= o.range[3]) || [];
           for (const s of syncs) {
             const other = { ...newSamurai[s.other] };
@@ -265,7 +281,7 @@ export const useGameStore = create<Store>()(
           newSamurai[activeGridIndex] = updatedGrid;
           
           // Overlap Sync
-          const m = mode === 'combo' ? 'combo' : 'samurai';
+          const m = get().samuraiOverlapMode || (mode === 'combo' ? 'combo' : 'samurai');
           const syncs = SAMURAI_OVERLAPS[m]?.[activeGridIndex]?.filter(o => row >= o.range[0] && row <= o.range[1] && col >= o.range[2] && col <= o.range[3]) || [];
           for (const s of syncs) {
             const other = { ...newSamurai[s.other] };
@@ -413,6 +429,19 @@ export const useGameStore = create<Store>()(
         if (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo') {
           const newSamurai = [...samuraiGrids];
           newSamurai[activeGridIndex] = updatedGrid;
+
+          // Overlap Sync for Reveal
+          const m = get().samuraiOverlapMode || (mode === 'combo' ? 'combo' : 'samurai');
+          const syncs = SAMURAI_OVERLAPS[m]?.[activeGridIndex]?.filter(o => row >= o.range[0] && row <= o.range[1] && col >= o.range[2] && col <= o.range[3]) || [];
+          for (const s of syncs) {
+            const other = { ...newSamurai[s.other] };
+            const or = s.otherRange[0] + (row - s.range[0]);
+            const oc = s.otherRange[2] + (col - s.range[2]);
+            const otherVals = other.values.map(r => [...r]);
+            otherVals[or][oc] = answer;
+            other.values = otherVals;
+            newSamurai[s.other] = other;
+          }
           set({ samuraiGrids: newSamurai, isComplete: complete, hintsRemaining: hintsRemaining - 1 });
         } else {
           set({ grid: updatedGrid, isComplete: complete, hintsRemaining: hintsRemaining - 1 });

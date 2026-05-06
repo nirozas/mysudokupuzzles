@@ -255,6 +255,37 @@ export function getVolumesForMode(mode: string): VolumeDef[] {
       }
     ];
   }
+
+  // Custom Volumes for Combo 2-Grid Mode
+  if (mode === 'combo') {
+    return [
+      {
+        id: 'combo-very-easy',
+        title: 'Very Easy',
+        levels: generateLevels(1, 20, 'combo', 9, 'easy', 'Level')
+      },
+      {
+        id: 'combo-easy',
+        title: 'Easy',
+        levels: generateLevels(21, 20, 'combo', 9, 'medium', 'Level')
+      },
+      {
+        id: 'combo-medium',
+        title: 'Medium',
+        levels: generateLevels(41, 20, 'combo', 9, 'hard', 'Level')
+      },
+      {
+        id: 'combo-hard',
+        title: 'Hard',
+        levels: generateLevels(61, 20, 'combo', 9, 'expert', 'Level')
+      },
+      {
+        id: 'combo-devil',
+        title: 'Devil',
+        levels: generateLevels(81, 20, 'combo', 9, 'evil', 'Level')
+      }
+    ];
+  }
  
   // Custom Volumes for Diagonal Mode
   if (mode === 'diagonal') {

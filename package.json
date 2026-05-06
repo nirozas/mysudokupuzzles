@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate": "node scripts/generatePuzzles.mjs"
   },
+
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
     "clsx": "^2.1.1",

@@ -115,8 +115,8 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
           const isMultiGrid = (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4');
           
           if (selectedCell && isMultiGrid && selectedCell.gridIndex !== undefined) {
-            const m = (mode === 'combo' ? 'combo' : 'samurai') as string;
-            const link = SAMURAI_OVERLAPS[m]?.[selectedCell.gridIndex]?.find((o: any) => o.other === gridIndex);
+            const overlapMode = useGameStore.getState().samuraiOverlapMode || (mode === 'combo' ? 'combo' : 'samurai');
+            const link = SAMURAI_OVERLAPS[overlapMode]?.[selectedCell.gridIndex]?.find((o: any) => o.other === gridIndex);
             if (link) {
               const sr = selectedCell.row;
               const sc = selectedCell.col;

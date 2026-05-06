@@ -12,14 +12,33 @@ import Board from './Board';
 // Positions and labels are calculated dynamically based on mode
 
 const SamuraiBoard: React.FC = () => {
-  const { samuraiGrids, activeGridIndex, setActiveGrid, mode } = useGameStore();
+  const { samuraiGrids, activeGridIndex, setActiveGrid, mode, samuraiOverlapMode } = useGameStore();
   const [zoom, setZoom] = useState(0.55);
 
   if (!samuraiGrids.length) return null;
 
-  const cellSize = 42; 
-  const gridPx = 9 * cellSize + 4; 
-  const gridOffset = gridPx - Math.floor(cellSize * 3); // 3-cell overlap
+  // Mathematically precise pixel layout derived from the 21×21 master grid.
+  // CELL_SIZE=52, GAP=1 → each cell occupies 53px, 9 cells = 477px per grid.
+  // 3-cell overlap = 3*53 = 159px → grid offset = 477-159 = 318px.
+  const CELL_SIZE = 52;
+  const GAP = 1;
+  const CELL_STEP = CELL_SIZE + GAP;           // 53px
+  const GRID_PX = 9 * CELL_STEP;              // 477px  (9 cells + gaps)
+  const OVERLAP_CELLS = 3;
+  const OVERLAP_PX = OVERLAP_CELLS * CELL_STEP; // 159px
+  const OFFSET = GRID_PX - OVERLAP_PX;          // 318px
+
+  // Dynamic offsets for combo variants
+  let gridOffsetW = OFFSET;
+  let gridOffsetH = OFFSET;
+
+  if (samuraiOverlapMode === 'combo3x6') {
+    gridOffsetW = GRID_PX - 6 * CELL_STEP;
+    gridOffsetH = GRID_PX - 3 * CELL_STEP;
+  } else if (samuraiOverlapMode === 'combo6x3') {
+    gridOffsetW = GRID_PX - 3 * CELL_STEP;
+    gridOffsetH = GRID_PX - 6 * CELL_STEP;
+  }
 
   let pos: { x: number, y: number }[] = [];
   let labels: string[] = [];
@@ -27,44 +46,45 @@ const SamuraiBoard: React.FC = () => {
   let canvasH = 0;
 
   if (mode === 'combo') {
-    pos = [
-      { x: 0, y: 0 },
-      { x: gridOffset, y: gridOffset }
-    ];
+    pos = [{ x: 0, y: 0 }, { x: gridOffsetW, y: gridOffsetH }];
     labels = ['Top Left', 'Bottom Right'];
-    canvasW = gridPx + gridOffset;
-    canvasH = gridPx + gridOffset;
+    canvasW = GRID_PX + gridOffsetW;
+    canvasH = GRID_PX + gridOffsetH;
   } else if (mode === 'samurai3') {
     pos = [
-      { x: 0, y: 0 },
-      { x: gridOffset, y: gridOffset },
-      { x: gridOffset * 2, y: gridOffset * 2 }
+      { x: 0,        y: 0 },
+      { x: OFFSET,   y: OFFSET },
+      { x: OFFSET*2, y: OFFSET*2 }
     ];
     labels = ['Top Left', 'Center', 'Bottom Right'];
-    canvasW = gridPx + gridOffset * 2;
-    canvasH = gridPx + gridOffset * 2;
+    canvasW = GRID_PX + OFFSET * 2;
+    canvasH = GRID_PX + OFFSET * 2;
   } else if (mode === 'samurai4') {
     pos = [
-      { x: gridOffset, y: 0 },           // Top Center
-      { x: 0, y: gridOffset },           // Left Center
-      { x: gridOffset * 2, y: gridOffset }, // Right Center
-      { x: gridOffset, y: gridOffset * 2 }  // Bottom Center
+      { x: OFFSET,   y: 0      },
+      { x: 0,        y: OFFSET  },
+      { x: OFFSET*2, y: OFFSET  },
+      { x: OFFSET,   y: OFFSET*2}
     ];
     labels = ['Top', 'Left', 'Right', 'Bottom'];
-    canvasW = gridPx + gridOffset * 2;
-    canvasH = gridPx + gridOffset * 2;
+    canvasW = GRID_PX + OFFSET * 2;
+    canvasH = GRID_PX + OFFSET * 2;
   } else {
-    // 5-grid
+    // 5-grid Samurai: TL(0,0) TR(0,OFFSET*2→wrong, use 12 cells offset)
+    // Master grid origins: TL=0,0  TR=0,12  Center=6,6  BL=12,0  BR=12,12
+    // In px: col offset = 12*CELL_STEP = 636, row offset = 6*CELL_STEP = 318
+    const COL_OFF = 12 * CELL_STEP; // 636px — distance between TL and TR columns
+    const ROW_OFF = 6 * CELL_STEP;  // 318px — distance between TL and Center rows
     pos = [
-      { x: 0,           y: 0           }, // TL
-      { x: gridOffset * 2, y: 0   }, // TR
-      { x: gridOffset, y: gridOffset }, // Center
-      { x: 0,           y: gridOffset * 2 }, // BL
-      { x: gridOffset * 2, y: gridOffset * 2 }, // BR
+      { x: 0,       y: 0 },          // TL  origin (0,0)
+      { x: COL_OFF, y: 0 },          // TR  origin (0,12)
+      { x: OFFSET,  y: ROW_OFF },    // Ctr origin (6,6) → col=6*53=318, row=6*53=318
+      { x: 0,       y: ROW_OFF*2 },  // BL  origin (12,0)
+      { x: COL_OFF, y: ROW_OFF*2 },  // BR  origin (12,12)
     ];
     labels = ['Top Left', 'Top Right', 'Center', 'Bottom Left', 'Bottom Right'];
-    canvasW = gridPx + gridOffset * 2;
-    canvasH = gridPx + gridOffset * 2;
+    canvasW = COL_OFF + GRID_PX;           // 636 + 477 = 1113px
+    canvasH = ROW_OFF * 2 + GRID_PX;      // 636 + 477 = 1113px
   }
 
   return (
