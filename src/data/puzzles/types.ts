@@ -1,8 +1,8 @@
 // Shared types for pre-generated puzzle data
 export interface PuzzleData {
   values: number[][];   // 0 = empty
-  solution: number[][]; // full solution
-  isClue: boolean[][];  // true = given (pre-filled)
+  solution: number[][]; // complete solution
+  isClue: boolean[][];  // true = given cell (shown to player)
 }
 
 // PuzzleSet[size][difficulty] = PuzzleData[]
