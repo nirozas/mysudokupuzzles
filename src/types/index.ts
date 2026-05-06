@@ -76,6 +76,7 @@ export interface GameState {
 
   // For samurai (multi-grid)
   samuraiGrids: GridState[];
+  samuraiOverlapMode?: string;
   activeGridIndex: number;
 
   // UI state

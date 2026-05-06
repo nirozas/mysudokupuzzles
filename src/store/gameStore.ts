@@ -74,7 +74,7 @@ export const useGameStore = create<Store>()(
         const run = async () => {
           try {
             let grid = null;
-            let samuraiGrids: ReturnType<typeof generateSamurai> = [];
+            let samuraiGrids: any[] = [];
             let samuraiResult: { grids: any[], mode: string } | null = null;
 
             // Try pre-generated puzzle first (mini, classic, image)
@@ -104,7 +104,7 @@ export const useGameStore = create<Store>()(
               activeLevelId: levelId,
               grid,
               samuraiGrids,
-              samuraiOverlapMode: samuraiResult?.mode,
+              samuraiOverlapMode: samuraiResult ? samuraiResult.mode : undefined,
               activeGridIndex: 0,
               selectedCell: null,
               inputMode: 'pen',
