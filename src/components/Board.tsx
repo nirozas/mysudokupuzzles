@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useGameStore } from '../store/gameStore';
 import type { GridState } from '../types';
 import { getConflicts, SAMURAI_OVERLAPS } from '../utils/sudokuGenerator';
@@ -19,18 +19,6 @@ function boxDims(size: number): [number, number] {
   return [3, 3];
 }
 
-const REGION_COLORS = [
-  'rgba(99,102,241,0.08)',  // indigo
-  'rgba(6,182,212,0.08)',   // cyan
-  'rgba(16,185,129,0.08)',  // emerald
-  'rgba(245,158,11,0.08)',  // amber
-  'rgba(239,68,68,0.08)',   // red
-  'rgba(168,85,247,0.08)',  // purple
-  'rgba(59,130,246,0.08)',  // blue
-  'rgba(236,72,153,0.08)',  // pink
-  'rgba(20,184,166,0.08)',  // teal
-];
-
 const VIBRANT_REGION_COLORS = [
   '#6366f1', '#06b6d4', '#10b881', '#f59e0b', '#ef4444', '#a855f7', '#3b82f6', '#ec4899', '#14b8a6'
 ];
@@ -38,7 +26,7 @@ const VIBRANT_REGION_COLORS = [
 const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) => {
   const {
     selectedCell, showErrors, highlightSimilar,
-    mode, selectCell, activeGridIndex,
+    mode, selectCell
   } = useGameStore();
 
   const { size, values, isClue, pencilMarks, irregularRegions, killerCages, oddEvenPattern } = grid;
@@ -99,11 +87,6 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
     },
   };
 
-  const isOnDiagonal = (r: number, c: number) => {
-    if (mode !== 'diagonal') return false;
-    return r === c || r + c === size - 1;
-  };
-
   return (
     <motion.div
       className="sudoku-grid"
@@ -129,13 +112,14 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
           // Overlap Sync Highlighting
           let isOverlapSelected = false;
           let isOverlapRelated = false;
-          if (selectedCell && (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4')) {
+          const isMultiGrid = (mode === 'samurai' || mode === 'combo' || mode === 'samurai3' || mode === 'samurai4');
+          
+          if (selectedCell && isMultiGrid) {
             const m = mode === 'combo' ? 'combo' : 'samurai';
             const link = SAMURAI_OVERLAPS[m]?.[selectedCell.gridIndex]?.find(o => o.other === gridIndex);
             if (link) {
               const sr = selectedCell.row;
               const sc = selectedCell.col;
-              // Check if selected cell is in the overlap region
               if (sr >= link.range[0] && sr <= link.range[1] && sc >= link.range[2] && sc <= link.range[3]) {
                 const mappedR = link.otherRange[0] + (sr - link.range[0]);
                 const mappedC = link.otherRange[2] + (sc - link.range[2]);
@@ -173,11 +157,10 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
             Math.floor(r / br) * (size / bc) + Math.floor(c / bc)
           );
 
-          // Box border logic
           const isBoxRight = mode !== 'irregular' && (c + 1) % bc === 0 && c !== size - 1;
           const isBoxBottom = mode !== 'irregular' && (r + 1) % br === 0 && r !== size - 1;
 
-          const irregularBorders = mode === 'irregular' && irregularRegions ? {
+          const irregularBorders = (mode === 'irregular' && irregularRegions) ? {
             top: r === 0 || irregularRegions[r-1][c] !== irregularRegions[r][c],
             bottom: r === size - 1 || irregularRegions[r+1][c] !== irregularRegions[r][c],
             left: c === 0 || irregularRegions[r][c-1] !== irregularRegions[r][c],
@@ -186,7 +169,6 @@ const Board: React.FC<BoardProps> = ({ grid, gridIndex = 0, isFocused = true }) 
 
           const cageInfo = cageMap.get(key);
           const oddEvenType = oddEvenPattern?.[r]?.[c];
-          const onDiagonal = isOnDiagonal(r, c);
 
           let cageInfoWithSelect = undefined;
           let cageBorders;

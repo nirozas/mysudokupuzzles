@@ -14,7 +14,8 @@ export type GameMode =
   | 'monster'
   | 'samurai4'
   | 'triangle'
-  | 'cubic';
+  | 'cubic'
+  | 'mini';
 
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert' | 'evil';
 

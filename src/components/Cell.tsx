@@ -73,7 +73,7 @@ const Cell: React.FC<CellProps> = ({
 
   useEffect(() => {
     if (isConflict && value !== 0 && !isClue) {
-      // Parity Clash check: if it's a parity violation, do a different animation
+      // Parity Clash check
       const isParityConflict = oddEvenType === 'even' ? value % 2 !== 0 : oddEvenType === 'odd' ? value % 2 === 0 : false;
       
       if (isParityConflict) {
@@ -89,7 +89,7 @@ const Cell: React.FC<CellProps> = ({
         });
       }
     }
-  }, [isConflict, value, isClue, oddEvenType]);  // eslint-disable-line react-hooks/exhaustive-deps
+  }, [isConflict, value, isClue, oddEvenType, controls]);
 
   const fontSize =
     size <= 4  ? (cellSize >= 70 ? '1.6rem' : '1.3rem') :
@@ -147,12 +147,12 @@ const Cell: React.FC<CellProps> = ({
       variants={cellVariants}
       animate={controls}
       onClick={() => { if (!iceLayers) onClick(); }}
-      tabIndex={isClue || iceLayers ? -1 : 0}
+      tabIndex={isClue || (iceLayers && iceLayers > 0) ? -1 : 0}
       role="gridcell"
       aria-label={`R${row + 1}C${col + 1}${value ? ` = ${value}` : ''}`}
       onKeyDown={(e) => { if ((e.key === 'Enter' || e.key === ' ') && !iceLayers) onClick(); }}
     >
-      {/* Icy Slots Overlay (Frosted Glass) */}
+      {/* Icy Slots Overlay */}
       <AnimatePresence>
         {iceLayers && iceLayers > 0 && (
           <motion.div 
@@ -177,7 +177,6 @@ const Cell: React.FC<CellProps> = ({
               size={Math.max(12, cellSize/2.5)} 
               className="text-white drop-shadow-[0_2px_4px_rgba(0,180,216,0.5)] relative z-10 animate-pulse" 
             />
-            {/* Crack Effect Overlay - Scaled by how many layers were removed */}
             {(startIceLayers !== undefined && startIceLayers - iceLayers >= 1) && (
               <div className="absolute inset-0 z-11 pointer-events-none opacity-40">
                 <div className="w-full h-full border-t border-l border-white/60 -rotate-12 translate-x-1 translate-y-1" />
@@ -190,7 +189,6 @@ const Cell: React.FC<CellProps> = ({
                 <div className="w-full h-full border-b border-l border-white/80 rotate-45 -translate-x-2 translate-y-2" />
               </div>
             )}
-            {/* Base texture for thick ice */}
             {iceLayers >= 2 && (
               <div className="absolute inset-0 z-5 pointer-events-none opacity-20 bg-[radial-gradient(circle,rgba(255,255,255,0.4)_1px,transparent_1px)] bg-[size:4px_4px]" />
             )}
@@ -198,10 +196,9 @@ const Cell: React.FC<CellProps> = ({
         )}
       </AnimatePresence>
 
-      {/* Irregular Region Borders (Image 2 style: Thick Black + Neon Glow) */}
+      {/* Irregular Region Borders */}
       {irregularBorders && (
         <>
-          {/* Neon Inner Glow */}
           <div
             aria-hidden
             style={{
@@ -217,7 +214,6 @@ const Cell: React.FC<CellProps> = ({
               opacity: 0.8
             }}
           />
-          {/* Thick Solid Black Border */}
           <div
             aria-hidden
             style={{
@@ -234,14 +230,14 @@ const Cell: React.FC<CellProps> = ({
         </>
       )}
 
-      {/* Killer cage thick filled background and outer borders */}
+      {/* Killer cage thick filled background */}
       {cageInfo && cageBorders && cageInfo.isSelected && (
         <div
           aria-hidden
           style={{
             position: 'absolute',
             inset: 1,
-            backgroundColor: `${cageInfo.color}35`, // 20% opacity fill
+            backgroundColor: `${cageInfo.color}35`,
             borderTop: cageBorders.top ? `3px solid ${cageInfo.color}88` : 'none',
             borderBottom: cageBorders.bottom ? `3px solid ${cageInfo.color}88` : 'none',
             borderLeft: cageBorders.left ? `3px solid ${cageInfo.color}88` : 'none',

@@ -24,7 +24,7 @@ function useKeyboard() {
       // Don't intercept when inside an input element
       if ((e.target as HTMLElement).tagName === 'INPUT') return;
 
-      const activeGrid = mode === 'samurai' ? samuraiGrids[activeGridIndex] : grid;
+      const activeGrid = (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo') ? samuraiGrids[activeGridIndex] : grid;
       if (!activeGrid) return;
       const size = activeGrid.size;
 
@@ -191,7 +191,8 @@ const App: React.FC = () => {
   const newGame   = useCallback(() => { setScreen('menu'); setShowSettings(false); }, []);
   const goToGame  = useCallback(() => setScreen('game'), []);
 
-  const activeGrid = mode === 'samurai' ? (samuraiGrids[0] ?? null) : grid;
+  const isMultiGrid = (mode === 'samurai' || mode === 'samurai3' || mode === 'samurai4' || mode === 'combo');
+  const activeGrid = isMultiGrid ? (samuraiGrids[0] ?? null) : grid;
 
   const bgStyle: React.CSSProperties = {
     background: theme === 'dark'
@@ -244,7 +245,7 @@ const App: React.FC = () => {
             >
               {/* Board column */}
               <div className="flex-1 flex flex-col items-center gap-4 min-w-0">
-                {mode === 'samurai' ? (
+                {isMultiGrid ? (
                   <SamuraiBoard />
                 ) : activeGrid ? (
                   <>

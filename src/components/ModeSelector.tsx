@@ -44,7 +44,6 @@ const MODE_CARDS: { id: GameMode; title: string; color: string }[] = [
 ];
 
 const renderPuzzlePreview = (mode: GameMode) => {
-  // A helper to draw a simple 9x9 grid
   const drawGrid = (opacity = "opacity-100", highlightClass = "") => (
     <div className={`grid grid-cols-9 gap-0 w-full h-full border-2 border-white/40 ${opacity}`}>
       {Array.from({ length: 81 }).map((_, i) => {
@@ -86,14 +85,13 @@ const renderPuzzlePreview = (mode: GameMode) => {
   }
 
   if (mode === 'monster') {
-    return <div className="w-32 h-32 bg-white/5 p-1 rounded shadow-inner">{drawGrid("opacity-70")}</div>; // Simplified representation
+    return <div className="w-32 h-32 bg-white/5 p-1 rounded shadow-inner">{drawGrid("opacity-70")}</div>;
   }
 
   if (mode === 'killer') {
     return (
       <div className="w-32 h-32 bg-white/5 p-1 rounded shadow-inner relative">
         {drawGrid("opacity-30")}
-        {/* Fake killer cages */}
         <div className="absolute top-2 left-2 w-10 h-6 border-2 border-dashed border-red-400/70 bg-red-500/10 rounded flex items-start p-0.5"><span className="text-[6px] text-red-300">12</span></div>
         <div className="absolute top-8 left-2 w-6 h-10 border-2 border-dashed border-blue-400/70 bg-blue-500/10 rounded flex items-start p-0.5"><span className="text-[6px] text-blue-300">8</span></div>
         <div className="absolute bottom-4 right-4 w-10 h-10 border-2 border-dashed border-green-400/70 bg-green-500/10 rounded flex items-start p-0.5"><span className="text-[6px] text-green-300">21</span></div>
@@ -103,7 +101,6 @@ const renderPuzzlePreview = (mode: GameMode) => {
 
   if (mode === 'irregular') {
     const getIrrId = (r: number, c: number) => {
-      // Create a "zig-zag" pattern for the preview
       const base = Math.floor(r / 3) * 3 + Math.floor(c / 3);
       if (r === 2 && c >= 3 && c <= 5) return 1;
       if (r === 3 && c >= 0 && c <= 2) return 3;
@@ -268,7 +265,6 @@ const renderPuzzlePreview = (mode: GameMode) => {
     );
   }
 
-  // Fallback icon representation for others
   return (
     <div className="w-24 h-24 rounded-2xl bg-black/50 border border-white/10 flex items-center justify-center shadow-lg">
       {getIconForMode(mode, 48)}
@@ -278,13 +274,9 @@ const renderPuzzlePreview = (mode: GameMode) => {
 
 const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
   const startGame = useGameStore(state => state.startGame);
-  // Optional: If progress isn't in your store yet, default it to an empty object
-  // outside the hook to maintain reference stability, or select it properly if added.
   const progress: Record<string, boolean> = (useGameStore(state => (state as any).progress) || {});
   
   const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
-  
-  // Volumes are generated dynamically when a mode is selected
   const volumes = selectedMode ? getVolumesForMode(selectedMode) : [];
   const [activeVolumeId, setActiveVolumeId] = useState<string>('');
 
@@ -338,11 +330,9 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: i * 0.03, type: 'spring', stiffness: 300, damping: 25 }}
             >
-              {/* Colorful Top Accent */}
               <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${card.color.split(' ')[0]} ${card.color.split(' ')[1]}`} />
               
               <div className="w-full h-48 rounded-2xl bg-black/40 flex items-center justify-center mb-6 shadow-inner overflow-hidden relative">
-                {/* Background ambient glow */}
                 <div className={`absolute inset-0 opacity-20 bg-gradient-to-br ${card.color.split(' ')[0]} ${card.color.split(' ')[1]} blur-xl`} />
                 <div className="z-10 transform group-hover:scale-105 transition-transform duration-500">
                   {renderPuzzlePreview(card.id)}
@@ -366,7 +356,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
 
   return (
     <div className="w-full max-w-[1000px] h-[80vh] min-h-[500px] flex rounded-2xl overflow-hidden glass-card border border-white/10 shadow-2xl mt-4">
-      {/* ── Left Pane: Volumes ── */}
       <div className="w-[300px] bg-[#2d2d30] border-r border-white/5 flex flex-col shrink-0">
         <div className="p-4 border-b border-white/5 bg-black/20 flex items-center gap-3">
           <button 
@@ -419,7 +408,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
         </div>
       </div>
 
-      {/* ── Right Pane: Puzzle List ── */}
       <div className="flex-1 bg-[#1e1e20] flex flex-col min-w-0 relative">
         <div className="p-6 border-b border-white/5 bg-[#252528] flex items-center gap-4">
           <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center border-2 border-white/10 shadow-lg">
@@ -448,26 +436,21 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
                 onClick={() => handleLevelClick(level)}
                 className="flex flex-col items-center group text-left"
               >
-                {/* Puzzle Preview Thumbnail */}
                 <div className={`w-full aspect-square rounded-2xl bg-black/30 border-2 transition-all flex items-center justify-center relative overflow-hidden shadow-lg mb-3
                   ${isSolved ? 'border-emerald-500/50 hover:border-emerald-400' : 'border-white/5 hover:border-blue-400'}`}>
                   
-                  {/* Subtle highlight on hover */}
                   <div className="absolute inset-0 bg-blue-400/0 group-hover:bg-blue-400/10 transition-colors z-10" />
                   
-                  {/* The Preview */}
                   <div className="transform scale-[0.6] group-hover:scale-[0.65] transition-transform pointer-events-none">
                     {renderPuzzlePreview(level.mode)}
                   </div>
                   
-                  {/* Checkmark overlay for solved */}
                   {isSolved && (
                     <div className="absolute top-2 right-2 w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center shadow-md z-20">
                       <Check size={14} strokeWidth={3} />
                     </div>
                   )}
 
-                  {/* Play Overlay */}
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20">
                     <div className="w-12 h-12 rounded-full bg-blue-500 text-white flex items-center justify-center shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform">
                       <Play size={20} className="ml-1" fill="currentColor" />
@@ -475,7 +458,6 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onStart }) => {
                   </div>
                 </div>
 
-                {/* Level Details */}
                 <div className="w-full flex items-center justify-between px-1">
                   <div>
                     <div className="font-bold text-white group-hover:text-blue-400 transition-colors">

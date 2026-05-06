@@ -22,6 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 # Development Prompts
 User prompts.md
+=======
+>>>>>>> c29ac1d115d94539b59a7e980451076fbfa372df

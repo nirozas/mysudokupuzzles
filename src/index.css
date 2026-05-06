@@ -175,11 +175,11 @@
     pointer-events: none;
   }
 
-  /* ── Box borders (applied in Board.tsx via inline style) */
+  /* ── Box borders */
   .box-border-right  { border-right: 2.5px solid var(--border-box) !important; }
   .box-border-bottom { border-bottom: 2.5px solid var(--border-box) !important; }
 
-  /* ── Pencil marks ───────────────────────────────────── */
+  /* ── Pencil marks */
   .pencil-grid {
     display: grid;
     width: 100%;
@@ -199,7 +199,7 @@
     line-height: 1;
   }
 
-  /* ── Killer cage label ──────────────────────────────── */
+  /* ── Killer cage label */
   .killer-cage-label {
     position: absolute;
     top: 2px;
@@ -213,7 +213,7 @@
     z-index: 5;
   }
 
-  /* ── Diagonal cell ──────────────────────────────────── */
+  /* ── Diagonal cell */
   .diagonal-cell {
     background-color: rgba(245, 158, 11, 0.22) !important;
     background-image: linear-gradient(
@@ -230,29 +230,7 @@
     box-shadow: inset 0 0 15px rgba(245, 158, 11, 0.2);
   }
 
-  /* ── Odd/Even cells ────────────────────────────────── */
-  .is-odd-even-odd {
-    background-color: rgba(148, 163, 184, 0.15) !important;
-    border-radius: 50% !important;
-    transform: scale(0.85);
-  }
-
-  .is-odd-even-even {
-    background-color: rgba(226, 232, 240, 0.3) !important;
-    border-radius: 4px !important;
-    transform: scale(0.9);
-  }
-
-  .dark .is-odd-even-odd {
-    background-color: rgba(255, 255, 255, 0.08) !important;
-  }
-
-  .dark .is-odd-even-even {
-    background-color: rgba(255, 255, 255, 0.04) !important;
-  }
-
-
-  /* ── Keypad button ──────────────────────────────────── */
+  /* ── Keypad button */
   .keypad-btn {
     position: relative;
     display: flex;
@@ -315,7 +293,7 @@
     text-shadow: none;
   }
 
-  /* ── Mode card ──────────────────────────────────────── */
+  /* ── Mode card */
   .mode-card {
     position: relative;
     overflow: hidden;
@@ -337,7 +315,7 @@
     box-shadow: 0 0 0 3px rgba(99,102,241,0.15), 0 8px 24px rgba(0,0,0,0.3);
   }
 
-  /* ── Glass card ─────────────────────────────────────── */
+  /* ── Glass card */
   .glass-card {
     background: rgba(19, 31, 53, 0.65);
     backdrop-filter: blur(20px);
@@ -351,23 +329,14 @@
     border: 1px solid rgba(99,102,241,0.2);
   }
 
-  /* ── Timer ──────────────────────────────────────────── */
+  /* ── Timer */
   .timer-display {
     font-family: 'JetBrains Mono', monospace;
     font-variant-numeric: tabular-nums;
     letter-spacing: 0.08em;
   }
 
-  /* ── Confetti ───────────────────────────────────────── */
-  #confetti-canvas {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    pointer-events: none;
-    z-index: 9999;
-  }
-
-  /* ── Shimmer text ───────────────────────────────────── */
+  /* ── Shimmer text */
   .shimmer-text {
     background: linear-gradient(90deg, #818cf8, #a78bfa, #67e8f9, #818cf8);
     background-size: 250% auto;
@@ -377,12 +346,12 @@
     animation: shimmer 4s linear infinite;
   }
 
-  /* ── Float ──────────────────────────────────────────── */
+  /* ── Float */
   .float-anim {
     animation: float 4s ease-in-out infinite;
   }
 
-  /* ── Keyframes ──────────────────────────────────────── */
+  /* ── Keyframes */
   @keyframes shimmer {
     0%   { background-position: 0% center; }
     100% { background-position: 250% center; }
@@ -402,7 +371,7 @@
     animation: pulse-ring 2s ease-in-out infinite;
   }
 
-  /* ─── Irregular Grid (Image 2 Look) ─── */
+  /* ─── Irregular Grid */
   .irregular-grid {
     background: white !important;
     border: 4px solid black !important;
@@ -416,7 +385,7 @@
   }
 
   .irregular-grid .sudoku-cell.is-selected {
-    background-color: #fef08a !important; /* Yellow selection like Image 2 */
+    background-color: #fef08a !important;
   }
 
   .irregular-grid .sudoku-cell.is-related {
@@ -429,10 +398,10 @@
   }
 
   .irregular-grid .sudoku-cell.is-user {
-    color: #2563eb !important; /* Blue user numbers like Image 2 */
+    color: #2563eb !important;
   }
 
-  /* Dark Mode adjustment for Irregular (keep it high contrast) */
+  /* Dark Mode adjustment for Irregular */
   .dark .irregular-grid {
     background: #0f172a !important;
     border-color: #f8fafc !important;

@@ -18,7 +18,7 @@ function boxDims(size: number): [number, number] {
   if (size === 6) return [2, 3];
   if (size === 9) return [3, 3];
   if (size === 16) return [4, 4];
-  return [Math.sqrt(size), Math.sqrt(size)];
+  return [Math.sqrt(size) | 0, Math.sqrt(size) | 0];
 }
 
 // ─── Core Validation ─────────────────────────────────────────────────────────
@@ -37,6 +37,7 @@ export function isValidPlacement(
   for (let i = 0; i < size; i++) if (i !== c && grid[r][i] === num) return false;
   // Col
   for (let i = 0; i < size; i++) if (i !== r && grid[i][c] === num) return false;
+  
   // Box or Irregular Region
   if (regionMap) {
     const regionId = regionMap[r][c];
@@ -49,11 +50,13 @@ export function isValidPlacement(
     }
   } else {
     const [br, bc] = boxDims(size);
-    const boxR = Math.floor(r / br) * br;
-    const boxC = Math.floor(c / bc) * bc;
-    for (let i = boxR; i < boxR + br; i++) {
-      for (let j = boxC; j < boxC + bc; j++) {
-        if ((i !== r || j !== c) && grid[i][j] === num) return false;
+    if (br > 0 && bc > 0) {
+      const boxR = Math.floor(r / br) * br;
+      const boxC = Math.floor(c / bc) * bc;
+      for (let i = boxR; i < boxR + br; i++) {
+        for (let j = boxC; j < boxC + bc; j++) {
+          if ((i !== r || j !== c) && grid[i][j] === num) return false;
+        }
       }
     }
   }
@@ -96,7 +99,7 @@ function solveOptimized(
   regionMap?: number[][],
   randomize = false,
   limitSolutions = 1,
-  nodeLimit = 5000,
+  nodeLimit = 10000,
   isDiagonal = false,
   oddEvenPattern?: ('odd' | 'even' | 'any')[][]
 ): number {
@@ -126,8 +129,8 @@ function solveOptimized(
 
           if (oddEvenPattern) {
             const p = oddEvenPattern[r][c];
-            if (p === 'even') mask |= 0x155; // block 1,3,5,7,9
-            if (p === 'odd')  mask |= 0x0AA; // block 2,4,6,8
+            if (p === 'even') mask |= 0x155; // block 1,3,5,7,9 (0b101010101) - wait, 0x155 is 0b101010101
+            if (p === 'odd')  mask |= 0x0AA; // block 2,4,6,8 (0b010101010)
           }
 
           let count = 0;
@@ -234,13 +237,13 @@ export function generateGrid(size: number, difficulty: Difficulty, mode: GameMod
   if (mode === 'irregular') regionMap = generateIrregularRegions(size);
   if (mode === 'odd-even') {
     oddEvenPattern = Array.from({ length: size }, () => 
-      Array.from({ length: size }, () => Math.random() > 0.5 ? 'even' : 'odd')
+      Array.from({ length: size }, () => Math.random() > 0.6 ? 'any' : Math.random() > 0.5 ? 'even' : 'odd')
     );
   }
 
-  solveOptimized(grid, size, state, regionMap, true, 1, 5000, mode === 'diagonal', oddEvenPattern);
+  solveOptimized(grid, size, state, regionMap, true, 1, 10000, mode === 'diagonal', oddEvenPattern);
   const solution = grid.map(r => [...r]);
-  const target = CLUE_TARGETS[difficulty][size] || 30;
+  const target = CLUE_TARGETS[difficulty][size] || (size * size / 3);
   const cells = [];
   for (let r = 0; r < size; r++) for (let c = 0; c < size; c++) cells.push([r, c]);
   shuffle(cells);
@@ -261,6 +264,10 @@ export function generateGrid(size: number, difficulty: Difficulty, mode: GameMod
     irregularRegions: regionMap,
     oddEvenPattern
   };
+
+  if (mode === 'killer') {
+    stateData.killerCages = generateKillerCages(solution, size);
+  }
 
   if (mode === 'ice-breaker') {
     const ice = Array.from({ length: size }, () => Array(size).fill(0));
@@ -311,6 +318,43 @@ function generateIrregularRegions(size: number): number[][] {
   return regions;
 }
 
+const CAGE_COLORS = [
+  '#7c3aed','#0891b2','#059669','#d97706','#dc2626',
+  '#db2777','#0d9488','#ea580c','#4f46e5',
+];
+
+function generateKillerCages(solution: number[][], size: number): KillerCage[] {
+  const visited = Array.from({ length: size }, () => Array(size).fill(false));
+  const cages: KillerCage[] = [];
+  let id = 0;
+
+  for (let r = 0; r < size; r++) {
+    for (let c = 0; c < size; c++) {
+      if (!visited[r][c]) {
+        const maxSize = Math.floor(Math.random() * 3) + 2; // 2-4 cells
+        const cells: [number, number][] = [];
+        const stack: [number, number][] = [[r, c]];
+        while (stack.length && cells.length < maxSize) {
+          const [cr, cc] = stack.pop()!;
+          if (visited[cr][cc]) continue;
+          visited[cr][cc] = true;
+          cells.push([cr, cc]);
+          const dirs = shuffle([[0,1],[1,0],[0,-1],[-1,0]]);
+          for (const [dr, dc] of dirs) {
+            const nr = cr + dr, nc = cc + dc;
+            if (nr >= 0 && nr < size && nc >= 0 && nc < size && !visited[nr][nc])
+              stack.push([nr, nc]);
+          }
+        }
+        const sum = cells.reduce((s, [row, col]) => s + solution[row][col], 0);
+        cages.push({ id, sum, cells, color: CAGE_COLORS[id % CAGE_COLORS.length] });
+        id++;
+      }
+    }
+  }
+  return cages;
+}
+
 // ─── Samurai Generator ────────────────────────────────────────────────────────
 
 export const SAMURAI_OVERLAPS: Record<string, Record<number, { other: number; range: [number, number, number, number]; otherRange: [number, number, number, number] }[]>> = {
@@ -333,7 +377,8 @@ export const SAMURAI_OVERLAPS: Record<string, Record<number, { other: number; ra
 };
 
 export function generateSamurai(difficulty: Difficulty, mode: 'samurai' | 'samurai3' | 'samurai4' | 'combo'): GridState[] {
-  const overlaps = SAMURAI_OVERLAPS[mode === 'samurai' ? 'samurai' : 'combo'] || {};
+  const m = (mode === 'combo') ? 'combo' : 'samurai';
+  const overlaps = SAMURAI_OVERLAPS[m] || {};
   const size = 9;
   const gridCount = mode === 'combo' ? 2 : mode === 'samurai3' ? 3 : mode === 'samurai4' ? 4 : 5;
   const gridValues = Array.from({ length: gridCount }, () => Array.from({ length: size }, () => Array(size).fill(0)));
@@ -415,17 +460,38 @@ export function isGridComplete(grid: GridState): boolean {
 }
 
 export function getConflicts(grid: GridState, mode: GameMode): Set<string> {
-  const { values, size, irregularRegions } = grid;
+  const { values, size, irregularRegions, oddEvenPattern } = grid;
   const conflicts = new Set<string>();
+
   for (let r = 0; r < size; r++) {
     for (let c = 0; c < size; c++) {
       const val = values[r][c];
       if (val === 0) continue;
-      if (!isValidPlacement(values, r, c, val, size, irregularRegions, mode, grid.oddEvenPattern)) {
+      if (!isValidPlacement(values, r, c, val, size, irregularRegions, mode, oddEvenPattern)) {
         conflicts.add(`${r}-${c}`);
       }
     }
   }
+
+  // Killer cage conflicts
+  if (mode === 'killer' && grid.killerCages) {
+    for (const cage of grid.killerCages) {
+      const seenVals = new Map<number, [number, number][]>();
+      for (const [cr, cc] of cage.cells) {
+        const v = values[cr][cc];
+        if (v !== 0) {
+          if (!seenVals.has(v)) seenVals.set(v, []);
+          seenVals.get(v)!.push([cr, cc]);
+        }
+      }
+      for (const cells of seenVals.values()) {
+        if (cells.length > 1) {
+          cells.forEach(([cr, cc]) => conflicts.add(`${cr}-${cc}`));
+        }
+      }
+    }
+  }
+
   return conflicts;
 }
 
@@ -434,18 +500,21 @@ export function getRemainingCounts(grid: GridState): Record<number, number> {
   for (let n = 1; n <= grid.size; n++) counts[n] = grid.size;
   for (let r = 0; r < grid.size; r++)
     for (let c = 0; c < grid.size; c++)
-      if (grid.values[r][c] > 0) counts[grid.values[r][c]]--;
+      if (grid.values[r][c] > 0) {
+        const val = grid.values[r][c];
+        if (counts[val]) counts[val]--;
+      }
   return counts;
 }
 
 export function autoFillNotes(grid: GridState, mode: GameMode): Set<number>[][] {
-  const { size, values, irregularRegions } = grid;
+  const { size, values, irregularRegions, oddEvenPattern } = grid;
   const pencil = Array.from({ length: size }, () => Array.from({ length: size }, () => new Set<number>()));
   for (let r = 0; r < size; r++) {
     for (let c = 0; c < size; c++) {
       if (values[r][c] !== 0) continue;
       for (let n = 1; n <= size; n++) {
-        if (isValidPlacement(values, r, c, n, size, irregularRegions, mode, grid.oddEvenPattern)) {
+        if (isValidPlacement(values, r, c, n, size, irregularRegions, mode, oddEvenPattern)) {
           pencil[r][c].add(n);
         }
       }
