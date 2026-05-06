@@ -1,0 +1,428 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Dark theme (default) */
+    --bg-primary: #080e1d;
+    --bg-secondary: #111827;
+    --bg-card: #131f35;
+    --bg-cell: #0f1d35;
+    --bg-cell-clue: #091429;
+    --bg-cell-selected: #3730d4;
+    --bg-cell-related: #162040;
+    --bg-cell-highlight: #1a3060;
+    --bg-cell-conflict: #3d0f10;
+    --border-cell: #1e3050;
+    --border-box: #3b5bdb;
+    --border-grid: #4f6ad4;
+    --text-primary: #e8eeff;
+    --text-secondary: #7090b8;
+    --text-clue: #c8d8f0;
+    --text-user: #60a5fa;
+    --text-error: #f87171;
+    --text-conflict: #fca5a5;
+    --accent-blue: #3b82f6;
+    --accent-indigo: #6366f1;
+    --accent-purple: #8b5cf6;
+    --accent-cyan: #06b6d4;
+    --accent-emerald: #10b981;
+    --accent-amber: #f59e0b;
+    --glow-blue: rgba(59, 130, 246, 0.35);
+    --glow-indigo: rgba(99, 102, 241, 0.4);
+    --glow-emerald: rgba(16, 185, 129, 0.3);
+  }
+
+  .light {
+    --bg-primary: #f0f4ff;
+    --bg-secondary: #e2e8f8;
+    --bg-card: #ffffff;
+    --bg-cell: #ffffff;
+    --bg-cell-clue: #edf0ff;
+    --bg-cell-selected: #4338ca;
+    --bg-cell-related: #dbeafe;
+    --bg-cell-highlight: #c7d2fe;
+    --bg-cell-conflict: #fee2e2;
+    --border-cell: #c7d2fe;
+    --border-box: #4f46e5;
+    --border-grid: #3730a3;
+    --text-primary: #1e1b4b;
+    --text-secondary: #4338ca;
+    --text-clue: #1e1b4b;
+    --text-user: #1d4ed8;
+    --text-error: #dc2626;
+    --text-conflict: #ef4444;
+    --glow-indigo: rgba(67, 56, 202, 0.15);
+  }
+
+  .light .keypad-btn .badge {
+    color: var(--accent-indigo);
+    text-shadow: none;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    min-height: 100dvh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+  }
+
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border-box); border-radius: 9999px; }
+}
+
+@layer components {
+
+  /* ── Board grid ──────────────────────────────────────── */
+  .sudoku-grid {
+    display: grid;
+    border: 2.5px solid var(--border-grid);
+    border-radius: 10px;
+    overflow: hidden;
+    user-select: none;
+    touch-action: manipulation;
+    box-shadow:
+      0 0 0 1px rgba(99,102,241,0.08),
+      0 2px 8px rgba(0,0,0,0.4),
+      0 0 48px rgba(99,102,241,0.10);
+  }
+
+  /* ── Cell ────────────────────────────────────────────── */
+  .sudoku-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--bg-cell);
+    border: 1px solid var(--border-cell);
+    transition: background-color 0.1s ease, box-shadow 0.1s ease;
+    font-family: 'JetBrains Mono', 'Inter', monospace;
+    font-weight: 600;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sudoku-cell:focus-visible {
+    z-index: 2;
+    box-shadow: inset 0 0 0 2px var(--accent-indigo);
+  }
+
+  .sudoku-cell.is-clue {
+    background-color: var(--bg-cell-clue);
+    color: var(--text-clue);
+    cursor: default;
+    font-weight: 700;
+  }
+
+  .sudoku-cell.is-selected {
+    background-color: var(--bg-cell-selected) !important;
+    color: #ffffff !important;
+    z-index: 3;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.25);
+  }
+
+  .sudoku-cell.is-related:not(.is-clue) {
+    background-color: var(--bg-cell-related);
+  }
+
+  .sudoku-cell.is-highlighted:not(.is-selected) {
+    background-color: var(--bg-cell-highlight);
+  }
+
+  .sudoku-cell.is-conflict:not(.is-selected) {
+    background-color: var(--bg-cell-conflict) !important;
+    color: var(--text-conflict) !important;
+  }
+
+  .sudoku-cell.is-user:not(.is-conflict):not(.is-selected) {
+    color: var(--text-user);
+  }
+
+  .sudoku-cell.is-odd-even-odd::before {
+    content: '';
+    position: absolute;
+    inset: 14%;
+    border-radius: 50%;
+    border: 1.5px solid rgba(99,102,241,0.25);
+    pointer-events: none;
+  }
+
+  .sudoku-cell.is-odd-even-even::before {
+    content: '';
+    position: absolute;
+    inset: 14%;
+    border-radius: 3px;
+    border: 1.5px solid rgba(16,185,129,0.25);
+    pointer-events: none;
+  }
+
+  /* ── Box borders (applied in Board.tsx via inline style) */
+  .box-border-right  { border-right: 2.5px solid var(--border-box) !important; }
+  .box-border-bottom { border-bottom: 2.5px solid var(--border-box) !important; }
+
+  /* ── Pencil marks ───────────────────────────────────── */
+  .pencil-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    gap: 0;
+    pointer-events: none;
+  }
+
+  .pencil-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: var(--text-secondary);
+    line-height: 1;
+  }
+
+  /* ── Killer cage label ──────────────────────────────── */
+  .killer-cage-label {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 8px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: var(--accent-amber);
+    line-height: 1;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* ── Diagonal cell ──────────────────────────────────── */
+  .diagonal-cell-main {
+    background-image: linear-gradient(
+      135deg,
+      rgba(99,102,241,0.06) 0%,
+      transparent 40%,
+      rgba(99,102,241,0.06) 100%
+    );
+  }
+
+  /* ── Keypad button ──────────────────────────────────── */
+  .keypad-btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.12s ease;
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border-cell);
+    color: var(--text-primary);
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .keypad-btn:hover:not(:disabled) {
+    border-color: var(--accent-indigo);
+    background: rgba(99,102,241,0.12);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(99,102,241,0.2);
+  }
+
+  .keypad-btn:active:not(:disabled) {
+    transform: translateY(0) scale(0.96);
+  }
+
+  .keypad-btn:disabled {
+    opacity: 0.28;
+    cursor: not-allowed;
+  }
+
+  .keypad-btn.locked {
+    background: rgba(99,102,241,0.22);
+    border-color: var(--accent-indigo);
+    box-shadow: 0 0 16px rgba(99,102,241,0.3);
+    color: #a5b4fc;
+  }
+
+  .keypad-btn .badge {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    background: none;
+    color: var(--accent-blue);
+    padding: 0;
+    box-shadow: none;
+    z-index: 5;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .keypad-btn.complete .badge {
+    background: none;
+    color: var(--accent-emerald);
+    text-shadow: none;
+  }
+
+  /* ── Mode card ──────────────────────────────────────── */
+  .mode-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    cursor: pointer;
+    border: 1.5px solid var(--border-cell);
+    background: var(--bg-card);
+    transition: all 0.18s ease;
+  }
+
+  .mode-card:hover {
+    border-color: rgba(99,102,241,0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3), 0 0 0 1px rgba(99,102,241,0.15);
+  }
+
+  .mode-card.active {
+    border-color: var(--accent-indigo);
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.15), 0 8px 24px rgba(0,0,0,0.3);
+  }
+
+  /* ── Glass card ─────────────────────────────────────── */
+  .glass-card {
+    background: rgba(19, 31, 53, 0.65);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(99,102,241,0.14);
+    border-radius: 16px;
+  }
+
+  .light .glass-card {
+    background: rgba(255,255,255,0.8);
+    border: 1px solid rgba(99,102,241,0.2);
+  }
+
+  /* ── Timer ──────────────────────────────────────────── */
+  .timer-display {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── Confetti ───────────────────────────────────────── */
+  #confetti-canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ── Shimmer text ───────────────────────────────────── */
+  .shimmer-text {
+    background: linear-gradient(90deg, #818cf8, #a78bfa, #67e8f9, #818cf8);
+    background-size: 250% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 4s linear infinite;
+  }
+
+  /* ── Float ──────────────────────────────────────────── */
+  .float-anim {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* ── Keyframes ──────────────────────────────────────── */
+  @keyframes shimmer {
+    0%   { background-position: 0% center; }
+    100% { background-position: 250% center; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-8px); }
+  }
+
+  @keyframes pulse-ring {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(99,102,241,0.4); }
+    50%       { box-shadow: 0 0 0 8px rgba(99,102,241,0); }
+  }
+
+  .pulse-ring {
+    animation: pulse-ring 2s ease-in-out infinite;
+  }
+
+  /* ─── Irregular Grid (Image 2 Look) ─── */
+  .irregular-grid {
+    background: white !important;
+    border: 4px solid black !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3) !important;
+  }
+
+  .irregular-grid .sudoku-cell {
+    background-color: white !important;
+    border: 0.5px solid rgba(0,0,0,0.1) !important;
+    color: #000 !important;
+  }
+
+  .irregular-grid .sudoku-cell.is-selected {
+    background-color: #fef08a !important; /* Yellow selection like Image 2 */
+  }
+
+  .irregular-grid .sudoku-cell.is-related {
+    background-color: #f1f5f9 !important;
+  }
+
+  .irregular-grid .sudoku-cell.is-clue {
+    font-weight: 800;
+    color: #000 !important;
+  }
+
+  .irregular-grid .sudoku-cell.is-user {
+    color: #2563eb !important; /* Blue user numbers like Image 2 */
+  }
+
+  /* Dark Mode adjustment for Irregular (keep it high contrast) */
+  .dark .irregular-grid {
+    background: #0f172a !important;
+    border-color: #f8fafc !important;
+  }
+
+  .dark .irregular-grid .sudoku-cell {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+    border-color: rgba(255,255,255,0.05) !important;
+  }
+
+  .dark .irregular-grid .sudoku-cell.is-selected {
+    background-color: #422006 !important;
+  }
+
+  .dark .irregular-grid .sudoku-cell.is-related {
+    background-color: #334155 !important;
+  }
+
+  .dark .irregular-grid .sudoku-cell.is-user {
+    color: #60a5fa !important;
+  }
+
+}
