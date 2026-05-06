@@ -8,7 +8,7 @@
     "build": "npm run generate && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate": "node scripts/generatePuzzles.mjs"
+    "generate": "node scripts/generatePuzzles.mjs && npx tsx scripts/generateAdvancedPuzzles.ts"
   },
 
   "dependencies": {
