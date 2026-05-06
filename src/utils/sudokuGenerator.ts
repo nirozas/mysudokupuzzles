@@ -106,40 +106,43 @@ function solveOptimized(
   let solutionsFound = 0;
   let nodesVisited = 0;
 
+  // Pre-shuffle cell iteration order to guarantee radically different topological grid generation every time
+  const cellOrder: [number, number][] = [];
+  for (let r = 0; r < size; r++) for (let c = 0; c < size; c++) cellOrder.push([r, c]);
+  if (randomize) shuffle(cellOrder);
+
   function findMRV() {
     let minCandidates = size + 1;
     let bestPos: [number, number] | null = null;
 
-    for (let r = 0; r < size; r++) {
-      for (let c = 0; c < size; c++) {
-        if (grid[r][c] === 0) {
-          let mask = state.rows[r] | state.cols[c];
-          if (regionMap) {
-            mask |= state.regions[regionMap[r][c]];
-          } else {
-            const [br, bc] = boxDims(size);
-            const boxId = Math.floor(r / br) * (size / bc) + Math.floor(c / bc);
-            mask |= state.boxes[boxId];
-          }
+    for (const [r, c] of cellOrder) {
+      if (grid[r][c] === 0) {
+        let mask = state.rows[r] | state.cols[c];
+        if (regionMap) {
+          mask |= state.regions[regionMap[r][c]];
+        } else {
+          const [br, bc] = boxDims(size);
+          const boxId = Math.floor(r / br) * (size / bc) + Math.floor(c / bc);
+          mask |= state.boxes[boxId];
+        }
 
-          if (isDiagonal) {
-            if (r === c) mask |= state.diag1;
-            if (r + c === size - 1) mask |= state.diag2;
-          }
+        if (isDiagonal) {
+          if (r === c) mask |= state.diag1;
+          if (r + c === size - 1) mask |= state.diag2;
+        }
 
-          if (oddEvenPattern) {
-            const p = oddEvenPattern[r][c];
-            if (p === 'even') mask |= 0x155; // block 1,3,5,7,9 (0b101010101) - wait, 0x155 is 0b101010101
-            if (p === 'odd')  mask |= 0x0AA; // block 2,4,6,8 (0b010101010)
-          }
+        if (oddEvenPattern) {
+          const p = oddEvenPattern[r][c];
+          if (p === 'even') mask |= 0x155; // block 1,3,5,7,9 (0b101010101)
+          if (p === 'odd')  mask |= 0x0AA; // block 2,4,6,8 (0b010101010)
+        }
 
-          let count = 0;
-          for (let n = 1; n <= size; n++) if (!(mask & getBit(n))) count++;
-          if (count < minCandidates) {
-            minCandidates = count;
-            bestPos = [r, c];
-            if (count === 0) return { bestPos, minCandidates: 0 };
-          }
+        let count = 0;
+        for (let n = 1; n <= size; n++) if (!(mask & getBit(n))) count++;
+        if (count < minCandidates) {
+          minCandidates = count;
+          bestPos = [r, c];
+          if (count === 0) return { bestPos, minCandidates: 0 };
         }
       }
     }
@@ -283,11 +286,11 @@ function countSolutions(
 // Calibrated so Easy is accessible (many givens spread around) and
 // Evil is truly minimal (few givens, uniqueness enforced).
 const CLUE_TARGETS: Record<Difficulty, Record<number, number>> = {
-  easy:   { 4: 14, 6: 26, 9: 50, 16: 150 },
-  medium: { 4: 12, 6: 22, 9: 42, 16: 128 },
-  hard:   { 4: 9,  6: 17, 9: 34, 16: 108 },
-  expert: { 4: 7,  6: 13, 9: 27, 16: 92  },
-  evil:   { 4: 5,  6: 9,  9: 22, 16: 76  },
+  easy:   { 4: 10, 6: 22, 9: 45, 16: 150 },
+  medium: { 4: 8,  6: 18, 9: 36, 16: 128 },
+  hard:   { 4: 6,  6: 14, 9: 30, 16: 108 },
+  expert: { 4: 5,  6: 11, 9: 25, 16: 92  },
+  evil:   { 4: 4,  6: 9,  9: 22, 16: 76  },
 };
 
 // Build a removal order that interleaves cells from all regions/boxes so
